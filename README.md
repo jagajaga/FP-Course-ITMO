@@ -9,7 +9,7 @@ Haskell ITMO course at CTD
 
 **lectures covered:** 4 (15)
 
-**homeworks covered:** 2 (10) 
+**homeworks covered:** 2 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -17,9 +17,9 @@ Week 1
 ------
 ### Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Reallife examples
-  * Facebook's [haxl](https://github.com/facebook/Haxl) 
+  * Facebook's [haxl](https://github.com/facebook/Haxl)
   * Microsoft's [bond](https://github.com/Microsoft/bond)
-  * [NixOS](https://github.com/NixOS) 
+  * [NixOS](https://github.com/NixOS)
   * [pandoc](https://github.com/jgm/pandoc)
   * [hbro](https://github.com/k0ral/hbro)
   * [xmonad](https://github.com/xmonad)
@@ -69,15 +69,15 @@ Week 2
   * examples on other languages
   * standard Haskell HOFs: map, filter, foldr, etc.
 + Pattern matching  
-+ Function composition: ($) (.) 
++ Function composition: ($) (.)
 + Ranges
 + List comprehension
 
 #### Presentation: http://slides.com/shersh/lecture-3/
 
-###Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+###Lecture 4: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + **type**: type aliases
-+ ADT's (algebraic data types): 
++ ADT's (algebraic data types):
   * sum of types (aka enums)
   * product of types (aka **struct**'s in C++ or **class**'es in Java)j
 + **data** and examples
@@ -85,8 +85,8 @@ Week 2
 + **instance**
   * compare to Java interface
   * examples of standard classes: _Eq_, _Ord_
-+ **deriving** and _autoderiving_ 
-+ Record syntax 
++ **deriving** and _autoderiving_
++ Record syntax
 + type constraints (or type bounds)
 
 #### Presentation: http://slides.com/shersh/lecture-4/
@@ -99,22 +99,22 @@ Week 3
 + introducing _Maybe_ without saying _monad_ word as some kind of nullable class
   * data Maybe a = Nothing | Just a
   * compare to C++ (boost::optional), Java (Optional<T>), Kotlin (Delegates.notNull())
-+ _kinds_ 
++ _kinds_
 + higher order instances (instances for types with _kind_: \* -> \*)
-+ instances of classes for other classes 
++ instances of classes for other classes
 + **newtype**: newtype Sum a = Sum a
 + useful Monoid class:
   * examples and applications
   * foldrs on monoids
   * Finger Tree
-+ Language Extensions 
++ Language Extensions
   * TypeSynonyms
   * FlexibleInstances
   * Generalised deriving for newtype
   * MultiParamTypeClasses
   * RecordsWildCards
   * UnicodeSyntax
-  * https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions    
+  * https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions
 
 #### Homework 2: http://slides.com/shersh/homework-2/
 
@@ -129,31 +129,31 @@ Week 4
 3. Implement some DS and some class instances for it
 
 ### Practice 2: Accepting HW's after CW is done
-  
+
 Week 5
 ------  
 ### Lecture 6: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + _Maybe_ as example (boost::optional) (yes, again)
 + philosophy about null-safety, exception handling
 + monad class
-  * bind 
+  * bind
   * return
   * then
   * error
 + Maybe instance
 + List monad instance
 + Reader, Writer (logging with examples)
-      
+
 ### Practice 3
-  
-L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads 
-  
+
+L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads
+
 HWP4: implement all examples from slides with Either monad instance (and instance itself too)
 
 Announce HWT4 and HWP5 (so people can start earlier)
 
 Week 6
-------   
+------
 ###Lecture 7: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + fmap
 + applicative
@@ -164,24 +164,24 @@ Week 6
 + introduce monad Maybe, Either with no _monad_ word;
 + implement functor and applicative instances for Maybe, Either
 + mention about GHC 7.10 (assign myself)
-+ examples: 
-  * [_ZipList_](https://en.wikibooks.org/wiki/Haskell/Applicative_Functors) 
++ examples:
+  * [_ZipList_](https://en.wikibooks.org/wiki/Haskell/Applicative_Functors)
   * [_User_](https://pbrisbin.com/posts/applicative_functors/)
   * [_Applicative parser_](https://robots.thoughtbot.com/applicative-options-parsing-in-haskell)
   * [_Small things_](http://stackoverflow.com/questions/6570779/why-should-i-use-applicative-functors-in-functional-programming)
   * [_Accumulation of expression_](http://anton-k.github.io/ru-haskell-book/book/7.html)
   * [_Applicative command line arguments parser_](https://github.com/pcapriotti/optparse-applicative) !
-    
+
 ### Practice 4
-      
-L: LearnYouAHaskell (chapter 11) http://learnyouahaskell.com/functors-applicative-functors-and-monoids 
-     
+
+L: LearnYouAHaskell (chapter 11) http://learnyouahaskell.com/functors-applicative-functors-and-monoids
+
 HWT1: implement <$>
 
 HWT2: prove Functor laws
 
-HWT3: prove Applicative Laws 
-  
+HWT3: prove Applicative Laws
+
 HWP4 : some task on applicative
 
 
@@ -198,15 +198,15 @@ Week 7
   * where to find `State` monad in std library
 + **do** syntax sugar
 + MonadFish and MonadJoin
-    
+
 ### Practice 5: accepting homeworks  
-     
+
 L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads
-  
+
 HWT4: prove monad laws
 
 HWT5: prove equivalence of Monad, MonadJoin, MonadFunctor (Categories from ITMOPrelude)
-  
+
 HWP5: write a game. For example: 2 players, 10 steps, each step = random
 points to a person, The winner is the one who has more. Here can be a labyrinth
 random walking game, or Cows and Bulls game (classic)
@@ -231,13 +231,13 @@ _efficient IO_
 + bytes and bytestrings
 + OverloadedStrings
 + IOExceptions like in Java?
-    
+
 ###Practice 6: Accepting HWP4 & HWP5 (in remaining time)
-    
+
 L: anton-k IO http://anton-k.github.io/ru-haskell-book/book/8.html
 L: LearnYouAHaskell (chapter 9) http://learnyouahaskell.com/input-and-output
 L: Real World Haskell (chapters 7-9) http://book.realworldhaskell.org/read/
-  
+
 HWP7: implement some grep-like program, searching in files or user input, reading commandline arguments
 hw-hint: it is good to use applicative args parser: https://github.com/pcapriotti/optparse-applicative
 
@@ -249,9 +249,9 @@ Week 9
   * numbers parser
   * arithmetic expression parser
 + Parsec, Happy
-    
+
 ###Practice 7: Accepting last hw's
-    
+
 HWP8: write some monadic parsers from scratch
 
 Week 10
@@ -262,10 +262,10 @@ Week 10
 + introducing StateT
 + difference from simple monads
 + examples and applications
-    
+
 ###Practice 8: Accepting homeworks
-  
-HWP9: some mutable algorithm with transformers (convert list to set, dfs, smth else) 
+
+HWP9: some mutable algorithm with transformers (convert list to set, dfs, smth else)
 HWP10: Monadic parser with transformer monad (in education purpose)
 
 Week 11
@@ -275,13 +275,13 @@ Week 11
 2. Write Monad instances
 3. write smth small using simple monads (Maybe, Either, State)
 4. write smth with StateTransformers or write some parsers
-    
+
 ###Practice 9: in remaining time
 
 **_Most fun part begins only now_**
 
 Week 12
-------- 
+-------
 ###Lecture 12: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + remember haskell lazyness
 + _foldr_ vs. _foldl_
@@ -296,11 +296,11 @@ Week 12
   * formal algorithm
   * example of deforesting smth simple
 + Stream fusion
-    
+
 ###Practice 10: Accepting HWP9-10
-    
+
 L: articles about deforestation and SF  
-  
+
 HWT6: fuse and deforest some functions in theory
 HWP11: measure time of fused and naive functions, implementing Discrete cosine transformation (DCT) for example, some Segal-like algo
 
@@ -312,11 +312,11 @@ Week 13
   * Deriviatives
 + Lens (lens vs zippers)
 + More Lens explanation and examples (one more intro to imperative style in haskell)
-    
+
 ###Practice 11: Accepting HWP10 (in remaining time)
-  
-L: LearnYourHaskell (chapter 14) http://learnyouahaskell.com/zippers 
-   
+
+L: LearnYourHaskell (chapter 14) http://learnyouahaskell.com/zippers
+
 HWP12: implement some algos on graphs using Lens
 HWP13: Records with lens, create library for filetree walking, filtering, modifying (see System.Directory.Tree)  
 
@@ -326,7 +326,7 @@ Week 14
 + !!! http://chimera.labs.oreilly.com/books/1230000000929
 + profits of immutability
 + already have immutability and purity. Is it enough?
-+ simple multithreaded: 
++ simple multithreaded:
   * ex1: fibonacci computation
   * ex2: primes sieve
 + _par_ implicit parallelism
@@ -334,14 +334,14 @@ Week 14
 + locks, waits, critical section
   * forks
   * thread intercommunication
-    
+
 ###Practice 12: Accepting HWP12-13
-  
+
 L: haskell threads doc
 L: RealWorldHaskell (Chapter 24. Concurrent and multicore programming)
      http://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html
 L: https://donsbot.wordpress.com/2009/09/05/defun-2009-multicore-programming-in-haskell-now/
-  
+
 HWP14: write some multithreaded program (producer-consumer queue or smth. more interesting)
 
 Week 15
@@ -354,12 +354,12 @@ Week 15
 + simple examples
   * haskell-CG
   * xmonad as WM
-  
+
 ###Practice 13: Accepting HWP14
-      
+
 L: docs
-  
-HWP15: write some program with GUI 
+
+HWP15: write some program with GUI
 
 Week Last
 ---------
@@ -367,18 +367,18 @@ Week Last
 1. deforest or fuse smth
 2. some imperative program with lens
 3. some concurrency program or program with gui
- 
-###Practice 14: Accepting everything 
+
+###Practice 14: Accepting everything
 
 Uncovered topics
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in course :(
 
 + couple words about `forall a. a -> a -> a` (intro and why we need this)
-  * syntax sugar to get rid of _forall_ 
+  * syntax sugar to get rid of _forall_
   * http://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do
   * forall, RankNTypes (http://sleepomeno.github.io/blog/2014/02/12/Explaining-Haskell-RankNTypes-for-all/)
-+ GADT's: 
++ GADT's:
   ```haskell
   {-# LANGUAGE GADTs #-}
   data Exp a where
@@ -386,15 +386,15 @@ Uncovered topics
       Eq :: Exp a -> Exp a -> Exp a
    ```
 + CPS
-+ type families (oop with haskell)    
++ type families (oop with haskell)
 + Profiling
 + Testing
 + databases
 + networks
 + WEB, HTTP, JSON (Hakyll, Yesod, Snap)
-+ FFI 
++ FFI
 + ghc internals
 + comonads
-+ Zygohistomorphic prepromorphisms 
++ Zygohistomorphic prepromorphisms
 + ?????
 + PROFIT!!!!
