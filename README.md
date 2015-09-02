@@ -132,7 +132,29 @@ Week 4
   
 Week 5
 ------  
-###Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 6: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ _Maybe_ as example (boost::optional) (yes, again)
++ philosophy about null-safety, exception handling
++ monad class
+  * bind 
+  * return
+  * then
+  * error
++ Maybe instance
++ List monad instance
++ Reader, Writer (logging with examples)
+      
+### Practice 3
+  
+L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads 
+  
+HWP4: implement all examples from slides with Either monad instance (and instance itself too)
+
+Announce HWT4 and HWP5 (so people can start earlier)
+
+Week 6
+------   
+###Lecture 7: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + fmap
 + applicative
   * what for
@@ -150,7 +172,7 @@ Week 5
   * [_Accumulation of expression_](http://anton-k.github.io/ru-haskell-book/book/7.html)
   * [_Applicative command line arguments parser_](https://github.com/pcapriotti/optparse-applicative) !
     
-### Practice 3
+### Practice 4
       
 L: LearnYouAHaskell (chapter 11) http://learnyouahaskell.com/functors-applicative-functors-and-monoids 
      
@@ -162,27 +184,6 @@ HWT3: prove Applicative Laws
   
 HWP4 : some task on applicative
 
-Week 6
-------   
-### Lecture 7: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ _Maybe_ as example (boost::optional) (yes, again)
-+ philosophy about null-safety, exception handling
-+ monad class
-  * bind 
-  * return
-  * then
-  * error
-+ Maybe instance
-+ List monad instance
-+ Reader, Writer (logging with examples)
-      
-### Practice 4
-  
-L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads 
-  
-HWP4: implement all examples from slides with Either monad instance (and instance itself too)
-
-Announce HWT4 and HWP5 (so people can start earlier)
 
 Week 7
 ------
