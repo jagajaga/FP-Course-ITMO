@@ -387,11 +387,12 @@ Uncovered topics
    ```
 + CPS
 + type families (oop with haskell)
-+ Profiling
-+ Testing
++ typed holes
 + databases
 + networks
 + WEB, HTTP, JSON (Hakyll, Yesod, Snap)
++ Profiling
++ Testing
 + FFI
 + ghc internals
 + comonads
