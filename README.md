@@ -122,10 +122,14 @@ Week 3
 Week 4
 ------
 
-###CW1: Haskell Basics
+### CW1: Haskell Basics
 1. Some simple program in a few lines
-2. Implement some simple Data Structure (Stack with Min in current stack, Queue on Two stacks, Deque or smth else)
-3. Implement some DS and some class instances for it
+2. Implement some simple Data Structure
+   * Stack with Min, Size, Unique, etc.
+   * Queue on two stacks
+   * Deque on two lists
+   * smth else
+3. Implement classes and instances for your DS from Task 2
 
 ### Practice 2: Accepting HW's after CW is done
 
