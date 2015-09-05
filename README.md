@@ -78,8 +78,8 @@ Week 2
 ### Lecture 4: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + **type**: type aliases
 + ADT's (algebraic data types):
-  * sum of types (aka enums)
-  * product of types (aka **struct**'s in C++ or **class**'es in Java)j
+  * sum types (aka enums)
+  * product types (aka **struct**'s in C++ or **class**'es in Java)j
 + **data** and examples
 + type classes: **class**
 + **instance**
