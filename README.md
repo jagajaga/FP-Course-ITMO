@@ -53,7 +53,7 @@ Week 2
 
 > _Next two lectures contain a lot of examples on Java, C++, some of them will also be on Python, [Kotlin](http://kotlinlang.org/), [Rust](https://www.rust-lang.org/) and other languages_
 
-###Lecture 3: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 3: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Functions
   * ordinary
   * generic
@@ -75,7 +75,7 @@ Week 2
 
 #### Presentation: http://slides.com/shersh/lecture-3/
 
-###Lecture 4: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 4: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + **type**: type aliases
 + ADT's (algebraic data types):
   * sum of types (aka enums)
@@ -94,7 +94,7 @@ Week 2
 
 Week 3
 ------
-###Lecture 5: More on datatypes in Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 5: More on datatypes in Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + type constraints on datatypes: data (Show a) => Exp a = Const a | Eq (Exp a) (Exp a)
 + introducing _Maybe_ without saying _monad_ word as some kind of nullable class
   * data Maybe a = Nothing | Just a
@@ -106,16 +106,15 @@ Week 3
 + useful Monoid class:
   * examples and applications
   * foldrs on monoids
-  * Finger Tree
+  * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
 + Language Extensions
-  * TypeSynonyms
-  * FlexibleInstances
-  * Generalised deriving for newtype
-  * MultiParamTypeClasses
-  * RecordsWildCards
-  * UnicodeSyntax
-  * https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions
+  * [TypeSynonyms](https://ghc.haskell.org/trac/haskell-prime/wiki/TypeSynonymInstances)
+  * [FlexibleInstances](https://ghc.haskell.org/trac/haskell-prime/wiki/FlexibleInstances)
+  * [GeneralizedNewtypeDeriving](https://ghc.haskell.org/trac/haskell-prime/wiki/NewtypeDeriving)
+  * [MultiParamTypeClasses](https://wiki.haskell.org/Multi-parameter_type_class)
+  * [RecordsWildCards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html)
 
+#### Presentation: http://slides.com/shersh/lecture-5/
 #### Homework 2: http://slides.com/shersh/homework-2/
 
 ### Practice 1
@@ -154,7 +153,7 @@ Announce HWT4 and HWP5 (so people can start earlier)
 
 Week 6
 ------
-###Lecture 7: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 7: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + fmap
 + applicative
   * what for
@@ -214,7 +213,7 @@ HWP6: implement some algorithms or data structures with ST monad (DFA for exampl
 
 Week 8
 ------
-###Lecture 9: IO (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 9: IO (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 
 _intro_
 
@@ -232,7 +231,7 @@ _efficient IO_
 + OverloadedStrings
 + IOExceptions like in Java?
 
-###Practice 6: Accepting HWP4 & HWP5 (in remaining time)
+### Practice 6: Accepting HWP4 & HWP5 (in remaining time)
 
 L: anton-k IO http://anton-k.github.io/ru-haskell-book/book/8.html
 L: LearnYouAHaskell (chapter 9) http://learnyouahaskell.com/input-and-output
@@ -243,46 +242,46 @@ hw-hint: it is good to use applicative args parser: https://github.com/pcapriott
 
 Week 9
 ------
-###Lecture 10: Monadic Parser (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 10: Monadic Parser (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Explaining Monadic Parser's idiom on examples
   * brackets parser
   * numbers parser
   * arithmetic expression parser
 + Parsec, Happy
 
-###Practice 7: Accepting last hw's
+### Practice 7: Accepting last hw's
 
 HWP8: write some monadic parsers from scratch
 
 Week 10
 -------
-###Lecture 11: Some Advanced Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 11: Some Advanced Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + arrows
 + vector
 + introducing StateT
 + difference from simple monads
 + examples and applications
 
-###Practice 8: Accepting homeworks
+### Practice 8: Accepting homeworks
 
 HWP9: some mutable algorithm with transformers (convert list to set, dfs, smth else)
 HWP10: Monadic parser with transformer monad (in education purpose)
 
 Week 11
 -------
-###CW2: Monads
+### CW2: Monads
 1. Write Functors instances
 2. Write Monad instances
 3. write smth small using simple monads (Maybe, Either, State)
 4. write smth with StateTransformers or write some parsers
 
-###Practice 9: in remaining time
+### Practice 9: in remaining time
 
 **_Most fun part begins only now_**
 
 Week 12
 -------
-###Lecture 12: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 12: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + remember haskell lazyness
 + _foldr_ vs. _foldl_
   * stack problems
@@ -297,7 +296,7 @@ Week 12
   * example of deforesting smth simple
 + Stream fusion
 
-###Practice 10: Accepting HWP9-10
+### Practice 10: Accepting HWP9-10
 
 L: articles about deforestation and SF  
 
@@ -306,14 +305,14 @@ HWP11: measure time of fused and naive functions, implementing Discrete cosine t
 
 Week 13
 -------
-###Lecture 13: Zippers and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 13: Zippers and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + couple words about zippers and ZipperFS
   * _ZipList_
   * Deriviatives
 + Lens (lens vs zippers)
 + More Lens explanation and examples (one more intro to imperative style in haskell)
 
-###Practice 11: Accepting HWP10 (in remaining time)
+### Practice 11: Accepting HWP10 (in remaining time)
 
 L: LearnYourHaskell (chapter 14) http://learnyouahaskell.com/zippers
 
@@ -322,7 +321,7 @@ HWP13: Records with lens, create library for filetree walking, filtering, modify
 
 Week 14
 -------
-###Lecture 14: Haskell Concurrency (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 14: Haskell Concurrency (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + !!! http://chimera.labs.oreilly.com/books/1230000000929
 + profits of immutability
 + already have immutability and purity. Is it enough?
@@ -335,7 +334,7 @@ Week 14
   * forks
   * thread intercommunication
 
-###Practice 12: Accepting HWP12-13
+### Practice 12: Accepting HWP12-13
 
 L: haskell threads doc
 L: RealWorldHaskell (Chapter 24. Concurrent and multicore programming)
@@ -346,7 +345,7 @@ HWP14: write some multithreaded program (producer-consumer queue or smth. more i
 
 Week 15
 -------
-###Lecture 15: Gui in Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 15: Gui in Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + gtk
 + wxwidgets
 + opengl!
@@ -355,7 +354,7 @@ Week 15
   * haskell-CG
   * xmonad as WM
 
-###Practice 13: Accepting HWP14
+### Practice 13: Accepting HWP14
 
 L: docs
 
@@ -363,12 +362,12 @@ HWP15: write some program with GUI
 
 Week Last
 ---------
-###CW3: Haskell In Real World
+### CW3: Haskell In Real World
 1. deforest or fuse smth
 2. some imperative program with lens
 3. some concurrency program or program with gui
 
-###Practice 14: Accepting everything
+### Practice 14: Accepting everything
 
 Uncovered topics
 ----------------
@@ -388,6 +387,7 @@ Uncovered topics
 + CPS
 + type families (oop with haskell)
 + typed holes
++ Functional Dependencies, Associated Types
 + databases
 + networks
 + WEB, HTTP, JSON (Hakyll, Yesod, Snap)
