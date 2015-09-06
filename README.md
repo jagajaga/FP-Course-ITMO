@@ -7,7 +7,7 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 4 (15)
+**lectures covered:** 5 (15)
 
 **homeworks covered:** 2 (10)
 
@@ -16,6 +16,9 @@ Haskell ITMO course at CTD
 Week 1
 ------
 ### Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ About Haskell
+  * [Haskell (official site)](https://www.haskell.org/)
+  * [Haskell (ru-wiki)](https://ru.wikipedia.org/wiki/Haskell)
 + Reallife examples
   * Facebook's [haxl](https://github.com/facebook/Haxl)
   * [NixOS](https://github.com/NixOS)
@@ -47,6 +50,7 @@ Week 1
   * [anton-k-github](http://anton-k.github.io/ru-haskell-book/book/home.html)
   * [Haskell in Real Life](http://book.realworldhaskell.org/read/)
   * [OHaskell](http://ohaskell.dshevchenko.biz/)
+  * [FPComplete](https://www.fpcomplete.com/)
 
 Week 2
 ------
