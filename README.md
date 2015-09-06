@@ -18,7 +18,6 @@ Week 1
 ### Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Reallife examples
   * Facebook's [haxl](https://github.com/facebook/Haxl)
-  * Microsoft's [bond](https://github.com/Microsoft/bond)
   * [NixOS](https://github.com/NixOS)
   * [pandoc](https://github.com/jgm/pandoc)
   * [hbro](https://github.com/k0ral/hbro)
@@ -26,11 +25,12 @@ Week 1
   * [parsec](https://github.com/aslatter/parsec)
   * [ICFP](http://icfpcontest.org/)
   * Nice examples from here: https://wiki.haskell.org/Haskell_a_la_carte
-+ FP paradigms
++ FP and Haskell paradigms
   * immutability
   * purity
   * side-effect absence
   * strong typing
+  * lazy evaluation
 
 ### Lecture 2: Getting started with Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + instructions of how to install haskell, cabal; couple words about ghci
