@@ -6,7 +6,9 @@ import Data.Char (toLower, isAlpha)
 -------------------------------------------------
 
 
--- Калькулятор
+Калькулятор
+=====
+
 calc :: String -> Float
 calc = head . foldl f [] . words
   where 
@@ -19,13 +21,15 @@ calc = head . foldl f [] . words
     f (x:zs)   "ABS"  = (abs x):zs
     f xs       y      = read y : xs
 
--- calc "1 2 3 + 4 * - ABS"
+calc "1 2 3 + 4 * - ABS"
 
 
 -------------------------------------------------
 
 
--- Простые числа
+Простые числа
+=====
+
 primes :: [Int]
 primes = filterPrime [2..] 
   where filterPrime (p:xs) = 
@@ -69,15 +73,16 @@ main = do
 palindrom :: [Char] -> Bool
 palindrom s =
     norm == reverse norm
-    where norm = map toLower $ filter isAlpha $ s
+    where norm = map toLower `$` filter isAlpha `$` s
 
 test :: [Char] -> IO ()
 test s =
-    putStrLn $ s ++ ": " ++ show (palindrom s)
+    putStrLn `$` s ++ ": " ++ show (palindrom s)
 
 --------------------------------------------------
 
 Банальности
+====
 
 --------------------------------------------------
 
@@ -87,8 +92,8 @@ qsort (x:xs) = qsort (filter (<x) xs) ++ [x] ++ qsort (filter (>=x) xs))
 
 fibs = 1:1:zipWith (+) fibs (tail fibs)
 
-linecount = interact $ show . length . lines
-wordcount = interact $ show . length . words
+linecount = interact `$` show . length . lines
+wordcount = interact `$` show . length . words
 
 --------------------------------------------------
 
@@ -106,7 +111,6 @@ average x y = (x+y)/2
 
 average :: Double -> Double -> Double
 average x y = (x+y)/2
-
 
 --------------------------------------------------
 
@@ -147,6 +151,7 @@ average xs = sum xs / (fromIntegral (length xs))
 --------------------------------------------------
 
 Вкусняшки
+=====
 
 --------------------------------------------------
 
@@ -167,6 +172,7 @@ foldr f z (x:xs) = x `f` foldr f z xs
 --------------------------------------------------
 
 Секс
+======
 
 --------------------------------------------------
 
