@@ -19,6 +19,7 @@ Week 1
 + About Haskell
   * [Haskell (official site)](https://www.haskell.org/)
   * [Haskell (ru-wiki)](https://ru.wikipedia.org/wiki/Haskell)
+  * [Comparison of functional programming languages](https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages)
 + Reallife examples
   * Facebook's [haxl](https://github.com/facebook/Haxl)
   * [NixOS](https://github.com/NixOS)
@@ -31,7 +32,6 @@ Week 1
 + FP and Haskell paradigms
   * immutability
   * purity
-  * side-effect absence
   * strong typing
   * lazy evaluation
 
