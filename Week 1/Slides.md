@@ -1,7 +1,7 @@
 Mirëdita! ጤና ይስጥልኝ (tena yestelen)!
 Hello! Goeiedag! Добър ден! Bondjoû, diewåde!
 Jó napot! გამარჯობა! Salud! hola!
-안녕하세요! Salute! Sveiki! Сайн уу!
+Salute! Sveiki! Сайн уу!
 Бачигоапу! Guten Tag! Salve! Здраво! Zdravo!
 ආයුබෝවන්! สวัสดี! வணக்கம்! Исәнмесез!
 selâmünaleyküm! вітаю! Hyvää päivää! Bonjour!
@@ -48,7 +48,7 @@ Zdravo! Tere!
 
 ----
 
-Хаскель
+Haskell
 ======
 
 * Сравнение со статическими языками

@@ -1,4 +1,3 @@
-
 module Examples where
 import Data.Char (toLower, isAlpha)
 
