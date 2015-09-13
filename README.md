@@ -45,12 +45,13 @@ Week 1
   * calc-like structures
   * other simple examples in ghci
 + few words about modules and haskell infrastructure
-+ suggest tutorials and other online useful courses
++ suggested tutorials and other online useful courses
   * [LearnYouAHaskell](http://learnyouahaskell.com/)
   * [anton-k-github](http://anton-k.github.io/ru-haskell-book/book/home.html)
   * [Haskell in Real Life](http://book.realworldhaskell.org/read/)
   * [OHaskell](http://ohaskell.dshevchenko.biz/)
   * [FPComplete](https://www.fpcomplete.com/)
+  * [YAHT](https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial)
 
 Week 2
 ------
@@ -72,8 +73,9 @@ Week 2
 + Higher order functions
   * examples on other languages
   * standard Haskell HOFs: map, filter, foldr, etc.
++ Currying (aka partial application)
 + Pattern matching  
-+ Function composition: ($) (.)
++ Function composition and application: (.) ($)
 + Ranges
 + List comprehension
 
@@ -91,7 +93,7 @@ Week 2
   * examples of standard classes: _Eq_, _Ord_
 + **deriving** and _autoderiving_
 + Record syntax
-+ type constraints (or type bounds)
++ Type constraints (or type bounds)
 
 #### Presentation: http://slides.com/shersh/lecture-4/
 #### Homework 1: http://slides.com/shersh/homework-1/
@@ -402,6 +404,8 @@ Uncovered topics
 + Profiling
 + Testing
 + FFI
++ {-# UNPACK #-}, {-# INLINE #-}
++ BangPatterns, !
 + ghc internals
 + comonads
 + Zygohistomorphic prepromorphisms
