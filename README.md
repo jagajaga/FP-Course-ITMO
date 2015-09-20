@@ -87,7 +87,7 @@ Week 2
   * sum types (aka enums)
   * product types (aka **struct**'s in C++ or **class**'es in Java)j
 + **data** and examples
-+ type classes: **class**
++ Type classes: **class**
 + **instance**
   * compare to Java interface
   * examples of standard classes: _Eq_, _Ord_
@@ -101,19 +101,21 @@ Week 2
 Week 3
 ------
 ### Lecture 5: More on datatypes in Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ type constraints on datatypes: data (Show a) => Exp a = Const a | Eq (Exp a) (Exp a)
-+ introducing _Maybe_ without saying _monad_ word as some kind of nullable class
-  * data Maybe a = Nothing | Just a
-  * compare to C++ (boost::optional), Java (Optional<T>), Kotlin (Delegates.notNull())
++ DataType contexts: data (Show a) => Exp a = Const a | Eq (Exp a) (Exp a)
++ Introducing _Maybe_
+  * **data** Maybe a = Nothing | Just a
+  * compare to C++ (boost::optional), Java (Optional<T>)
 + _kinds_
-+ higher order instances (instances for types with _kind_: \* -> \*)
-+ instances of classes for other classes
++ Higher order instances (instances for types with _kind_: \* -> \*)
++ Using of types to store information
 + **newtype**: newtype Sum a = Sum a
-+ useful Monoid class:
++ _foldr_ and _foldl_
++ Useful _Monoid_ class:
   * examples and applications
   * foldrs on monoids
   * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
 + Language Extensions
+  * [OverloadedStrings](http://kwangyulseo.com/tag/overloadedstrings/)
   * [TypeSynonyms](https://ghc.haskell.org/trac/haskell-prime/wiki/TypeSynonymInstances)
   * [FlexibleInstances](https://ghc.haskell.org/trac/haskell-prime/wiki/FlexibleInstances)
   * [GeneralizedNewtypeDeriving](https://ghc.haskell.org/trac/haskell-prime/wiki/NewtypeDeriving)
