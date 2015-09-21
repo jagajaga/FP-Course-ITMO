@@ -131,13 +131,10 @@ Week 4
 ------
 
 ### CW1: Haskell Basics
-1. Some simple program in a few lines
-2. Implement some simple Data Structure
-   * Stack with Min, Size, Unique, etc.
-   * Queue on two stacks
-   * Deque on two lists
-   * smth else
-3. Implement classes and instances for your DS from Task 2
+1. Some simple program in 2 lines
+2. Some simple program in 3-7 lines
+3. Implement some simple Data Structure
+4. Implement some type classes
 
 ### Practice 2: HW1 deadline
 
