@@ -139,7 +139,7 @@ Week 4
    * smth else
 3. Implement classes and instances for your DS from Task 2
 
-### Practice 2: Accepting HW's after CW is done
+### Practice 2: HW1 deadline
 
 Week 5
 ------  
