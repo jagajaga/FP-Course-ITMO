@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 5 (15)
+**lectures covered:** 6 (15)
 
-**homeworks covered:** 2 (10)
+**homeworks covered:** 3 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -141,24 +141,20 @@ Week 4
 Week 5
 ------  
 ### Lecture 6: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ _Maybe_ as example (boost::optional) (yes, again)
-+ philosophy about null-safety, exception handling
-+ monad class
-  * bind
-  * return
-  * then
-  * error
-+ Maybe instance
-+ List monad instance
-+ Reader, Writer (logging with examples)
++ Talk about boxes
++ Monad type class with some additions, monad laws
++ _Maybe_ as example, philosophy about null-safety
++ _Identity_ monad instance
++ _Either_ monad instance
++ _then_, monad composition
++ _List_ monad instance
++ _join_
++ useful Monad functions
 
-### Practice 3
+#### Presentation: http://slides.com/shersh/lecture-6/
+#### Homework 3: http://slides.com/shersh/homework-3/
 
-L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads
-
-HWP4: implement all examples from slides with Either monad instance (and instance itself too)
-
-Announce HWT4 and HWP5 (so people can start earlier)
+### Practice 3: HW2 deadline
 
 Week 6
 ------
