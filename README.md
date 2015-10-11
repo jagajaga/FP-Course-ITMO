@@ -188,6 +188,9 @@ HWT3: prove Applicative Laws
 
 HWP4 : some task on applicative
 
+#### [Presentation](https://docs.google.com/presentation/d/1pu1TMSh5Xq4SuxBUdmTsVPqrY_LLRHnup6SW8RSIRO4/edit?usp=sharing)
+#### [Homework](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit?usp=sharing)
+
 
 Week 7
 ------
