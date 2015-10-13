@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 7 (15)
+**lectures covered:** 8 (15)
 
-**homeworks covered:** 4 (10)
+**homeworks covered:** 5 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -187,29 +187,18 @@ Week 6
 Week 7
 ------
 ### Lecture 8: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ _liftM_
++ _Writer_ monad
++ _Reader_ monad
++ Typed holes (since ghc 7.8)
 + _State_ monad
-  * why newtype and more about record syntax
-  * ex0: variable assignment (trivial, but useful for understand)
-  * ex1: random numbers
-  * ex2: stack
-  * ex3: Dijkstra
-  * where to find `State` monad in std library
-+ **do** syntax sugar
-+ MonadFish and MonadJoin
+  * example 1: stack as state
+  * example 2: depth first search
+  * where to find _State_ monad in std library, different useful functions
 
-### Practice 5: accepting homeworks  
+#### Presentation: http://slides.com/shersh/lecture-8/
+#### Homework 3: http://slides.com/shersh/homework-5/
 
-L: LearnYouAHaskell (chapters 12, 13) http://learnyouahaskell.com/a-fistful-of-monads
-
-HWT4: prove monad laws
-
-HWT5: prove equivalence of Monad, MonadJoin, MonadFunctor (Categories from ITMOPrelude)
-
-HWP5: write a game. For example: 2 players, 10 steps, each step = random
-points to a person, The winner is the one who has more. Here can be a labyrinth
-random walking game, or Cows and Bulls game (classic)
-HWP6: implement some algorithms or data structures with ST monad (DFA for example)
+### Practice 5: HW 3 deadline
 
 Week 8
 ------
