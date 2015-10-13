@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 6 (15)
+**lectures covered:** 7 (15)
 
-**homeworks covered:** 3 (10)
+**homeworks covered:** 4 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -160,14 +160,15 @@ Week 6
 ------
 ### Lecture 7: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + fmap
-+ applicative
++ _Functor_ type class with examples (_Maybe_, _List_, _Function_)
++ _Applicative_ type class with examples (_Maybe_, _List_, _Function_)
   * what for
   * pure
   * <*>
-+ liftA
-+ introduce monad Maybe, Either with no _monad_ word;
-+ implement functor and applicative instances for Maybe, Either
-+ mention about GHC 7.10 (assign myself)
++ liftAN
++ _Foldable_ type class
++ _Traversable_ type class (and instances for _Maybe_, _List_)
++ Type classed hierarchy (_Foldable_, _Functor_, _Functor_, _Applicative_, _Alternative_, _Monad_, _MonadPlus_)
 + examples:
   * [_ZipList_](https://en.wikibooks.org/wiki/Haskell/Applicative_Functors)
   * [_User_](https://pbrisbin.com/posts/applicative_functors/)
@@ -176,13 +177,12 @@ Week 6
   * [_Accumulation of expression_](http://anton-k.github.io/ru-haskell-book/book/7.html)
   * [_Applicative command line arguments parser_](https://github.com/pcapriotti/optparse-applicative) !
 
+##### Read: [LearnYouAHaskell (chapter 11)](http://learnyouahaskell.com/functors-applicative-functors-and-monoids)
+
 #### [Presentation](https://docs.google.com/presentation/d/1pu1TMSh5Xq4SuxBUdmTsVPqrY_LLRHnup6SW8RSIRO4/edit?usp=sharing)
 #### [Homework](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit?usp=sharing)
 
 ### Practice 4
-
-L: LearnYouAHaskell (chapter 11) http://learnyouahaskell.com/functors-applicative-functors-and-monoids
-
 
 Week 7
 ------
