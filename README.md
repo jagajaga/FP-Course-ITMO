@@ -180,7 +180,7 @@ Week 6
 ##### Read: [LearnYouAHaskell (chapter 11)](http://learnyouahaskell.com/functors-applicative-functors-and-monoids)
 
 #### [Presentation](https://docs.google.com/presentation/d/1pu1TMSh5Xq4SuxBUdmTsVPqrY_LLRHnup6SW8RSIRO4/edit?usp=sharing)
-#### [Homework](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit?usp=sharing)
+#### [Homework 4](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit?usp=sharing)
 
 ### Practice 4
 
@@ -196,9 +196,9 @@ Week 7
   * where to find _State_ monad in std library, different useful functions
 
 #### Presentation: http://slides.com/shersh/lecture-8/
-#### Homework 3: http://slides.com/shersh/homework-5/
+#### Homework 5: http://slides.com/shersh/homework-5/
 
-### Practice 5: HW 3 deadline
+### Practice 5: HW3 deadline
 
 Week 8
 ------
