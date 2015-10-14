@@ -14,27 +14,20 @@ type Vertex = Int
 type Graph  = [[Vertex]]
 
 dfs :: Vertex -> Vertex -> Graph -> Bool
-dfs from to g = evalState (reach from) ([], [])
+dfs from to graph = evalState (reach from) []
   where
-    reach :: Int -> State ([(Vertex, Int)], [Vertex]) Bool
+    -- state represented as list of visited vertices
+    reach :: Vertex -> State [Vertex] Bool
     reach v
-        | v == -1   = return False
         | v == to   = return True
-        | otherwise = state (step v) >>= reach -- state $ \st -> ...
+        | otherwise = get >>= \visited ->
+                      if v `elem` visited
+                      then return False
+                      else put (v:visited) >>
+                           gets (or . evalState (mapM reach $ graph !! v))
 
-    step v (s, visited) = if v `elem` visited
-                          then nextVertex s visited
-                          else nextVertex ((v, 0):s) (v:visited)
-
-    nextVertex ((v, i):s) visited
-        | i == length (g !! v) = if null s
-                                 then (-1, ([], []))
-                                 else (fst $ head s, (s, visited))
-        | otherwise            = let u  = g !! v !! i
-                                     st = ((v, i + 1) : s, visited) in
-                                 if u `elem` visited
-                                 then (v, st)
-                                 else (u, st)
+                    --   else withState (v:) get >>= \newVisited ->
+                        --    return $ or $ evalState (mapM reach (graph !! v)) newVisited
 
 
 g1 :: Graph
