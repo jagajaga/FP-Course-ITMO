@@ -366,16 +366,15 @@ Uncovered topics
   * syntax sugar to get rid of _forall_
   * http://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do
   * forall, RankNTypes (http://sleepomeno.github.io/blog/2014/02/12/Explaining-Haskell-RankNTypes-for-all/)
++ CPS
 + GADT's:
-  ```haskell
+  ``` haskell
   {-# LANGUAGE GADTs #-}
   data Exp a where
       Const :: Show a => a -> Exp a
       Eq :: Exp a -> Exp a -> Exp a
    ```
-+ CPS
 + type families (oop with haskell)
-+ typed holes
 + Functional Dependencies, Associated Types
 + databases
 + networks
@@ -385,6 +384,7 @@ Uncovered topics
 + FFI
 + {-# UNPACK #-}, {-# INLINE #-}
 + BangPatterns, !
++ Free Monad
 + ghc internals
 + comonads
 + Zygohistomorphic prepromorphisms
