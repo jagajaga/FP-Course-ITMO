@@ -238,6 +238,8 @@ Week 9
   * arithmetic expression parser
 + Parsec, Happy
 
+#### [Presentation](https://docs.google.com/presentation/d/1e1qswvzO2iZoUKRdnaQ6Ymv6BIaqW-PrEJZ8Ck2vIdQ/edit?usp=sharing)
+
 ### Practice 7: Accepting last hw's
 
 HWP8: write some monadic parsers from scratch
