@@ -220,6 +220,8 @@ _efficient IO_
 + OverloadedStrings
 + IOExceptions like in Java?
 
+#### [Presentation](https://docs.google.com/presentation/d/1e1qswvzO2iZoUKRdnaQ6Ymv6BIaqW-PrEJZ8Ck2vIdQ/edit?usp=sharing)
+
 ### Practice 6: Accepting HWP4 & HWP5 (in remaining time)
 
 L: anton-k IO http://anton-k.github.io/ru-haskell-book/book/8.html
@@ -237,8 +239,6 @@ Week 9
   * numbers parser
   * arithmetic expression parser
 + Parsec, Happy
-
-#### [Presentation](https://docs.google.com/presentation/d/1e1qswvzO2iZoUKRdnaQ6Ymv6BIaqW-PrEJZ8Ck2vIdQ/edit?usp=sharing)
 
 ### Practice 7: Accepting last hw's
 
