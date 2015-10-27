@@ -36,6 +36,7 @@ Haskell ITMO course at CTD
   * [Homework 5](http://slides.com/shersh/homework-5/)
 + [Week 8](https://github.com/jagajaga/FP-Course-2015#week-8)
   * [Lecture 9: IO](https://github.com/jagajaga/FP-Course-2015#lecture-9-io-by-arseniy-seroka)
+  * [Bonus: Intro to category theory](123)
   * [Homework 6](http://slides.com/shersh/homework-6/)
 
 Week 1
@@ -237,6 +238,10 @@ Week 8
 + Mutable data: [_IORef_](https://hackage.haskell.org/package/base-4.8.1.0/docs/Data-IORef.html) and [_IOArray_](https://hackage.haskell.org/package/array-0.5.1.0)
 + _sequence\__
 + Exceptions (_catch_, _throwIO_, etc.)
+
+### Bonus: Intro to category theory (by [Nikita Lisitsa](https://github.com/lisyarus "lisyarus's GitHub"))
+Answering on question: Why monad is monoid in category of endofunctors?
+#### [Category Theory: Intro](http://slides.com/lisyarus/category-theory-1/)
 
 ##### Read: 
 + [LearnYouAHaskell (chapter 9)](http://learnyouahaskell.com/input-and-output)
