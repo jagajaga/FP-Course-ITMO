@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 8 (15)
+**lectures covered:** 9 (15)
 
-**homeworks covered:** 5 (10)
+**homeworks covered:** 6 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -204,32 +204,25 @@ Week 8
 ------
 ### Lecture 9: IO (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 
-_intro_
++ Recall pure functions
++ Realize impureness of IO
++ Building IO system
++ Introduce IO monad
++ _do_ notation, syntax sugar
++ Mutable data: [_IORef_](https://hackage.haskell.org/package/base-4.8.1.0/docs/Data-IORef.html) and [_IOArray_](https://hackage.haskell.org/package/array-0.5.1.0)
++ _sequence\__
++ Exceptions (_catch_, _throwIO_, etc.)
 
-+ intro to IO and impure functions
-+ do syntax and some imperative style
-+ how to read from user input (lot of functions)
-+ mapM_ and company
-+ how to read from files (lot of functions)
-+ streams
-+ command line arguments
-
-_efficient IO_  
-
-+ bytes and bytestrings
-+ OverloadedStrings
-+ IOExceptions like in Java?
+##### Read: 
++ [LearnYouAHaskell (chapter 9)](http://learnyouahaskell.com/input-and-output)
++ [IO inside](https://wiki.haskell.org/IO_inside)
++ [anton-k IO](http://anton-k.github.io/ru-haskell-book/book/8.html)
++ [Real World Haskell (chapters 7-9)](http://book.realworldhaskell.org/read/)
 
 #### [Presentation](https://docs.google.com/presentation/d/1e1qswvzO2iZoUKRdnaQ6Ymv6BIaqW-PrEJZ8Ck2vIdQ/edit?usp=sharing)
+#### Homework 6: http://slides.com/shersh/homework-6/
 
-### Practice 6: Accepting HWP4 & HWP5 (in remaining time)
-
-L: anton-k IO http://anton-k.github.io/ru-haskell-book/book/8.html
-L: LearnYouAHaskell (chapter 9) http://learnyouahaskell.com/input-and-output
-L: Real World Haskell (chapters 7-9) http://book.realworldhaskell.org/read/
-
-HWP7: implement some grep-like program, searching in files or user input, reading commandline arguments
-hw-hint: it is good to use applicative args parser: https://github.com/pcapriotti/optparse-applicative
+### Practice 6: HW4 deadline
 
 Week 9
 ------
@@ -240,7 +233,7 @@ Week 9
   * arithmetic expression parser
 + Parsec, Happy
 
-### Practice 7: Accepting last hw's
+### Practice 7: HW5 deadline
 
 HWP8: write some monadic parsers from scratch
 
@@ -370,7 +363,7 @@ Uncovered topics
   * forall, RankNTypes (http://sleepomeno.github.io/blog/2014/02/12/Explaining-Haskell-RankNTypes-for-all/)
 + CPS
 + GADT's:
-  ``` haskell
+  ```haskell
   {-# LANGUAGE GADTs #-}
   data Exp a where
       Const :: Show a => a -> Exp a
