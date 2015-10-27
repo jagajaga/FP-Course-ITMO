@@ -13,6 +13,31 @@ Haskell ITMO course at CTD
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
+### Course plan
++ [Week 1](https://github.com/jagajaga/FP-Course-2015#week-1)
+  * [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-1-why-fp-and-haskell-by-arseniy-seroka)
+  * [Lecture 2: Getting started with Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-2-getting-started-with-haskell-by-arseniy-seroka)
++ [Week 2](https://github.com/jagajaga/FP-Course-2015#week-2)
+  * [Lecture 3: Basic Syntax](https://github.com/jagajaga/FP-Course-2015#lecture-3-basic-syntax-by-dmitry-kovanikov)
+  * [Lecture 4: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-2015#lecture-4-datas-classes-instances-by-dmitry-kovanikov)
+  * [Homework 1](http://slides.com/shersh/homework-1/)
++ [Week 3](https://github.com/jagajaga/FP-Course-2015#week-3)
+  * [Lecture 5: More on datatypes in Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-5-more-on-datatypes-in-haskell-by-dmitry-kovanikov)
+  * [Homework 2](http://slides.com/shersh/homework-2/)
++ [Week 4: CW1](https://github.com/jagajaga/FP-Course-2015#week-4)
++ [Week 5](https://github.com/jagajaga/FP-Course-2015#week-5)
+  * [Lecture 6: Monads, part 1](https://github.com/jagajaga/FP-Course-2015#lecture-6-monads-part-1-by-dmitry-kovanikov)
+  * [Homework 3](http://slides.com/shersh/homework-3/)
++ [Week 6](https://github.com/jagajaga/FP-Course-2015#week-6)
+  * [Lecture 7: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-2015#lecture-7-functors-applicative-functors-by-arseniy-seroka)
+  * [Homework 4](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit#slide=id.p)
++ [Week 7](https://github.com/jagajaga/FP-Course-2015#week-7)
+  * [Lecture 8: Monads, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-8-monads-part-2-by-dmitry-kovanikov)
+  * [Homework 5](http://slides.com/shersh/homework-5/)
++ [Week 8](https://github.com/jagajaga/FP-Course-2015#week-8)
+  * [Lecture 9: IO](https://github.com/jagajaga/FP-Course-2015#lecture-9-io-by-arseniy-seroka)
+  * [Homework 6](http://slides.com/shersh/homework-6/)
+
 Week 1
 ------
 ### Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
