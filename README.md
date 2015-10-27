@@ -36,7 +36,7 @@ Haskell ITMO course at CTD
   * [Homework 5](http://slides.com/shersh/homework-5/)
 + [Week 8](https://github.com/jagajaga/FP-Course-2015#week-8)
   * [Lecture 9: IO](https://github.com/jagajaga/FP-Course-2015#lecture-9-io-by-arseniy-seroka)
-  * [Bonus: Intro to category theory](123)
+  * [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
   * [Homework 6](http://slides.com/shersh/homework-6/)
 
 Week 1
