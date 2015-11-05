@@ -7,7 +7,7 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 9 (15)
+**lectures covered:** 10 (18)
 
 **homeworks covered:** 6 (10)
 
@@ -26,6 +26,7 @@ Haskell ITMO course at CTD
 + [Lecture 8: Monads, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-8-monads-part-2-by-dmitry-kovanikov)
 + [Lecture 9: IO](https://github.com/jagajaga/FP-Course-2015#lecture-9-io-by-arseniy-seroka)
 + [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
++ Lecture 10: Transformers
 
 #### Homeworks 
 + [Homework 1](http://slides.com/shersh/homework-1/) 
@@ -252,38 +253,22 @@ Answering on question: Why monad is monoid in category of endofunctors?
 
 Week 9
 ------
-### Lecture 10: Monadic Parser (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ Explaining Monadic Parser's idiom on examples
-  * brackets parser
-  * numbers parser
-  * arithmetic expression parser
-+ Parsec, Happy
+
+### Lecture 10: Unsafe IO + Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ _unsafePerformIO_
++ _unsafeInterleaveIO_, state tokens
++ _Text_, _ByteString_
++ MaybeIO example
++ _MaybeT_ transformer
++ _ReaderT_ transformer
 
 ### Practice 7: HW5 deadline
 
-HWP8: write some monadic parsers from scratch
-
 Week 10
 -------
-### Lecture 11: Some Advanced Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ arrows
-+ vector
-+ introducing StateT
-+ difference from simple monads
-+ examples and applications
-
-### Practice 8: Accepting homeworks
-
-HWP9: some mutable algorithm with transformers (convert list to set, dfs, smth else)
-HWP10: Monadic parser with transformer monad (in education purpose)
-
-Week 11
--------
 ### CW2: Monads
-1. Write Functors instances
-2. Write Monad instances
-3. write smth small using simple monads (Maybe, Either, State)
-4. write smth with StateTransformers or write some parsers
+1. write smth small using simple monads (Maybe, Either, State)
+2. write smth with transformers and IO
 
 ### Practice 9: in remaining time
 
