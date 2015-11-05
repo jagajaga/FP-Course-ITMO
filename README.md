@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 10 (18)
+**lectures covered:** 11 (18)
 
-**homeworks covered:** 6 (10)
+**homeworks covered:** 7 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -27,6 +27,7 @@ Haskell ITMO course at CTD
 + [Lecture 9: IO](https://github.com/jagajaga/FP-Course-2015#lecture-9-io-by-arseniy-seroka)
 + [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
 + Lecture 10: Transformers
++ Lecture 11: Speeding up Haskell
 
 #### Homeworks 
 + [Homework 1](http://slides.com/shersh/homework-1/) 
@@ -35,6 +36,7 @@ Haskell ITMO course at CTD
 + [Homework 4](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit#slide=id.p)
 + [Homework 5](http://slides.com/shersh/homework-5/) 
 + [Homework 6](http://slides.com/shersh/homework-6/)
++ [Homework 8](http://slides.com/shersh/homework-8/)
 
 Week 1
 ------
@@ -270,33 +272,29 @@ Week 10
 1. write smth small using simple monads (Maybe, Either, State)
 2. write smth with transformers and IO
 
-### Practice 9: in remaining time
+### Practice 8: HW6 deadline
 
 **_Most fun part begins only now_**
 
-Week 12
+Week 11
 -------
-### Lecture 12: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ remember haskell lazyness
+### Lecture 11: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ recall haskell lazyness
++ list concatenation pitfalls and _Difference List_
 + _foldr_ vs. _foldl_
-  * stack problems
-  * _seq_, _deepseq_, _pseq_ (remember **newtype**)
-+ foldl' + weak head normal form etc.
-+ problems with list ++
-  * DiffList
-+ https://www.haskell.org/haskellwiki/ListT_done_right
++ WHNF (weak head normal form)
++ _seq_, _deepseq_, _NFData_
++ Irrefutable patterns
++ BangPatterns
 + Deforestation
-  * explaining in simple words
-  * formal algorithm
-  * example of deforesting smth simple
-+ Stream fusion
++ Stream Fusion
++ _ST_ monad (_STRef_, _STArray_)
++ Criterion
 
-### Practice 10: Accepting HWP9-10
+#### Presentation: http://slides.com/shersh/lecture-11/
+#### Homework 6: http://slides.com/shersh/homework-8/
 
-L: articles about deforestation and SF  
-
-HWT6: fuse and deforest some functions in theory
-HWP11: measure time of fused and naive functions, implementing Discrete cosine transformation (DCT) for example, some Segal-like algo
+### Practice 10: *surprise*
 
 Week 13
 -------
@@ -389,7 +387,6 @@ Uncovered topics
 + Testing
 + FFI
 + {-# UNPACK #-}, {-# INLINE #-}
-+ BangPatterns, !
 + Free Monad
 + ghc internals
 + comonads
