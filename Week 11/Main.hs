@@ -1,16 +1,20 @@
 module Main where
 
-import Criterion.Main
-import InsertionSort
+import           Criterion.Main
+import qualified ListInsertionSort  as Lst
+import qualified ArrayInsertionSort as Arr
+import qualified VecInsertionSort   as Vec
 
 -- Our benchmark harness.
 main = defaultMain
   [ bgroup "is500"
-    [ bench "list" $ whnf (sum . drop 20 . insertionSort) [500,499..1]
-    , bench "arr"  $ whnf (sum . drop 20 . insertionSortST) [500,499..1]
+    [ bench "lst" $ whnf (sum . drop 20 . Lst.sort) [500,499..1]
+    , bench "arr" $ whnf (sum . drop 20 . Arr.sort) [500,499..1]
+    , bench "vec" $ whnf (sum . drop 20 . Vec.sort) [500,499..1]
     ]
   , bgroup "is1000"
-    [ bench "list" $ whnf (sum . drop 20 . insertionSort) [1000,999..1]
-    , bench "arr"  $ whnf (sum . drop 20 . insertionSortST) [1000,999..1]
+    [ bench "lst" $ whnf (sum . drop 20 . Lst.sort) [1000,999..1]
+    , bench "arr" $ whnf (sum . drop 20 . Arr.sort) [1000,999..1]
+    , bench "vec" $ whnf (sum . drop 20 . Vec.sort) [1000,999..1]
     ]
   ]
