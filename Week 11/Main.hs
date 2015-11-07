@@ -8,13 +8,13 @@ import qualified VecInsertionSort   as Vec
 -- Our benchmark harness.
 main = defaultMain
   [ bgroup "is500"
-    [ bench "lst" $ whnf (sum . drop 20 . Lst.sort) [500,499..1]
-    , bench "arr" $ whnf (sum . drop 20 . Arr.sort) [500,499..1]
-    , bench "vec" $ whnf (sum . drop 20 . Vec.sort) [500,499..1]
+    [ bench "lst" $ nf Lst.sort [500,499..1]
+    , bench "arr" $ nf Arr.sort [500,499..1]
+    , bench "vec" $ nf Vec.sort [500,499..1]
     ]
   , bgroup "is1000"
-    [ bench "lst" $ whnf (sum . drop 20 . Lst.sort) [1000,999..1]
-    , bench "arr" $ whnf (sum . drop 20 . Arr.sort) [1000,999..1]
-    , bench "vec" $ whnf (sum . drop 20 . Vec.sort) [1000,999..1]
+    [ bench "lst" $ nf Lst.sort [1000,999..1]
+    , bench "arr" $ nf Arr.sort [1000,999..1]
+    , bench "vec" $ nf Vec.sort [1000,999..1]
     ]
   ]
