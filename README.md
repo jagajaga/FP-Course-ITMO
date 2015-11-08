@@ -264,6 +264,8 @@ Week 9
 + _MaybeT_ transformer
 + _ReaderT_ transformer
 
+#### [Presentation](https://docs.google.com/presentation/d/1TdlB693yCCE-Te4ZA8dxoYGvopfs0IiSrJcrffjsf3E/edit?usp=sharing)
+
 ### Practice 7: HW5 deadline
 
 Week 10
