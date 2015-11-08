@@ -9,7 +9,7 @@ Haskell ITMO course at CTD
 
 **lectures covered:** 11 (18)
 
-**homeworks covered:** 7 (10)
+**homeworks covered:** 8 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -36,6 +36,7 @@ Haskell ITMO course at CTD
 + [Homework 4](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit#slide=id.p)
 + [Homework 5](http://slides.com/shersh/homework-5/) 
 + [Homework 6](http://slides.com/shersh/homework-6/)
++ [Homework 7](http://slides.com/shersh/homework-7/)
 + [Homework 8](http://slides.com/shersh/homework-8/)
 
 Week 1
@@ -265,6 +266,7 @@ Week 9
 + _ReaderT_ transformer
 
 #### [Presentation](https://docs.google.com/presentation/d/1TdlB693yCCE-Te4ZA8dxoYGvopfs0IiSrJcrffjsf3E/edit?usp=sharing)
+#### Homework 7: http://slides.com/shersh/homework-7/
 
 ### Practice 7: HW5 deadline
 
@@ -275,8 +277,6 @@ Week 10
 2. write smth with transformers and IO
 
 ### Practice 8: HW6 deadline
-
-**_Most fun part begins only now_**
 
 Week 11
 -------
@@ -294,7 +294,7 @@ Week 11
 + Criterion
 
 #### Presentation: http://slides.com/shersh/lecture-11/
-#### Homework 6: http://slides.com/shersh/homework-8/
+#### Homework 8: http://slides.com/shersh/homework-8/
 
 ### Practice 10: *surprise*
 
