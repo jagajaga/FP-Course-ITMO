@@ -273,8 +273,9 @@ Week 9
 Week 10
 -------
 ### CW2: Monads
-1. write smth small using simple monads (Maybe, Either, State)
-2. write smth with transformers and IO
+1. Write smth small using simple monads
+2. Prove equivalence of some definitions
+3. Write smth with transformers and IO
 
 ### Practice 8: HW6 deadline
 
