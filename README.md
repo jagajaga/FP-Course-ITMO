@@ -20,7 +20,7 @@ Haskell ITMO course at CTD
 + [Lecture 2: Getting started with Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-2-getting-started-with-haskell-by-arseniy-seroka)
 + [Lecture 3: Basic Syntax](https://github.com/jagajaga/FP-Course-2015#lecture-3-basic-syntax-by-dmitry-kovanikov)
 + [Lecture 4: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-2015#lecture-4-datas-classes-instances-by-dmitry-kovanikov)
-+ Lecture 5: Advanced types, part 1
++ [Lecture 5: Advanced types, part 1](https://github.com/jagajaga/FP-Course-2015#lecture-5-advanced-types-part-1-by-dmitry-kovanikov)
 + [Lecture 6: Monads, part 1](https://github.com/jagajaga/FP-Course-2015#lecture-6-monads-part-1-by-dmitry-kovanikov)
 + [Lecture 7: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-2015#lecture-7-functors-applicative-functors-by-arseniy-seroka)
 + [Lecture 8: Monads, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-8-monads-part-2-by-dmitry-kovanikov)
@@ -28,11 +28,11 @@ Haskell ITMO course at CTD
 + [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
 + [Lecture 10: Transformers](https://github.com/jagajaga/FP-Course-2015#lecture-10-unsafe-io--transformers-by-arseniy-seroka)
 + [Lecture 11: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
-+ Lecture 12: Zippers, Template Haskell and Lens
-+ Lecture 13: Parallel and Concurrent Haskell
-+ Lecture 14: GUI in Haskell
-+ Lecture 15: Advanced types, part 2
-+ Lecture 16: Advanced types, part 3
++ [Lecture 12: Zippers, Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-zippers-template-haskell-and-lens-by-arseniy-seroka)
++ [Lecture 13: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
++ [Lecture 14: GUI in Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-14-gui-in-haskell-by-arseniy-seroka)
++ [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
++ [Lecture 16: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-16-advanced-types-part-3-by-arseniy-seroka)
 
 #### Homeworks 
 + [Homework 1](http://slides.com/shersh/homework-1/) 
