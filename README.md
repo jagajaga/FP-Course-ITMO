@@ -7,7 +7,7 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 11 (18)
+**lectures covered:** 11 (16)
 
 **homeworks covered:** 8 (10)
 
@@ -20,7 +20,7 @@ Haskell ITMO course at CTD
 + [Lecture 2: Getting started with Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-2-getting-started-with-haskell-by-arseniy-seroka)
 + [Lecture 3: Basic Syntax](https://github.com/jagajaga/FP-Course-2015#lecture-3-basic-syntax-by-dmitry-kovanikov)
 + [Lecture 4: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-2015#lecture-4-datas-classes-instances-by-dmitry-kovanikov)
-+ [Lecture 5: More on datatypes in Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-5-more-on-datatypes-in-haskell-by-dmitry-kovanikov)  
++ Lecture 5: Advanced types, part 1
 + [Lecture 6: Monads, part 1](https://github.com/jagajaga/FP-Course-2015#lecture-6-monads-part-1-by-dmitry-kovanikov)
 + [Lecture 7: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-2015#lecture-7-functors-applicative-functors-by-arseniy-seroka)
 + [Lecture 8: Monads, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-8-monads-part-2-by-dmitry-kovanikov)
@@ -28,6 +28,11 @@ Haskell ITMO course at CTD
 + [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
 + [Lecture 10: Transformers](https://github.com/jagajaga/FP-Course-2015#lecture-10-unsafe-io--transformers-by-arseniy-seroka)
 + [Lecture 11: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
++ Lecture 12: Zippers, Template Haskell and Lens
++ Lecture 13: Parallel and Concurrent Haskell
++ Lecture 14: GUI in Haskell
++ Lecture 15: Advanced types, part 2
++ Lecture 16: Advanced types, part 3
 
 #### Homeworks 
 + [Homework 1](http://slides.com/shersh/homework-1/) 
@@ -126,7 +131,7 @@ Week 2
 
 Week 3
 ------
-### Lecture 5: More on datatypes in Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 5: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + DataType contexts: data (Show a) => Exp a = Const a | Eq (Exp a) (Exp a)
 + Introducing _Maybe_
   * **data** Maybe a = Nothing | Just a
@@ -297,51 +302,39 @@ Week 11
 #### Presentation: http://slides.com/shersh/lecture-11/
 #### Homework 8: http://slides.com/shersh/homework-8/
 
-### Practice 10: *surprise*
+### Practice 10
 
-Week 13
+Week 12
 -------
-### Lecture 13: Zippers and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ couple words about zippers and ZipperFS
-  * _ZipList_
-  * Deriviatives
+### Lecture 12: Zippers, Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ Couple words about zippers and ZipperFS
++ Template Haskell
 + Lens (lens vs zippers)
 + More Lens explanation and examples (one more intro to imperative style in haskell)
 
-### Practice 11: Accepting HWP10 (in remaining time)
+### Practice 11: HW7 deadline
 
 L: LearnYourHaskell (chapter 14) http://learnyouahaskell.com/zippers
 
-HWP12: implement some algos on graphs using Lens
-HWP13: Records with lens, create library for filetree walking, filtering, modifying (see System.Directory.Tree)  
+HWP12: implement some algos on graphs using Lens 
+
+Week 13
+-------
+### Lecture 13: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ Advantages of immutability and purity
++ Haskell parallelism with `rpar` and `rseq`
++ Threadscope
++ Strategies
++ List parallelism example
++ Difference between _Parallelism_ and _Concurrency_
++ MVar
++ STM, TVar
+
+### Practice 12: HW8 deadline
 
 Week 14
 -------
-### Lecture 14: Haskell Concurrency (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ !!! http://chimera.labs.oreilly.com/books/1230000000929
-+ profits of immutability
-+ already have immutability and purity. Is it enough?
-+ simple multithreaded:
-  * ex1: fibonacci computation
-  * ex2: primes sieve
-+ _par_ implicit parallelism
-  * comparison with Java 8 `parallelMap`
-+ locks, waits, critical section
-  * forks
-  * thread intercommunication
-
-### Practice 12: Accepting HWP12-13
-
-L: haskell threads doc
-L: RealWorldHaskell (Chapter 24. Concurrent and multicore programming)
-     http://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html
-L: https://donsbot.wordpress.com/2009/09/05/defun-2009-multicore-programming-in-haskell-now/
-
-HWP14: write some multithreaded program (producer-consumer queue or smth. more interesting)
-
-Week 15
--------
-### Lecture 15: Gui in Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 14: GUI in Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + gtk
 + wxwidgets
 + opengl!
@@ -350,49 +343,38 @@ Week 15
   * haskell-CG
   * xmonad as WM
 
-### Practice 13: Accepting HWP14
+### Practice 13: HW9 deadline
 
-L: docs
+Week 15
+-------
+### Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ *forall*
++ ExistensialQuantification, RankNTypes, udecidability
++ FunctionalDependencies
++ _Cont_ monad and CPS
 
-HWP15: write some program with GUI
+### Practice 14: HW10 deadline
 
-Week Last
----------
-### CW3: Haskell In Real World
-1. deforest or fuse smth
-2. some imperative program with lens
-3. some concurrency program or program with gui
-
-### Practice 14: Accepting everything
+Week 16
+-------
+### Lecture 16: Advanced types, part 3 (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ comonads
++ GADT's
++ Type families
 
 Uncovered topics
 ----------------
-> Unfortunately there're some topics which are great but there is no time for them in course :(
+> Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ couple words about `forall a. a -> a -> a` (intro and why we need this)
-  * syntax sugar to get rid of _forall_
-  * http://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do
-  * forall, RankNTypes (http://sleepomeno.github.io/blog/2014/02/12/Explaining-Haskell-RankNTypes-for-all/)
-+ CPS
-+ GADT's:
-  ```haskell
-  {-# LANGUAGE GADTs #-}
-  data Exp a where
-      Const :: Show a => a -> Exp a
-      Eq :: Exp a -> Exp a -> Exp a
-   ```
-+ type families (oop with haskell)
-+ Functional Dependencies, Associated Types
-+ databases
-+ networks
-+ WEB, HTTP, JSON (Hakyll, Yesod, Snap)
-+ Profiling
-+ Testing
++ Advanced monads: Free, Par
++ Arrows and categories
++ Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
++ Compiler optimizations
++ Databases (persistent, acid-state)
++ Streams, Pipes (Conduit, CloudHaskell)
++ Network and WEB (Scotty, Yesod, Snap, Warp, Hakyll)
++ JSON, CSV (Aeson)
++ Testing (QuickCheck, SmallCheck)
 + FFI
-+ {-# UNPACK #-}, {-# INLINE #-}
-+ Free Monad
-+ ghc internals
-+ comonads
++ Ghc internals
 + Zygohistomorphic prepromorphisms
-+ ?????
-+ PROFIT!!!!
