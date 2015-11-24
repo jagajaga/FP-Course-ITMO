@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 11 (16)
+**lectures covered:** 12 (16)
 
-**homeworks covered:** 8 (10)
+**homeworks covered:** 9 (10)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -28,7 +28,7 @@ Haskell ITMO course at CTD
 + [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
 + [Lecture 10: Transformers](https://github.com/jagajaga/FP-Course-2015#lecture-10-unsafe-io--transformers-by-arseniy-seroka)
 + [Lecture 11: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
-+ [Lecture 12: Zippers, Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-zippers-template-haskell-and-lens-by-arseniy-seroka)
++ [Lecture 12: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-zippers-template-haskell-and-lens-by-arseniy-seroka)
 + [Lecture 13: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
 + [Lecture 14: GUI in Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-14-gui-in-haskell-by-arseniy-seroka)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
@@ -43,6 +43,7 @@ Haskell ITMO course at CTD
 + [Homework 6](http://slides.com/shersh/homework-6/)
 + [Homework 7](http://slides.com/shersh/homework-7/)
 + [Homework 8](http://slides.com/shersh/homework-8/)
++ [Homework 9](http://slides.com/shersh/homework-9/)
 
 Week 1
 ------
@@ -306,15 +307,21 @@ Week 11
 
 Week 12
 -------
-### Lecture 12: Zippers, Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ Couple words about zippers and ZipperFS
+### Lecture 12: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Template Haskell
-+ Lens (lens vs zippers)
-+ More Lens explanation and examples (one more intro to imperative style in haskell)
+  * boilerplating tuple code
+  * Quasi Quotes
+  * Generate Automatic Instances
++ Lens
+  * Creating own simple lens
+  * Introducing real Lens'
+  * Nice example with real lens (_view_, _traversed_, _filtered_, _zoom_)
++ Prism
+
+#### [Presentation](https://docs.google.com/presentation/d/1TMqVHW8b7YQDSZUTh-LGouG9gNYFoUT-jewzFPU6lsQ/edit?usp=sharing) 
+#### Homework 9: http://slides.com/shersh/homework-9/
 
 ### Practice 11: HW7 deadline
-
-L: LearnYourHaskell (chapter 14) http://learnyouahaskell.com/zippers
 
 HWP12: implement some algos on graphs using Lens 
 
