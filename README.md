@@ -323,8 +323,6 @@ Week 12
 
 ### Practice 11: HW7 deadline
 
-HWP12: implement some algos on graphs using Lens 
-
 Week 13
 -------
 ### Lecture 13: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
