@@ -28,7 +28,7 @@ Haskell ITMO course at CTD
 + [Bonus: Intro to category theory](https://github.com/jagajaga/FP-Course-2015#bonus-intro-to-category-theory-by-nikita-lisitsa)
 + [Lecture 10: Transformers](https://github.com/jagajaga/FP-Course-2015#lecture-10-unsafe-io--transformers-by-arseniy-seroka)
 + [Lecture 11: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
-+ [Lecture 12: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-zippers-template-haskell-and-lens-by-arseniy-seroka)
++ [Lecture 12: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-template-haskell-and-lens-by-arseniy-seroka)
 + [Lecture 13: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
 + [Lecture 14: GUI in Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-14-gui-in-haskell-by-arseniy-seroka)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
