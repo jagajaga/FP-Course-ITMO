@@ -7,9 +7,9 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 12 (16)
+**lectures covered:** 13 (16)
 
-**homeworks covered:** 9 (10)
+**homeworks covered:** 10 (11)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -44,6 +44,7 @@ Haskell ITMO course at CTD
 + [Homework 7](http://slides.com/shersh/homework-7/)
 + [Homework 8](http://slides.com/shersh/homework-8/)
 + [Homework 9](http://slides.com/shersh/homework-9/)
++ [Homework 10](http://slides.com/shersh/homework-10/)
 
 Week 1
 ------
@@ -330,10 +331,14 @@ Week 13
 + Haskell parallelism with `rpar` and `rseq`
 + Threadscope
 + Strategies
-+ List parallelism example
++ _Par_ monad examples 
 + Difference between _Parallelism_ and _Concurrency_
-+ MVar
-+ STM, TVar
++ _forkIO_ and _MVar_
++ Transactions: STM, TVar
++ Async
+
+#### Presentation: http://slides.com/shersh/lecture-13/
+#### Homework 10: http://slides.com/shersh/homework-10/
 
 ### Practice 12: HW8 deadline
 
@@ -371,13 +376,13 @@ Uncovered topics
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ Advanced monads: Free, Par
++ Advanced monads: Free
 + Arrows and categories
 + Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
 + Compiler optimizations
 + Databases (persistent, acid-state)
-+ Streams, Pipes (Conduit, CloudHaskell)
-+ Network and WEB (Scotty, Yesod, Snap, Warp, Hakyll)
++ Streams, Pipes
++ Network and WEB (Scotty, Yesod, Snap, Warp, Hakyll, Conduit, CloudHaskell)
 + JSON, CSV (Aeson)
 + Testing (QuickCheck, SmallCheck)
 + FFI
