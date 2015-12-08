@@ -28,7 +28,7 @@ Haskell ITMO course at CTD
 + [Lecture 11: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
 + [Lecture 12: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-template-haskell-and-lens-by-arseniy-seroka)
 + [Lecture 13: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
-+ [Lecture 14: Little bit of everything](https://github.com/jagajaga/FP-Course-2015#lecture-14-gui-in-haskell-by-arseniy-seroka)
++ [Lecture 14: Little bit of everything](https://github.com/jagajaga/FP-Course-2015#lecture-14-little-bit-of-everything-by-arseniy-seroka)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
 + [Lecture 16: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-16-advanced-types-part-3-by-arseniy-seroka)
 
