@@ -7,9 +7,7 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 13 (16)
-
-**homeworks covered:** 10 (11)
+**lectures covered:** 14 (16)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -30,7 +28,7 @@ Haskell ITMO course at CTD
 + [Lecture 11: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
 + [Lecture 12: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-template-haskell-and-lens-by-arseniy-seroka)
 + [Lecture 13: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
-+ [Lecture 14: GUI in Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-14-gui-in-haskell-by-arseniy-seroka)
++ [Lecture 14: Little bit of everything](https://github.com/jagajaga/FP-Course-2015#lecture-14-gui-in-haskell-by-arseniy-seroka)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
 + [Lecture 16: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-16-advanced-types-part-3-by-arseniy-seroka)
 
@@ -45,6 +43,7 @@ Haskell ITMO course at CTD
 + [Homework 8](http://slides.com/shersh/homework-8/)
 + [Homework 9](http://slides.com/shersh/homework-9/)
 + [Homework 10](http://slides.com/shersh/homework-10/)
++ [Homework 11](http://slides.com/shersh/homework-11/)
 
 Week 1
 ------
@@ -344,14 +343,22 @@ Week 13
 
 Week 14
 -------
-### Lecture 14: GUI in Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ gtk
-+ wxwidgets
-+ opengl!
-+ api
-+ simple examples
-  * haskell-CG
-  * xmonad as WM
+### Lecture 14: Little bit of everything (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ Build tools
+  * Cabal
+  * Stack
+  * Nix
++ Testing: QuickCheck
++ What is FFI?
++ GUI: gtk
++ Databases
+  * SQL
+  * acid-state
++ Network.HTTP
++ Web.Scotty
+
+#### [Presentation](https://docs.google.com/presentation/d/1olvryHiURxeHSftdGW0zBx8me3kw3USm8VS2ZaVyyLg/edit?usp=sharing) 
+#### Homework 11: http://slides.com/shersh/homework-11/
 
 ### Practice 13: HW9 deadline
 
@@ -372,19 +379,20 @@ Week 16
 + GADT's
 + Type families
 
+### Practice 15: HW11 deadline
+
 Uncovered topics
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ Advanced monads: Free
-+ Arrows and categories
++ Advanced monads: Free, IxMonad
++ Arrows
 + Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
 + Compiler optimizations
-+ Databases (persistent, acid-state)
++ Databases (persistent)
 + Streams, Pipes
-+ Network and WEB (Scotty, Yesod, Snap, Warp, Hakyll, Conduit, CloudHaskell)
++ Network and WEB (Yesod, Snap, Warp, Hakyll, Conduit, CloudHaskell)
 + JSON, CSV (Aeson)
-+ Testing (QuickCheck, SmallCheck)
-+ FFI
++ Testing (SmallCheck)
 + Ghc internals
 + Zygohistomorphic prepromorphisms
