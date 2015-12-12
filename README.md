@@ -7,7 +7,7 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 14 (16)
+**lectures covered:** 15 (16)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -365,10 +365,17 @@ Week 14
 Week 15
 -------
 ### Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ *forall*
-+ ExistensialQuantification, RankNTypes, udecidability
-+ FunctionalDependencies
++ **forall**
++ _ExistensialQuantification_, _Rank2Types_, _RankNTypes_
++ Examples
+  * ShowBox
+  * ST
+  * Type constraints
++ FunDeps
 + _Cont_ monad and CPS
++ GADTs
+
+#### Presentation: http://slides.com/shersh/lecture-15/
 
 ### Practice 14: HW10 deadline
 
@@ -376,7 +383,6 @@ Week 16
 -------
 ### Lecture 16: Advanced types, part 3 (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + comonads
-+ GADT's
 + Type families
 
 ### Practice 15: HW11 deadline
