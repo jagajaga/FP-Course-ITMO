@@ -7,7 +7,7 @@ Haskell ITMO course at CTD
 
 ***
 
-**lectures covered:** 15 (16)
+**lectures covered:** 16 (17)
 
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
@@ -30,7 +30,8 @@ Haskell ITMO course at CTD
 + [Lecture 13: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
 + [Lecture 14: Little bit of everything](https://github.com/jagajaga/FP-Course-2015#lecture-14-little-bit-of-everything-by-arseniy-seroka)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
-+ [Lecture 16: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-16-advanced-types-part-3-by-arseniy-seroka)
++ [Lecture 16: Comonads](https://github.com/jagajaga/FP-Course-2015#lecture-16-comonads-by-arseniy-seroka)
++ [Lecture 17: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-17-advanced-types-part-3-by-arseniy-seroka)
 
 #### Homeworks 
 + [Homework 1](http://slides.com/shersh/homework-1/) 
@@ -303,7 +304,7 @@ Week 11
 #### Presentation: http://slides.com/shersh/lecture-11/
 #### Homework 8: http://slides.com/shersh/homework-8/
 
-### Practice 10
+### Practice 9
 
 Week 12
 -------
@@ -321,7 +322,7 @@ Week 12
 #### [Presentation](https://docs.google.com/presentation/d/1TMqVHW8b7YQDSZUTh-LGouG9gNYFoUT-jewzFPU6lsQ/edit?usp=sharing) 
 #### Homework 9: http://slides.com/shersh/homework-9/
 
-### Practice 11: HW7 deadline
+### Practice 10: HW7 deadline
 
 Week 13
 -------
@@ -339,7 +340,7 @@ Week 13
 #### Presentation: http://slides.com/shersh/lecture-13/
 #### Homework 10: http://slides.com/shersh/homework-10/
 
-### Practice 12: HW8 deadline
+### Practice 11: HW8 deadline
 
 Week 14
 -------
@@ -360,7 +361,7 @@ Week 14
 #### [Presentation](https://docs.google.com/presentation/d/1olvryHiURxeHSftdGW0zBx8me3kw3USm8VS2ZaVyyLg/edit?usp=sharing) 
 #### Homework 11: http://slides.com/shersh/homework-11/
 
-### Practice 13: HW9 deadline
+### Practice 12: HW9 deadline
 
 Week 15
 -------
@@ -377,22 +378,37 @@ Week 15
 
 #### Presentation: http://slides.com/shersh/lecture-15/
 
-### Practice 14: HW10 deadline
+### Practice 13: HW10 deadline
 
 Week 16
 -------
-### Lecture 16: Advanced types, part 3 (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ comonads
-+ Type families
+### Lecture 16: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ Zippers
+  * List zipper
+  * Zipper via derivative
++ Comonad
+  * Game of Life
+  * Bulder pattern
+  * Iterator pattern
+  * Environment pattern
++ Arrows: pictures
 
-### Practice 15: HW11 deadline
+### [Presentation](https://docs.google.com/presentation/d/1N3IsDn_GT-5qx-XALsywtcWmPuQkPHyY5oDZU0aVmNo/edit?usp=sharing)
+
+### Practice 14: HW11 deadline
+
+Week 17
+-------
+### Lecture 17: Advanced types, part 3 (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub") and [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ Arrows: theory
++ _Free_ monad
++ Type families
 
 Uncovered topics
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ Advanced monads: Free, IxMonad
-+ Arrows
++ Advanced monads: Effect Monad (IxMonad was earlier, now deprecated)
 + Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
 + Compiler optimizations
 + Databases (persistent)
