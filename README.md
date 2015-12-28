@@ -3,12 +3,6 @@ Haskell ITMO course at CTD
 
 ***
 
-**_work in progress, stay tuned!_**
-
-***
-
-**lectures covered:** 16 (17)
-
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
 ### Course plan
@@ -31,7 +25,7 @@ Haskell ITMO course at CTD
 + [Lecture 14: Little bit of everything](https://github.com/jagajaga/FP-Course-2015#lecture-14-little-bit-of-everything-by-arseniy-seroka)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
 + [Lecture 16: Comonads](https://github.com/jagajaga/FP-Course-2015#lecture-16-comonads-by-arseniy-seroka)
-+ [Lecture 17: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-17-advanced-types-part-3-by-arseniy-seroka)
++ [Lecture 17: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-17-advanced-types-part-3-by-dmitry-kovanikov)
 
 #### Homeworks 
 + [Homework 1](http://slides.com/shersh/homework-1/) 
@@ -399,10 +393,12 @@ Week 16
 
 Week 17
 -------
-### Lecture 17: Advanced types, part 3 (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub") and [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ Arrows: theory
+### Lecture 17: Advanced types, part 3 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + _Free_ monad
 + Type families
++ Dependent types (special guest: [Pyankova Julia](https://github.com/yulya3102 "yulia3102's GitHub"))
+
+#### Presentation: http://slides.com/shersh/lecture-17/
 
 Uncovered topics
 ----------------
