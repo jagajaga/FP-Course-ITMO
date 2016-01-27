@@ -195,7 +195,7 @@ Week 6
 + liftAN
 + _Foldable_ type class
 + _Traversable_ type class (and instances for _Maybe_, _List_)
-+ Type classed hierarchy (_Foldable_, _Functor_, _Functor_, _Applicative_, _Alternative_, _Monad_, _MonadPlus_)
++ Type classed hierarchy (_Foldable_, _Traversable_, _Functor_, _Applicative_, _Alternative_, _Monad_, _MonadPlus_)
 + examples:
   * [_ZipList_](https://en.wikibooks.org/wiki/Haskell/Applicative_Functors)
   * [_User_](https://pbrisbin.com/posts/applicative_functors/)
