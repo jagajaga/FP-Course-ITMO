@@ -1,8 +1,6 @@
 Haskell ITMO course at CTD
 ==========================
 
-***
-
 > Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
 
 ### Course plan
