@@ -25,25 +25,28 @@ Haskell ITMO course at CTD
 + [Lecture 16: Comonads](https://github.com/jagajaga/FP-Course-2015#lecture-16-comonads-by-arseniy-seroka)
 + [Lecture 17: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-17-advanced-types-part-3-by-dmitry-kovanikov)
 
-#### Homeworks 
-+ [Homework 1](http://slides.com/shersh/homework-1/) 
-+ [Homework 2](http://slides.com/shersh/homework-2/)
-+ [Homework 3](http://slides.com/shersh/homework-3/)
-+ [Homework 4](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit#slide=id.p)
-+ [Homework 5](http://slides.com/shersh/homework-5/) 
-+ [Homework 6](http://slides.com/shersh/homework-6/)
-+ [Homework 7](http://slides.com/shersh/homework-7/)
-+ [Homework 8](http://slides.com/shersh/homework-8/)
-+ [Homework 9](http://slides.com/shersh/homework-9/)
-+ [Homework 10](http://slides.com/shersh/homework-10/)
-+ [Homework 11](http://slides.com/shersh/homework-11/)
+#### Homeworks
++ [Homework 1](http://slides.com/fp-ctd/hw-1#/)
++ [Homework 2](http://slides.com/fp-ctd/hw-2#/)
++ [Homework 3](http://slides.com/fp-ctd/hw-3#/)
++ [Homework 4](http://slides.com/fp-ctd/hw-4#/)
++ [Homework 5](http://slides.com/fp-ctd/hw-5#/)
++ [Homework 6](http://slides.com/fp-ctd/hw-6#/)
++ [Homework 7](http://slides.com/fp-ctd/hw-7#/)
++ [Homework 8](http://slides.com/fp-ctd/hw-8#/)
++ [Homework 9](http://slides.com/fp-ctd/hw-9#/)
++ [Homework 10](http://slides.com/fp-ctd/hw-10#/)
++ [Homework 11](http://slides.com/fp-ctd/hw-11#/)
++ [Homework 12](http://slides.com/fp-ctd/hw-12#/)
++ [Homework 13](http://slides.com/fp-ctd/hw-13#/)
++ [Homework 14](http://slides.com/fp-ctd/hw-14#/)
 
 Week 1
 ------
 ### Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + About Haskell
-  * [Haskell (official site)](https://www.haskell.org/)
-  * [Haskell (ru-wiki)](https://ru.wikipedia.org/wiki/Haskell)
+  * [Haskell Lang (official site)](https://haskell-lang.org/)
+  * [Haskell (wiki)](https://en.wikibooks.org/wiki/Haskell)
   * [Comparison of functional programming languages](https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages)
 + Reallife examples
   * Facebook's [haxl](https://github.com/facebook/Haxl)
@@ -51,122 +54,109 @@ Week 1
   * [pandoc](https://github.com/jgm/pandoc)
   * [hbro](https://github.com/k0ral/hbro)
   * [xmonad](https://github.com/xmonad)
-  * [parsec](https://github.com/aslatter/parsec)
-  * [ICFP](http://icfpcontest.org/)
-  * Nice examples from here: https://wiki.haskell.org/Haskell_a_la_carte
+  * [Leksah: Haskell IDE](http://leksah.org/)
+  * [darcs](http://darcs.net/)
+  * [git-annex](http://git-annex.branchable.com/)
+  * [RSCoin implementation](https://github.com/input-output-hk/rscoin-haskell)
 + FP and Haskell paradigms
-  * immutability
-  * purity
-  * strong typing
-  * lazy evaluation
-
-### Lecture 2: Getting started with Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ instructions of how to install haskell, cabal; couple words about ghci
+  * Immutability
+  * Purity
+  * Strong typing
+  * Lazy evaluation
++ instructions of how to install haskell, stack; couple words about ghci
 + IDE's for Haskell
   * https://wiki.haskell.org/IDEs
-+ simple examples
-  * type notation (fixed like Int or Double)
-  * binary operations
-  * calc-like structures
-  * other simple examples in ghci
-+ few words about modules and haskell infrastructure
-+ suggested tutorials and other online useful courses
++ suggested tutorials and other useful online courses
   * [LearnYouAHaskell](http://learnyouahaskell.com/)
+  * [bitemyapp: learnhaskell](https://github.com/bitemyapp/learnhaskell)
   * [anton-k-github](http://anton-k.github.io/ru-haskell-book/book/home.html)
-  * [Haskell in Real Life](http://book.realworldhaskell.org/read/)
   * [OHaskell](http://ohaskell.dshevchenko.biz/)
-  * [FPComplete](https://www.fpcomplete.com/)
+  * [SchoolOfHaskell](https://www.schoolofhaskell.com/)
   * [YAHT](https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial)
+  * [How I start Haskell](http://www.howistart.org/posts/haskell/1)
 
-Week 2
-------
-
-> _Next two lectures contain a lot of examples on Java, C++, some of them will also be on Python, [Kotlin](http://kotlinlang.org/), [Rust](https://www.rust-lang.org/) and other languages_
-
-### Lecture 3: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ Difference between statement and expression
 + Functions
   * ordinary
   * generic
-+ Difference between statement and expression
-+ Lambda (anonymous functions)
++ Lists and functions on lists
++ Lambdas (anonymous functions)
 + **let** (variable declaration)
 + **where** clause
 + **if** expression
 + **guards**
 + **case** expression
-+ Lists
 + Higher order functions
   * examples on other languages
   * standard Haskell HOFs: map, filter, foldr, etc.
 + Currying (aka partial application)
-+ Pattern matching  
++ Pattern matching
 + Function composition and application: (.) ($)
 + Ranges
 + List comprehension
 
-#### Presentation: http://slides.com/shersh/lecture-3/
+#### Presentation: http://slides.com/fp-ctd/lecture-2#/
+#### Homework 1: http://slides.com/fp-ctd/hw-1#/
 
-### Lecture 4: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+Week 2
+------
+### Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + **type**: type aliases
 + ADT's (algebraic data types):
   * sum types (aka enums)
   * product types (aka **struct**'s in C++ or **class**'es in Java)j
 + **data** and examples
++ Record syntax
 + Type classes: **class**
 + **instance**
   * compare to Java interface
   * examples of standard classes: _Eq_, _Ord_
-+ **deriving** and _autoderiving_
-+ Record syntax
++ **deriving**
 + Type constraints (or type bounds)
++ Deprecated _DataTypeContexts_
++ Modules cheatsheet
 
-#### Presentation: http://slides.com/shersh/lecture-4/
-#### Homework 1: http://slides.com/shersh/homework-1/
+#### Presentation: http://slides.com/fp-ctd/lecture-3#/
+#### Homework 2: http://slides.com/fp-ctd/hw-2#/
 
 Week 3
 ------
-### Lecture 5: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ DataType contexts: data (Show a) => Exp a = Const a | Eq (Exp a) (Exp a)
-+ Introducing _Maybe_
-  * **data** Maybe a = Nothing | Just a
-  * compare to C++ (boost::optional), Java (Optional<T>)
+### Lecture 4: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + _kinds_
-+ Higher order instances (instances for types with _kind_: \* -> \*)
-+ Using of types to store information
-+ **newtype**: newtype Sum a = Sum a
++ Higher kinded types
++ Phantom types
++ **newtype**
 + _foldr_ and _foldl_
 + Useful _Monoid_ class:
   * examples and applications
   * foldrs on monoids
   * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
++ _Foldable_ type class
 + Language Extensions
-  * [OverloadedStrings](http://kwangyulseo.com/tag/overloadedstrings/)
   * [TypeSynonyms](https://ghc.haskell.org/trac/haskell-prime/wiki/TypeSynonymInstances)
   * [FlexibleInstances](https://ghc.haskell.org/trac/haskell-prime/wiki/FlexibleInstances)
   * [GeneralizedNewtypeDeriving](https://ghc.haskell.org/trac/haskell-prime/wiki/NewtypeDeriving)
   * [MultiParamTypeClasses](https://wiki.haskell.org/Multi-parameter_type_class)
   * [RecordsWildCards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html)
+  * [MultiWayIf and others](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions)
 
-#### Presentation: http://slides.com/shersh/lecture-5/
-#### Homework 2: http://slides.com/shersh/homework-2/
-
-### Practice 1
+#### Presentation: http://slides.com/fp-ctd/lecture-4#/
+#### Homework 3: http://slides.com/fp-ctd/hw-3#/
 
 Week 4
 ------
-
 ### CW1: Haskell Basics
 1. Some simple program in 2 lines
 2. Some simple program in 3-7 lines
 3. Implement some simple Data Structure
 4. Implement some type classes
 
-### Practice 2: HW1 deadline
-
 Week 5
-------  
-### Lecture 6: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+------
+### Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Talk about boxes
++ What is Monad?
 + Monad type class with some additions, monad laws
 + _Maybe_ as example, philosophy about null-safety
 + _Identity_ monad instance
@@ -176,98 +166,69 @@ Week 5
 + _join_
 + useful Monad functions
 
-#### Presentation: http://slides.com/shersh/lecture-6/
-#### Homework 3: http://slides.com/shersh/homework-3/
-
-### Practice 3: HW2 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-5#/
+#### Homework 4: http://slides.com/fp-ctd/hw-4#/
 
 Week 6
 ------
-### Lecture 7: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ fmap
-+ _Functor_ type class with examples (_Maybe_, _List_, _Function_)
-+ _Applicative_ type class with examples (_Maybe_, _List_, _Function_)
-  * what for
-  * pure
-  * <*>
+### Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ _Functor_
++ _Applicative_
+  * ZipList
 + liftAN
 + _Foldable_ type class
++ Type classed hierarchy
 + _Traversable_ type class (and instances for _Maybe_, _List_)
-+ Type classed hierarchy (_Foldable_, _Traversable_, _Functor_, _Applicative_, _Alternative_, _Monad_, _MonadPlus_)
-+ examples:
-  * [_ZipList_](https://en.wikibooks.org/wiki/Haskell/Applicative_Functors)
-  * [_User_](https://pbrisbin.com/posts/applicative_functors/)
-  * [_Applicative parser_](https://robots.thoughtbot.com/applicative-options-parsing-in-haskell)
-  * [_Small things_](http://stackoverflow.com/questions/6570779/why-should-i-use-applicative-functors-in-functional-programming)
-  * [_Accumulation of expression_](http://anton-k.github.io/ru-haskell-book/book/7.html)
-  * [_Applicative command line arguments parser_](https://github.com/pcapriotti/optparse-applicative) !
 
-##### Read: [LearnYouAHaskell (chapter 11)](http://learnyouahaskell.com/functors-applicative-functors-and-monoids)
-
-#### [Presentation](https://docs.google.com/presentation/d/1pu1TMSh5Xq4SuxBUdmTsVPqrY_LLRHnup6SW8RSIRO4/edit?usp=sharing)
-#### [Homework 4](https://docs.google.com/presentation/d/1dP17Ktys1nGTtGD7Eguty7I4CRUWY5C0MzTTxc3H_xs/edit?usp=sharing)
-
-### Practice 4
+#### Presentation: http://slides.com/fp-ctd/lecture-6#/
+#### Homework 5: http://slides.com/fp-ctd/hw-5#/
 
 Week 7
 ------
-### Lecture 8: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + _Writer_ monad
 + _Reader_ monad
-+ Typed holes (since ghc 7.8)
++ Typed holes
++ Partial type signatures
 + _State_ monad
   * example 1: stack as state
   * example 2: depth first search
   * where to find _State_ monad in std library, different useful functions
++ _RWS_ monad
 
-#### Presentation: http://slides.com/shersh/lecture-8/
-#### Homework 5: http://slides.com/shersh/homework-5/
-
-### Practice 5: HW3 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-7#/
+#### Homework 6: http://slides.com/fp-ctd/hw-6#/
 
 Week 8
 ------
-### Lecture 9: IO (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-
+### Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Recall pure functions
 + Realize impureness of IO
-+ Building IO system
++ Building IO system from scratch
 + Introduce IO monad
 + _do_ notation, syntax sugar
 + Mutable data: [_IORef_](https://hackage.haskell.org/package/base-4.8.1.0/docs/Data-IORef.html) and [_IOArray_](https://hackage.haskell.org/package/array-0.5.1.0)
 + _sequence\__
 + Exceptions (_catch_, _throwIO_, etc.)
++ _unsafePerformIO_ and _unsafeInterleaveIO_
++ Efficient Strint representations: _Text_, _ByteString_
 
-### Bonus: Intro to category theory (by [Nikita Lisitsa](https://github.com/lisyarus "lisyarus's GitHub"))
-Answering on question: Why monad is monoid in category of endofunctors?
-#### [Category Theory: Intro](http://slides.com/lisyarus/category-theory-1/)
-
-##### Read: 
-+ [LearnYouAHaskell (chapter 9)](http://learnyouahaskell.com/input-and-output)
-+ [IO inside](https://wiki.haskell.org/IO_inside)
-+ [anton-k IO](http://anton-k.github.io/ru-haskell-book/book/8.html)
-+ [Real World Haskell (chapters 7-9)](http://book.realworldhaskell.org/read/)
-
-#### [Presentation](https://docs.google.com/presentation/d/1e1qswvzO2iZoUKRdnaQ6Ymv6BIaqW-PrEJZ8Ck2vIdQ/edit?usp=sharing)
-#### Homework 6: http://slides.com/shersh/homework-6/
-
-### Practice 6: HW4 deadline
+#### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
+#### Homework 7: http://slides.com/fp-ctd/hw-7#/
 
 Week 9
 ------
 
-### Lecture 10: Unsafe IO + Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ _unsafePerformIO_
-+ _unsafeInterleaveIO_, state tokens
-+ _Text_, _ByteString_
+### Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ Composing monads
 + MaybeIO example
++ _MonadTrans_
 + _MaybeT_ transformer
 + _ReaderT_ transformer
++ _mtl_ style of transformation
 
-#### [Presentation](https://docs.google.com/presentation/d/1TdlB693yCCE-Te4ZA8dxoYGvopfs0IiSrJcrffjsf3E/edit?usp=sharing)
-#### Homework 7: http://slides.com/shersh/homework-7/
-
-### Practice 7: HW5 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-9#/
+#### Homework 8: http://slides.com/fp-ctd/hw-8#/
 
 Week 10
 -------
@@ -276,14 +237,11 @@ Week 10
 2. Prove equivalence of some definitions
 3. Write smth with transformers and IO
 
-### Practice 8: HW6 deadline
-
 Week 11
 -------
-### Lecture 11: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ recall haskell lazyness
-+ list concatenation pitfalls and _Difference List_
-+ _foldr_ vs. _foldl_
+### Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ List concatenation pitfalls and _Difference List_
++ _foldr_ vs. _foldl_ vs. _foldl'__
 + WHNF (weak head normal form)
 + _seq_, _deepseq_, _NFData_
 + Irrefutable patterns
@@ -293,110 +251,89 @@ Week 11
 + _ST_ monad (_STRef_, _STArray_)
 + Criterion
 
-#### Presentation: http://slides.com/shersh/lecture-11/
-#### Homework 8: http://slides.com/shersh/homework-8/
-
-### Practice 9
+#### Presentation: http://slides.com/fp-ctd/lecture-10#/
+#### Homework 9: http://slides.com/fp-ctd/hw-9#/
 
 Week 12
 -------
-### Lecture 12: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Template Haskell
   * boilerplating tuple code
-  * Quasi Quotes
   * Generate Automatic Instances
 + Lens
-  * Creating own simple lens
+  * Creating our simple lens
   * Introducing real Lens'
   * Nice example with real lens (_view_, _traversed_, _filtered_, _zoom_)
 + Prism
 
-#### [Presentation](https://docs.google.com/presentation/d/1TMqVHW8b7YQDSZUTh-LGouG9gNYFoUT-jewzFPU6lsQ/edit?usp=sharing) 
-#### Homework 9: http://slides.com/shersh/homework-9/
-
-### Practice 10: HW7 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-11#/
+#### Homework 10: http://slides.com/fp-ctd/hw-10#/
 
 Week 13
 -------
-### Lecture 13: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+### Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Advantages of immutability and purity
 + Haskell parallelism with `rpar` and `rseq`
 + Threadscope
 + Strategies
-+ _Par_ monad examples 
++ _Par_ monad examples
 + Difference between _Parallelism_ and _Concurrency_
 + _forkIO_ and _MVar_
 + Transactions: STM, TVar
 + Async
 
-#### Presentation: http://slides.com/shersh/lecture-13/
-#### Homework 10: http://slides.com/shersh/homework-10/
-
-### Practice 11: HW8 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-12#/
+#### Homework 11: http://slides.com/fp-ctd/hw-11#/
 
 Week 14
 -------
-### Lecture 14: Little bit of everything (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+### Lecture 13: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Build tools
   * Cabal
   * Stack
   * Nix
-+ Testing: QuickCheck
-+ What is FFI?
-+ GUI: gtk
++ Testing: HSpec, QuickCheck
++ FFI
++ GUI: gtk (online demo)
 + Databases
   * SQL
   * acid-state
 + Network.HTTP
 + Web.Scotty
 
-#### [Presentation](https://docs.google.com/presentation/d/1olvryHiURxeHSftdGW0zBx8me3kw3USm8VS2ZaVyyLg/edit?usp=sharing) 
-#### Homework 11: http://slides.com/shersh/homework-11/
-
-### Practice 12: HW9 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-13#/
+#### Homework 12: http://slides.com/fp-ctd/hw-12#/
 
 Week 15
 -------
+### Lecture 14: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
++ Zippers
+  * List zipper
+  * Zipper via derivative
++ Comonad
+  * Game of Life
+
+#### Presentation: http://slides.com/fp-ctd/lecture-14#/
+#### Homework 12: http://slides.com/fp-ctd/hw-13#/
+
+Week 16
+-------
 ### Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
++ GADTs
 + **forall**
 + _ExistensialQuantification_, _Rank2Types_, _RankNTypes_
 + Examples
   * ShowBox
   * ST
   * Type constraints
-+ FunDeps
-+ _Cont_ monad and CPS
-+ GADTs
++ Free monad
++ Rank'N'Classy
 
-#### Presentation: http://slides.com/shersh/lecture-15/
-
-### Practice 13: HW10 deadline
-
-Week 16
--------
-### Lecture 16: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
-+ Zippers
-  * List zipper
-  * Zipper via derivative
-+ Comonad
-  * Game of Life
-  * Bulder pattern
-  * Iterator pattern
-  * Environment pattern
-+ Arrows: pictures
-
-### [Presentation](https://docs.google.com/presentation/d/1N3IsDn_GT-5qx-XALsywtcWmPuQkPHyY5oDZU0aVmNo/edit?usp=sharing)
-
-### Practice 14: HW11 deadline
+#### Presentation: http://slides.com/fp-ctd/lecture-15#/
 
 Week 17
 -------
-### Lecture 17: Advanced types, part 3 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
-+ _Free_ monad
-+ Type families
-+ Dependent types (special guest: [Pyankova Julia](https://github.com/yulya3102 "yulia3102's GitHub"))
-
-#### Presentation: http://slides.com/shersh/lecture-17/
+### Lecture 16: TBA
 
 Uncovered topics
 ----------------
@@ -405,9 +342,8 @@ Uncovered topics
 + Advanced monads: Effect Monad (IxMonad was earlier, now deprecated)
 + Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
 + Compiler optimizations
-+ Databases (persistent)
-+ Streams, Pipes
-+ Network and WEB (Yesod, Snap, Warp, Hakyll, Conduit, CloudHaskell)
++ Streams, Pipes, Conduit
++ Network and WEB (Yesod, Snap, Warp, Hakyll, CloudHaskell)
 + JSON, CSV (Aeson)
 + Testing (SmallCheck)
 + Ghc internals
