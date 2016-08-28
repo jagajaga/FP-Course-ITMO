@@ -48,7 +48,6 @@ Week 1
   * [Comparison of functional programming languages](https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages)
 + Reallife examples
   * Facebook's [haxl](https://github.com/facebook/Haxl)
-  * [NixOS](https://github.com/NixOS)
   * [pandoc](https://github.com/jgm/pandoc)
   * [hbro](https://github.com/k0ral/hbro)
   * [xmonad](https://github.com/xmonad)
@@ -56,6 +55,7 @@ Week 1
   * [darcs](http://darcs.net/)
   * [git-annex](http://git-annex.branchable.com/)
   * [RSCoin implementation](https://github.com/input-output-hk/rscoin-haskell)
+  * [Different tehcnologies](https://www.reddit.com/r/haskell/comments/4p82jy/what_haskell_technologies_should_i_probably_be/)
 + FP and Haskell paradigms
   * Immutability
   * Purity
