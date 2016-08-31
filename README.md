@@ -73,6 +73,8 @@ Week 1
   * [YAHT](https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial)
   * [How I start Haskell](http://www.howistart.org/posts/haskell/1)
 
+#### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
+
 ### Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Difference between statement and expression
 + Functions
