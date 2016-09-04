@@ -61,17 +61,20 @@ Week 1
   * Purity
   * Strong typing
   * Lazy evaluation
-+ instructions of how to install haskell, stack; couple words about ghci
-+ IDE's for Haskell
-  * https://wiki.haskell.org/IDEs
-+ suggested tutorials and other useful online courses
-  * [LearnYouAHaskell](http://learnyouahaskell.com/)
-  * [bitemyapp: learnhaskell](https://github.com/bitemyapp/learnhaskell)
-  * [anton-k-github](http://anton-k.github.io/ru-haskell-book/book/home.html)
++ Instructions of how to intall ghc and stack; couple words about ghci
++ Editors for Haskell
+  * [IDE's](https://wiki.haskell.org/IDEs)
+  * [Editor tooling](http://dev.stephendiehl.com/editor_talk.html)
++ Suggested tutorials and other useful online courses
+  * [Try Haskell!](https://tryhaskell.org/)
   * [OHaskell](http://ohaskell.dshevchenko.biz/)
+  * [bitemyapp: learnhaskell](https://github.com/bitemyapp/learnhaskell)
+  * [LearnYouAHaskell](http://learnyouahaskell.com/)
+  * [anton-k-github (ru)](http://anton-k.github.io/ru-haskell-book/book/home.html)
   * [SchoolOfHaskell](https://www.schoolofhaskell.com/)
   * [YAHT](https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial)
   * [How I start Haskell](http://www.howistart.org/posts/haskell/1)
+  * [StackOverflow :: Getting Started with Haskell](http://stackoverflow.com/questions/1012573/getting-started-with-haskell?rq=1)
 
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
 
