@@ -1,9 +1,9 @@
 Haskell ITMO course at CTD
 ==========================
 
-> Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"). Homeworks are written in russian for students.
+> Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub").
 
-### Course plan
+## Course plan
 
 #### Lectures
 + [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-1-why-fp-and-haskell-by-arseniy-seroka)
@@ -24,24 +24,9 @@ Haskell ITMO course at CTD
 + [Lecture 16: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-17-advanced-types-part-3-by-dmitry-kovanikov)
 
 #### Homeworks
-+ [Homework 1](http://slides.com/fp-ctd/hw-1#/)
-+ [Homework 2](http://slides.com/fp-ctd/hw-2#/)
-+ [Homework 3](http://slides.com/fp-ctd/hw-3#/)
-+ [Homework 4](http://slides.com/fp-ctd/hw-4#/)
-+ [Homework 5](http://slides.com/fp-ctd/hw-5#/)
-+ [Homework 6](http://slides.com/fp-ctd/hw-6#/)
-+ [Homework 7](http://slides.com/fp-ctd/hw-7#/)
-+ [Homework 8](http://slides.com/fp-ctd/hw-8#/)
-+ [Homework 9](http://slides.com/fp-ctd/hw-9#/)
-+ [Homework 10](http://slides.com/fp-ctd/hw-10#/)
-+ [Homework 11](http://slides.com/fp-ctd/hw-11#/)
-+ [Homework 12](http://slides.com/fp-ctd/hw-12#/)
-+ [Homework 13](http://slides.com/fp-ctd/hw-13#/)
-+ [Homework 14](http://slides.com/fp-ctd/hw-14#/)
+[Homework 1](http://slides.com/fp-ctd/hw-1#/) | [Homework 2](http://slides.com/fp-ctd/hw-2#/) | [Homework 3](http://slides.com/fp-ctd/hw-3#/) | [Homework 4](http://slides.com/fp-ctd/hw-4#/) | [Homework 5](http://slides.com/fp-ctd/hw-5#/) | [Homework 6](http://slides.com/fp-ctd/hw-6#/) | [Homework 7](http://slides.com/fp-ctd/hw-7#/) | [Homework 8](http://slides.com/fp-ctd/hw-8#/) | [Homework 9](http://slides.com/fp-ctd/hw-9#/) | [Homework 10](http://slides.com/fp-ctd/hw-10#/) | [Homework 11](http://slides.com/fp-ctd/hw-11#/) | [Homework 12](http://slides.com/fp-ctd/hw-12#/) | [Homework 13](http://slides.com/fp-ctd/hw-13#/)
 
-Week 1
-------
-### Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + About Haskell
   * [Haskell Lang (official site)](https://haskell-lang.org/)
   * [Haskell (wiki)](https://en.wikibooks.org/wiki/Haskell)
@@ -78,7 +63,7 @@ Week 1
 
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
 
-### Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Difference between statement and expression
 + Functions
   * ordinary
@@ -102,9 +87,7 @@ Week 1
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
 #### Homework 1: http://slides.com/fp-ctd/hw-1#/
 
-Week 2
-------
-### Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + **type**: type aliases
 + ADT's (algebraic data types):
   * sum types (aka enums)
@@ -123,9 +106,7 @@ Week 2
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 #### Homework 2: http://slides.com/fp-ctd/hw-2#/
 
-Week 3
-------
-### Lecture 4: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 4: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + _kinds_
 + Higher kinded types
 + Phantom types
@@ -147,17 +128,7 @@ Week 3
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 #### Homework 3: http://slides.com/fp-ctd/hw-3#/
 
-Week 4
-------
-### CW1: Haskell Basics
-1. Some simple program in 2 lines
-2. Some simple program in 3-7 lines
-3. Implement some simple Data Structure
-4. Implement some type classes
-
-Week 5
-------
-### Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Talk about boxes
 + What is Monad?
 + Monad type class with some additions, monad laws
@@ -172,9 +143,7 @@ Week 5
 #### Presentation: http://slides.com/fp-ctd/lecture-5#/
 #### Homework 4: http://slides.com/fp-ctd/hw-4#/
 
-Week 6
-------
-### Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + _Functor_
 + _Applicative_
   * ZipList
@@ -186,9 +155,7 @@ Week 6
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
 #### Homework 5: http://slides.com/fp-ctd/hw-5#/
 
-Week 7
-------
-### Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + _Writer_ monad
 + _Reader_ monad
 + Typed holes
@@ -202,9 +169,7 @@ Week 7
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
 #### Homework 6: http://slides.com/fp-ctd/hw-6#/
 
-Week 8
-------
-### Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Recall pure functions
 + Realize impureness of IO
 + Building IO system from scratch
@@ -219,10 +184,7 @@ Week 8
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
 #### Homework 7: http://slides.com/fp-ctd/hw-7#/
 
-Week 9
-------
-
-### Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Composing monads
 + MaybeIO example
 + _MonadTrans_
@@ -233,16 +195,7 @@ Week 9
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 #### Homework 8: http://slides.com/fp-ctd/hw-8#/
 
-Week 10
--------
-### CW2: Monads
-1. Write smth small using simple monads
-2. Prove equivalence of some definitions
-3. Write smth with transformers and IO
-
-Week 11
--------
-### Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + List concatenation pitfalls and _Difference List_
 + _foldr_ vs. _foldl_ vs. _foldl'__
 + WHNF (weak head normal form)
@@ -257,9 +210,7 @@ Week 11
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 #### Homework 9: http://slides.com/fp-ctd/hw-9#/
 
-Week 12
--------
-### Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Template Haskell
   * boilerplating tuple code
   * Generate Automatic Instances
@@ -272,9 +223,7 @@ Week 12
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
 #### Homework 10: http://slides.com/fp-ctd/hw-10#/
 
-Week 13
--------
-### Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + Advantages of immutability and purity
 + Haskell parallelism with `rpar` and `rseq`
 + Threadscope
@@ -288,9 +237,7 @@ Week 13
 #### Presentation: http://slides.com/fp-ctd/lecture-12#/
 #### Homework 11: http://slides.com/fp-ctd/hw-11#/
 
-Week 14
--------
-### Lecture 13: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 13: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Build tools
   * Cabal
   * Stack
@@ -307,9 +254,7 @@ Week 14
 #### Presentation: http://slides.com/fp-ctd/lecture-13#/
 #### Homework 12: http://slides.com/fp-ctd/hw-12#/
 
-Week 15
--------
-### Lecture 14: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 14: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
 + Zippers
   * List zipper
   * Zipper via derivative
@@ -319,9 +264,7 @@ Week 15
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 #### Homework 12: http://slides.com/fp-ctd/hw-13#/
 
-Week 16
--------
-### Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
 + GADTs
 + **forall**
 + _ExistensialQuantification_, _Rank2Types_, _RankNTypes_
@@ -334,9 +277,7 @@ Week 16
 
 #### Presentation: http://slides.com/fp-ctd/lecture-15#/
 
-Week 17
--------
-### Lecture 16: TBA
+## Lecture 16: TBA
 
 Uncovered topics
 ----------------
