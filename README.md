@@ -6,27 +6,27 @@ Haskell ITMO course at CTD
 ## Course plan
 
 #### Lectures
-+ [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-1-why-fp-and-haskell-by-arseniy-seroka)
-+ [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-2015#lecture-2-basic-syntax-by-dmitry-kovanikov)
-+ [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-2015#lecture-3-datas-classes-instances-by-dmitry-kovanikov)
-+ [Lecture 4: Advanced types, part 1](https://github.com/jagajaga/FP-Course-2015#lecture-5-advanced-types-part-1-by-dmitry-kovanikov)
-+ [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-2015#lecture-6-monads-part-1-by-dmitry-kovanikov)
-+ [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-2015#lecture-7-functors-applicative-functors-by-arseniy-seroka)
-+ [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-8-monads-part-2-by-dmitry-kovanikov)
-+ [Lecture 8: IO](https://github.com/jagajaga/FP-Course-2015#lecture-9-io-by-arseniy-seroka)
-+ [Lecture 9: Transformers](https://github.com/jagajaga/FP-Course-2015#lecture-10-unsafe-io--transformers-by-arseniy-seroka)
-+ [Lecture 10: Speeding up Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-11-speeding-up-haskell-by-dmitry-kovanikov)
-+ [Lecture 11: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-2015#lecture-12-template-haskell-and-lens-by-arseniy-seroka)
-+ [Lecture 12: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-2015#lecture-13-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
-+ [Lecture 13: Little bit of everything](https://github.com/jagajaga/FP-Course-2015#lecture-14-little-bit-of-everything-by-arseniy-seroka)
-+ [Lecture 14: Advanced types, part 2](https://github.com/jagajaga/FP-Course-2015#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
-+ [Lecture 15: Comonads](https://github.com/jagajaga/FP-Course-2015#lecture-16-comonads-by-arseniy-seroka)
-+ [Lecture 16: Advanced types, part 3](https://github.com/jagajaga/FP-Course-2015#lecture-17-advanced-types-part-3-by-dmitry-kovanikov)
++ [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka)
++ [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov)
++ [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov)
++ [Lecture 4: Advanced types, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-advanced-types-part-1-by-dmitry-kovanikov)
++ [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads-part-1-by-dmitry-kovanikov)
++ [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-functors-applicative-functors-by-arseniy-seroka)
++ [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-7-monads-part-2-by-dmitry-kovanikov)
++ [Lecture 8: RealWorld](https://github.com/jagajaga/FP-Course-ITMO#lecture-8-realworld-by-arseniy-seroka)
++ [Lecture 9: Monad Transformers](https://github.com/jagajaga/FP-Course-ITMO#lecture-9-monad-transformers-by-arseniy-seroka)
++ [Lecture 10: Speeding up Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-10-speeding-up-haskell-by-dmitry-kovanikov)
++ [Lecture 11: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-ITMO#lecture-11-template-haskell-and-lens-by-arseniy-seroka)
++ [Lecture 12: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-12-parallel-and-concurrent-haskell-by-dmitry-kovanikov)
++ [Lecture 13: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-enterprise-haskell-by-arseniy-seroka)
++ [Lecture 14: Comonads]https://github.com/jagajaga/FP-Course-ITMO#lecture-14-comonads-by-arseniy-seroka)
++ [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-types-part-2-by-dmitry-kovanikov)
++ [Lecture 16: TBA](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-tba)
 
 #### Homeworks
 [Homework 1](http://slides.com/fp-ctd/hw-1#/) | [Homework 2](http://slides.com/fp-ctd/hw-2#/) | [Homework 3](http://slides.com/fp-ctd/hw-3#/) | [Homework 4](http://slides.com/fp-ctd/hw-4#/) | [Homework 5](http://slides.com/fp-ctd/hw-5#/) | [Homework 6](http://slides.com/fp-ctd/hw-6#/) | [Homework 7](http://slides.com/fp-ctd/hw-7#/) | [Homework 8](http://slides.com/fp-ctd/hw-8#/) | [Homework 9](http://slides.com/fp-ctd/hw-9#/) | [Homework 10](http://slides.com/fp-ctd/hw-10#/) | [Homework 11](http://slides.com/fp-ctd/hw-11#/) | [Homework 12](http://slides.com/fp-ctd/hw-12#/) | [Homework 13](http://slides.com/fp-ctd/hw-13#/)
 
-## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + About Haskell
   * [Haskell Lang (official site)](https://haskell-lang.org/)
   * [Haskell (wiki)](https://en.wikibooks.org/wiki/Haskell)
@@ -63,7 +63,7 @@ Haskell ITMO course at CTD
 
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
 
-## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Difference between statement and expression
 + Functions
   * ordinary
@@ -87,7 +87,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
 #### Homework 1: http://slides.com/fp-ctd/hw-1#/
 
-## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + **type**: type aliases
 + ADT's (algebraic data types):
   * sum types (aka enums)
@@ -106,7 +106,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 #### Homework 2: http://slides.com/fp-ctd/hw-2#/
 
-## Lecture 4: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 4: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + _kinds_
 + Higher kinded types
 + Phantom types
@@ -128,7 +128,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 #### Homework 3: http://slides.com/fp-ctd/hw-3#/
 
-## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Talk about boxes
 + What is Monad?
 + Monad type class with some additions, monad laws
@@ -143,7 +143,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-5#/
 #### Homework 4: http://slides.com/fp-ctd/hw-4#/
 
-## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + _Functor_
 + _Applicative_
   * ZipList
@@ -155,7 +155,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
 #### Homework 5: http://slides.com/fp-ctd/hw-5#/
 
-## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + _Writer_ monad
 + _Reader_ monad
 + Typed holes
@@ -169,7 +169,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
 #### Homework 6: http://slides.com/fp-ctd/hw-6#/
 
-## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Recall pure functions
 + Realize impureness of IO
 + Building IO system from scratch
@@ -184,7 +184,7 @@ Haskell ITMO course at CTD
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
 #### Homework 7: http://slides.com/fp-ctd/hw-7#/
 
-## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Composing monads
 + MaybeIO example
 + _MonadTrans_
@@ -195,7 +195,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 #### Homework 8: http://slides.com/fp-ctd/hw-8#/
 
-## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + List concatenation pitfalls and _Difference List_
 + _foldr_ vs. _foldl_ vs. _foldl'__
 + WHNF (weak head normal form)
@@ -210,7 +210,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 #### Homework 9: http://slides.com/fp-ctd/hw-9#/
 
-## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Template Haskell
   * boilerplating tuple code
   * Generate Automatic Instances
@@ -223,7 +223,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
 #### Homework 10: http://slides.com/fp-ctd/hw-10#/
 
-## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Advantages of immutability and purity
 + Haskell parallelism with `rpar` and `rseq`
 + Threadscope
@@ -237,7 +237,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-12#/
 #### Homework 11: http://slides.com/fp-ctd/hw-11#/
 
-## Lecture 13: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 13: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Build tools
   * Cabal
   * Stack
@@ -254,7 +254,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-13#/
 #### Homework 12: http://slides.com/fp-ctd/hw-12#/
 
-## Lecture 14: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub"))
+## Lecture 14: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Zippers
   * List zipper
   * Zipper via derivative
@@ -264,7 +264,7 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 #### Homework 12: http://slides.com/fp-ctd/hw-13#/
 
-## Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub"))
+## Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + GADTs
 + **forall**
 + _ExistensialQuantification_, _Rank2Types_, _RankNTypes_
@@ -277,7 +277,7 @@ Haskell ITMO course at CTD
 
 #### Presentation: http://slides.com/fp-ctd/lecture-15#/
 
-## Lecture 16: TBA
+## Lecture 16: TBA [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 
 Uncovered topics
 ----------------
