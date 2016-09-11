@@ -1,4 +1,5 @@
-{-# LANGUAGE ViewPatterns #-}
+{-# LANGUAGE DeriveFunctor #-}
+{-# LANGUAGE ViewPatterns  #-}
 
 module TreePrinters
        ( Tree (..)
@@ -10,6 +11,7 @@ import           Data.Char (isSpace)
 import           Data.List (maximum)
 
 data Tree a = Leaf | Node a (Tree a) (Tree a)
+    deriving (Functor, Show)
 
 -- | Prints tree like directories inside terminal.
 -- Couple examples are given below.
@@ -78,16 +80,16 @@ directoryPrint = unlines . treeIndent
 --    4
 --
 verticalPrint :: Show a => Tree a -> String
-verticalPrint = unlines . rowPrinter
+verticalPrint = unlines . rowPrinter . fmap show
 
 type TreeRows = [String]
 
-rowPrinter :: Show a => Tree a -> TreeRows
+rowPrinter :: Tree String -> TreeRows
 rowPrinter Leaf                             = []
-rowPrinter (Node (show -> skey) Leaf  Leaf) = [skey]
-rowPrinter (Node (show -> skey) left  Leaf) = connectOneChild skey left
-rowPrinter (Node (show -> skey) Leaf right) = connectOneChild skey right
-rowPrinter (Node (show -> skey) left right) =
+rowPrinter (Node key Leaf  Leaf) = [key]
+rowPrinter (Node key left  Leaf) = connectOneChild key left
+rowPrinter (Node key Leaf right) = connectOneChild key right
+rowPrinter (Node key left right) =
     let lr@(ltop:_)  = rowPrinter left
         rr@(rtop:_)  = rowPrinter right
 
@@ -101,9 +103,9 @@ rowPrinter (Node (show -> skey) left right) =
         leftSubTree  = upEdge ledgePos : lr
         rightSubTree = upEdge redgePos : rr
         childrenRows = mergeChildren leftWidth leftSubTree rightSubTree
-    in attachRows skey (connector:childrenRows)
+    in attachRows key (connector:childrenRows)
 
-connectOneChild :: Show a => String -> Tree a -> TreeRows
+connectOneChild :: String -> Tree String -> TreeRows
 connectOneChild label (rowPrinter -> rows) = attachRows label rows
 
 attachRows :: String -> TreeRows -> TreeRows
