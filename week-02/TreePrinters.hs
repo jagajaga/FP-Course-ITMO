@@ -1,8 +1,13 @@
+{-# LANGUAGE ViewPatterns #-}
+
 module TreePrinters
-        ( Tree (..)
-        , directoryPrint
-        , verticalPrint
-        ) where
+       ( Tree (..)
+       , directoryPrint
+       , verticalPrint
+       ) where
+
+import           Data.Char (isSpace)
+import           Data.List (maximum)
 
 data Tree a = Leaf | Node a (Tree a) (Tree a)
 
@@ -48,13 +53,102 @@ directoryPrint = unlines . treeIndent
         (r:rs) = treeIndent rb
         ls     = treeIndent lb
 
--- | Print tree in vertical and more readable way.
+-- | Print tree vertically in more readable way.
+-- Couple examples are given below.
+--
+--
+-- >>> let t = Node 3 Leaf Leaf
+-- >>> putStr $ verticalPrint t
+-- 3
+--
+-- >>> let t = Node 3 (Node 1 Leaf Leaf) Leaf
+-- >>> putStrLn $ verticalPrint t
+-- 3
+-- |
+-- 1
+--
+-- >>> let t = Node 3 (Node 1 Leaf Leaf) $ Node 123 (Node 4 Leaf Leaf) Leaf
+-- >>> putStrLn $ verticalPrint t
+--   3
+--   |
+--  --
+-- |  |
+-- 1 123
+--    |
+--    4
+--
 verticalPrint :: Show a => Tree a -> String
 verticalPrint = unlines . rowPrinter
 
-rowPrinter :: Show a => Tree a -> [String]
-rowPrinter Leaf                  = []
-rowPrinter (Node key Leaf Leaf)  = [show key]
-rowPrinter (Node key left Leaf)  = undefined
-rowPrinter (Node key Leaf right) = undefined
-rowPrinter (Node key left right) = undefined
+type TreeRows = [String]
+
+rowPrinter :: Show a => Tree a -> TreeRows
+rowPrinter Leaf                             = []
+rowPrinter (Node (show -> skey) Leaf  Leaf) = [skey]
+rowPrinter (Node (show -> skey) left  Leaf) = connectOneChild skey left
+rowPrinter (Node (show -> skey) Leaf right) = connectOneChild skey right
+rowPrinter (Node (show -> skey) left right) =
+    let lr@(ltop:_)  = rowPrinter left
+        rr@(rtop:_)  = rowPrinter right
+
+        ledgePos     = labelMidPosition ltop
+        redgePos     = labelMidPosition rtop
+
+        leftWidth    = 1 + maximum (map length lr)
+        connectorLen = leftWidth + redgePos - 1 - ledgePos
+        connector    = nspaces (ledgePos + 1) ++ replicate connectorLen '-'
+
+        leftSubTree  = upEdge ledgePos : lr
+        rightSubTree = upEdge redgePos : rr
+        childrenRows = mergeChildren leftWidth leftSubTree rightSubTree
+    in attachRows skey (connector:childrenRows)
+
+connectOneChild :: Show a => String -> Tree a -> TreeRows
+connectOneChild label (rowPrinter -> rows) = attachRows label rows
+
+attachRows :: String -> TreeRows -> TreeRows
+attachRows label subTree@(top:_) =
+    let labelMid    = labelMidPosition label
+        topLabelMid = labelMidPosition top
+        shortEdge   = upEdge topLabelMid
+        subTreeRows = shortEdge : subTree
+        padding     = abs (topLabelMid - labelMid)
+        (cur, tree) = if topLabelMid < labelMid
+                      then (label, map (moveRight padding) subTreeRows)
+                      else (moveRight padding label, subTreeRows)
+    in cur : tree
+attachRows _ _ = error "Algorithm error: attach call on empty subtree"
+
+-----------------------------------------
+{- Helpers and other utility functions -}
+-----------------------------------------
+
+middle :: Int -> Int
+middle x = x `div` 2
+
+labelMidPosition :: String -> Int
+labelMidPosition label =
+    let (spaces, value) = span isSpace label
+        valueMid        = middle $ length value
+    in length spaces + valueMid
+
+nspaces :: Int -> String
+nspaces n = replicate n ' '
+
+upEdge :: Int -> String
+upEdge padding = nspaces padding ++ "|"
+
+moveRight :: Int -> String -> String
+moveRight n = (nspaces n ++)
+
+fillRight :: Int -> String -> String
+fillRight len s = s ++ nspaces (len - length s)
+
+mergeChildren :: Int -> TreeRows -> TreeRows -> TreeRows
+mergeChildren lWidth = scanDown
+  where
+    scanDown :: TreeRows -> TreeRows -> TreeRows
+    scanDown    []     []  = []
+    scanDown     l     []  = l
+    scanDown    []  (r:rs) = (nspaces   lWidth   ++ r) : scanDown [] rs
+    scanDown (l:ls) (r:rs) = (fillRight lWidth l ++ r) : scanDown ls rs
