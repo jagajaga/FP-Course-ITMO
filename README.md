@@ -9,7 +9,7 @@ Haskell ITMO course at CTD
 + [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
 + [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
 + [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
-+ [Lecture 4: Advanced types, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-advanced-types-part-1-by-dmitry-kovanikov-)
++ [Lecture 4: Kinda Monoids](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoids-by-dmitry-kovanikov-)
 + [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads-part-1-by-dmitry-kovanikov-)
 + [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-functors-applicative-functors-by-arseniy-seroka-)
 + [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-7-monads-part-2-by-dmitry-kovanikov-)
@@ -100,17 +100,21 @@ Haskell ITMO course at CTD
   * examples of standard classes: _Eq_, _Ord_
 + **deriving**
 + Type constraints (or type bounds)
++ Type classes as Dictionaries
 + Deprecated _DataTypeContexts_
 + Modules cheatsheet
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 #### Homework 2: http://slides.com/fp-ctd/hw-2#/
 
-## Lecture 4: Advanced types, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ _kinds_
-+ Higher kinded types
-+ Phantom types
+## Lecture 4: Kinda Monoids (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + **newtype**
++ Phantom types
++ _kinds_
+  * Basic kinds
+  * Kind polymorphism
+  * Constraint kind
++ Higher kinded types
 + _foldr_ and _foldl_
 + Useful _Monoid_ class:
   * examples and applications
@@ -122,8 +126,8 @@ Haskell ITMO course at CTD
   * [FlexibleInstances](https://ghc.haskell.org/trac/haskell-prime/wiki/FlexibleInstances)
   * [GeneralizedNewtypeDeriving](https://ghc.haskell.org/trac/haskell-prime/wiki/NewtypeDeriving)
   * [MultiParamTypeClasses](https://wiki.haskell.org/Multi-parameter_type_class)
+  * [MultiWayIf & ViewPatterns](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions)
   * [RecordsWildCards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html)
-  * [MultiWayIf and others](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 #### Homework 3: http://slides.com/fp-ctd/hw-3#/
