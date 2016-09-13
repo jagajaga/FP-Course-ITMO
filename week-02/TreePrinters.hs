@@ -60,7 +60,7 @@ directoryPrint = unlines . treeIndent
 --
 --
 -- >>> let t = Node 3 Leaf Leaf
--- >>> putStr $ verticalPrint t
+-- >>> putStrLn $ verticalPrint t
 -- 3
 --
 -- >>> let t = Node 3 (Node 1 Leaf Leaf) Leaf
@@ -85,7 +85,7 @@ verticalPrint = unlines . rowPrinter . fmap show
 type TreeRows = [String]
 
 rowPrinter :: Tree String -> TreeRows
-rowPrinter Leaf                             = []
+rowPrinter Leaf                  = []
 rowPrinter (Node key Leaf  Leaf) = [key]
 rowPrinter (Node key left  Leaf) = connectOneChild key left
 rowPrinter (Node key Leaf right) = connectOneChild key right
