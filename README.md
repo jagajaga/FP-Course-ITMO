@@ -112,8 +112,8 @@ Haskell ITMO course at CTD
 + Phantom types
 + _kinds_
   * Basic kinds
-  * Kind polymorphism
-  * Constraint kind
+  * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
+  * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
 + Higher kinded types
 + _foldr_ and _foldl_
 + Useful _Monoid_ class:
@@ -126,8 +126,9 @@ Haskell ITMO course at CTD
   * [FlexibleInstances](https://ghc.haskell.org/trac/haskell-prime/wiki/FlexibleInstances)
   * [GeneralizedNewtypeDeriving](https://ghc.haskell.org/trac/haskell-prime/wiki/NewtypeDeriving)
   * [MultiParamTypeClasses](https://wiki.haskell.org/Multi-parameter_type_class)
+  * [DuplicateRecordFields](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#duplicate-record-fields)
   * [MultiWayIf & ViewPatterns](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions)
-  * [RecordsWildCards](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html)
+  * [RecordsWildCards](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#record-wildcards)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 #### Homework 3: http://slides.com/fp-ctd/hw-3#/
