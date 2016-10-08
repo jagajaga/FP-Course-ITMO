@@ -1,6 +1,8 @@
 module DFS where
 
-import Control.Monad.State
+import           Control.Monad       (forM_)
+import           Control.Monad.Extra (whenM)
+import           Control.Monad.State (State, evalState, execState, get, gets, modify, put)
 
 -- void dfs(int from, int[][] g, boolean[] visited) {
 --     visited[from] = true;
@@ -24,11 +26,15 @@ dfs from to graph = evalState (reach from) []
                       if v `elem` visited
                       then return False
                       else put (v:visited) >>
-                           gets (or . evalState (mapM reach $ graph !! v))
+                           or <$> mapM reach (graph !! v)
 
-                    --   else withState (v:) get >>= \newVisited ->
-                        --    return $ or $ evalState (mapM reach (graph !! v)) newVisited
-
+dfs' :: Vertex -> Vertex -> Graph -> Bool
+dfs' from to graph = to `elem` execState (visit from) []
+  where
+    visit :: Vertex -> State [Vertex] ()
+    visit v = whenM (gets $ notElem v) $ do
+        modify (v:)
+        forM_ (graph !! v) visit
 
 g1 :: Graph
 g1 = [ [1, 2, 3]  -- 0
