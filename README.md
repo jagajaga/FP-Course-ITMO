@@ -158,14 +158,14 @@ Haskell ITMO course at CTD
 + List comprehension syntax sugar
 + _Traversable_ type class (and instances for _Maybe_, _List_)
 + Automatic deriving
-  * (DeriveFunctor)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances]
-  * (DeriveFoldable)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances]
-  * (DeriveTraversable)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances]
+  * [DeriveFunctor](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
+  * [DeriveFoldable](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
+  * [DeriveTraversable](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances)
 + Type hierarchy proposals
-  * AMP (Applicative/Monad proposal)
-  * FTP (Foldable/Traversable proposal)
-  * MRP (Monad of no return/>> proposal)
-  * MFP (MonadFail proposal)
+  * [AMP](https://ghc.haskell.org/trac/ghc/ticket/8004) (Applicative/Monad proposal)
+  * [FTP](https://ghc.haskell.org/trac/ghc/wiki/Prelude710/FTP) (Foldable/Traversable proposal)
+  * [MRP](https://ghc.haskell.org/trac/ghc/wiki/Proposal/MonadOfNoReturn) (Monad of no return/>> proposal)
+  * [MFP](https://prime.haskell.org/wiki/Libraries/Proposals/MonadFail) (MonadFail proposal)
 + Type classes hierarchy
 
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
