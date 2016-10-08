@@ -150,12 +150,23 @@ Haskell ITMO course at CTD
 
 ## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + _Functor_
++ _Bifunctor_
 + _Applicative_
   * ZipList
-+ liftAN
-+ _Foldable_ type class
-+ Type classed hierarchy
++ _liftAN_ & Applicative style programming
++ _Alternative_
++ List comprehension syntax sugar
 + _Traversable_ type class (and instances for _Maybe_, _List_)
++ Automatic deriving
+  * (DeriveFunctor)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances]
+  * (DeriveFoldable)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances]
+  * (DeriveTraversable)[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances]
++ Type hierarchy proposals
+  * AMP (Applicative/Monad proposal)
+  * FTP (Foldable/Traversable proposal)
+  * MRP (Monad of no return/>> proposal)
+  * MFP (MonadFail proposal)
++ Type classes hierarchy
 
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
 #### Homework 5: http://slides.com/fp-ctd/hw-5#/
