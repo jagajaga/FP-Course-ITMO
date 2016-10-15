@@ -181,6 +181,10 @@ Haskell ITMO course at CTD
   * example 2: depth first search
   * where to find _State_ monad in std library, different useful functions
 + _RWS_ monad
++ _Cont_ monad and Continuation Passing Style (CPS)
+  * Continuations as callbacks
+  * _Cont_ datatype and monadic exampe
+  * _MonadCont_ and _callCC_
 
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
 #### Homework 6: http://slides.com/fp-ctd/hw-6#/
