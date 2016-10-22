@@ -190,14 +190,15 @@ Haskell ITMO course at CTD
 #### Homework 6: http://slides.com/fp-ctd/hw-6#/
 
 ## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ Recall pure functions
-+ Realize impureness of IO
-+ Building IO system from scratch
-+ Introduce IO monad
-+ _do_ notation, syntax sugar
++ Building _IO_ system from scratch
++ Introduce _IO_ monad
++ __do__ notation
+  * Syntax sugar
+  * Applicative Do
+  * RebindableSyntax
 + Mutable data: [_IORef_](https://hackage.haskell.org/package/base-4.8.1.0/docs/Data-IORef.html) and [_IOArray_](https://hackage.haskell.org/package/array-0.5.1.0)
 + _sequence\__
-+ Exceptions (_catch_, _throwIO_, etc.)
++ Exceptions (_catch_, _throwIO_, custom exceptions, _bracket_, etc.)
 + _unsafePerformIO_ and _unsafeInterleaveIO_
 + Efficient Strint representations: _Text_, _ByteString_
 
