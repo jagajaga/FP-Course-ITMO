@@ -223,6 +223,8 @@ Haskell ITMO course at CTD
 + _seq_, _deepseq_, _NFData_
 + Irrefutable patterns
 + BangPatterns
++ Strict Haskell
++ Space leaks
 + Deforestation
 + Stream Fusion
 + _ST_ monad (_STRef_, _STArray_)
