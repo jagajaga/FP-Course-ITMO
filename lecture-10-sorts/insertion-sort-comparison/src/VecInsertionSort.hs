@@ -1,9 +1,10 @@
 {-# LANGUAGE FlexibleContexts #-}
+
 module VecInsertionSort where
 
-import           Control.Monad.ST
-import           Data.Foldable (forM_)
-import           Control.Monad (unless)
+import           Control.Monad               (unless)
+import           Control.Monad.ST            (ST, runST)
+import           Data.Foldable               (forM_)
 import qualified Data.Vector.Unboxed         as V
 import qualified Data.Vector.Unboxed.Mutable as M
 
