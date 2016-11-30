@@ -18,13 +18,13 @@ Haskell ITMO course at CTD
 + [Lecture 10: Speeding up Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-10-speeding-up-haskell-by-dmitry-kovanikov-)
 + [Lecture 11: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-ITMO#lecture-11-template-haskell-and-lens-by-arseniy-seroka-)
 + [Lecture 12: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-12-parallel-and-concurrent-haskell-by-dmitry-kovanikov-)
-+ [Lecture 13: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-enterprise-haskell-by-arseniy-seroka-)
-+ [Lecture 14: Comonads](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-comonads-by-arseniy-seroka-)
++ [Lecture 13: Comonads](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-comonads-by-arseniy-seroka-)
++ [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell-by-arseniy-seroka-)
 + [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-types-part-2-by-dmitry-kovanikov-)
 + [Lecture 16: TBA](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-tba-)
 
 #### Homeworks
-[Homework 1](http://slides.com/fp-ctd/hw-1#/) | [Homework 2](http://slides.com/fp-ctd/hw-2#/) | [Homework 3](http://slides.com/fp-ctd/hw-3#/) | [Homework 4](http://slides.com/fp-ctd/hw-4#/) | [Homework 5](http://slides.com/fp-ctd/hw-5#/) | [Homework 6](http://slides.com/fp-ctd/hw-6#/) | [Homework 7](http://slides.com/fp-ctd/hw-7#/) | [Homework 8](http://slides.com/fp-ctd/hw-8#/) | [Homework 9](http://slides.com/fp-ctd/hw-9#/) | [Homework 10](http://slides.com/fp-ctd/hw-10#/) | [Homework 11](http://slides.com/fp-ctd/hw-11#/) | [Homework 12](http://slides.com/fp-ctd/hw-12#/) | [Homework 13](http://slides.com/fp-ctd/hw-13#/)
+[Homework 1](http://slides.com/fp-ctd/hw-1#/) | [Homework 2](http://slides.com/fp-ctd/hw-2#/) | [Homework 3](http://slides.com/fp-ctd/hw-3#/) | [Homework 4](http://slides.com/fp-ctd/hw-4#/) | [Homework 5](http://slides.com/fp-ctd/hw-5#/) | [Homework 6](http://slides.com/fp-ctd/hw-6#/) | [Homework 7](http://slides.com/fp-ctd/hw-7#/) | [Homework 8](http://slides.com/fp-ctd/hw-8#/) | [Homework 9](http://slides.com/fp-ctd/hw-9#/) | [Homework 10](http://slides.com/fp-ctd/hw-10#/) | [Homework 11](http://slides.com/fp-ctd/hw-11#/)
 
 ## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + About Haskell
@@ -260,7 +260,25 @@ Haskell ITMO course at CTD
 #### Presentation: http://slides.com/fp-ctd/lecture-12#/
 #### Homework 11: http://slides.com/fp-ctd/hw-11#/
 
-## Lecture 13: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 13: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
++ Comonad type class & motivation
+  * Identity comonad
++ Zippers
+  * List zipper
+  * Zipper via derivative
+  * Game of Life
+  * Array Zipper (image processing)
++ Comonads
+  * Env
+  * Traced
+  * Stream (+ NonEmpty)
+  * Store
++ *codo*-notation (aka *method*)
++ Comonad transformers
+
+#### Presentation: http://slides.com/fp-ctd/lecture-13#/
+
+## Lecture 14: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Build tools
   * Cabal
   * Stack
@@ -274,18 +292,7 @@ Haskell ITMO course at CTD
 + Network.HTTP
 + Web.Scotty
 
-#### Presentation: http://slides.com/fp-ctd/lecture-13#/
-#### Homework 12: http://slides.com/fp-ctd/hw-12#/
-
-## Lecture 14: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ Zippers
-  * List zipper
-  * Zipper via derivative
-+ Comonad
-  * Game of Life
-
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
-#### Homework 12: http://slides.com/fp-ctd/hw-13#/
 
 ## Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + GADTs
