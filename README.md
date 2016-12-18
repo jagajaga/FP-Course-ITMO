@@ -326,12 +326,10 @@ Uncovered topics
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ Advanced monads: Effect Monad (IxMonad was earlier, now deprecated)
++ Type Families
++ Arrows
++ Even more advanced monads: Indexed, Effect & Super- monads
 + Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
 + Compiler optimizations
-+ Streams, Pipes, Conduit
-+ Network and WEB (Yesod, Snap, Warp, Hakyll, CloudHaskell)
-+ JSON, CSV (Aeson)
-+ Testing (SmallCheck)
-+ Ghc internals
++ GHC internals
 + Zygohistomorphic prepromorphisms
