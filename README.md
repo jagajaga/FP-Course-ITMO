@@ -20,7 +20,7 @@ Haskell ITMO course at CTD
 + [Lecture 12: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-12-parallel-and-concurrent-haskell-by-dmitry-kovanikov-)
 + [Lecture 13: Comonads](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-comonads-by-arseniy-seroka-)
 + [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell-by-arseniy-seroka-)
-+ [Lecture 15: Advanced types, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-types-part-2-by-dmitry-kovanikov-)
++ [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
 + [Lecture 16: TBA](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-tba-)
 
 #### Homeworks
@@ -294,16 +294,29 @@ Haskell ITMO course at CTD
 
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 
-## Lecture 15: Advanced types, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ GADTs
-+ **forall**
-+ _ExistensialQuantification_, _Rank2Types_, _RankNTypes_
-+ Examples
+## Lecture 15: Advanced type features (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
++ **forall** keyword
+  * _-XExplicitForall_
+  * _-XExistensialQuantification_
+  * _-XRank2Types_
+  * _-XRankNTypes_
++ Examples for all
   * ShowBox
   * ST
   * Type constraints
-+ Free monad
-+ Rank'N'Classy
+  * Pattern matching on types
++ GADTs
+  * Type safe arithmetic expressions
+  * Parsing to GADT
++ _-XDataKinds_
+  * Naturals
+  * HList
+  * Type level Symbols
+  * Vectors with length in type
++ Extensible records
++ _-XTypeApplications_
++ _-XTypeOperators_
+
 
 #### Presentation: http://slides.com/fp-ctd/lecture-15#/
 
