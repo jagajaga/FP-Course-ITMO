@@ -326,10 +326,14 @@ Uncovered topics
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
++ Pragmas: {-# UNPACK #-}, {-# INLINE #-}, {-# SPECIALIZE -#}, {-# RULE #-} etc.
++ Compiler optimizations
++ GHC internals & Core language
++ Generics
 + Type Families
 + Arrows
++ PureScript
++ LiquidHaskell
++ Agda
 + Even more advanced monads: Indexed, Effect & Super- monads
-+ Pragmas: {-# UNPACK #-}, {-# INLINE #-}, etc.
-+ Compiler optimizations
-+ GHC internals
 + Zygohistomorphic prepromorphisms
