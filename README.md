@@ -21,7 +21,7 @@ Haskell ITMO course at CTD
 + [Lecture 13: Comonads](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-comonads-by-arseniy-seroka-)
 + [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell-by-arseniy-seroka-)
 + [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
-+ [Lecture 16: TBA](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-tba-)
++ [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris-by-dmitry-kovanikov-)
 
 #### Homeworks
 [Homework 1](http://slides.com/fp-ctd/hw-1#/) | [Homework 2](http://slides.com/fp-ctd/hw-2#/) | [Homework 3](http://slides.com/fp-ctd/hw-3#/) | [Homework 4](http://slides.com/fp-ctd/hw-4#/) | [Homework 5](http://slides.com/fp-ctd/hw-5#/) | [Homework 6](http://slides.com/fp-ctd/hw-6#/) | [Homework 7](http://slides.com/fp-ctd/hw-7#/) | [Homework 8](http://slides.com/fp-ctd/hw-8#/) | [Homework 9](http://slides.com/fp-ctd/hw-9#/) | [Homework 10](http://slides.com/fp-ctd/hw-10#/) | [Homework 11](http://slides.com/fp-ctd/hw-11#/)
@@ -320,7 +320,35 @@ Haskell ITMO course at CTD
 
 #### Presentation: http://slides.com/fp-ctd/lecture-15#/
 
-## Lecture 16: TBA [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 16: Idris (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+
++ [Idris tutorial](http://docs.idris-lang.org/en/latest/tutorial/)
++ [Idris course](http://www.idris-lang.org/dependently-typed-functional-programming-with-idris-course-videos-and-slides/)
++ Paradigms
+  * Totality
+  * Strict evalution
+  * Theorem proving
+  * DSL
+  * Extensible effects
++ Syntax difference with _Haskell_
+  * : for type and :: for _cons_
+  * Function overloading
+  * Named typeclasses
+  * !-idiom
+  * [| |]-idiom
+  * Records
++ Dependent types
+  * `Vect` data type
+  * `drop` for `Vect`
+  * `isEmpty : Vect n a -> Bool`
+  * `isSingleton : Bool -> Type`
+  * Open and closed doors
+  * _Total_ version of `head` function
+  * `_|_`-eliminator
+  * _Dependent pair_ and _filter_ for vectors
+  * [Type safe `printf` implementation](https://www.youtube.com/watch?v=fVBck2Zngjo)
++ Simple examples of `Eff`
+  * Tagging tree with labels (and counting leaves)
 
 Uncovered topics
 ----------------
