@@ -200,7 +200,7 @@ Haskell ITMO course at CTD
 + _sequence\__
 + Exceptions (_catch_, _throwIO_, custom exceptions, _bracket_, etc.)
 + _unsafePerformIO_ and _unsafeInterleaveIO_
-+ Efficient Strint representations: _Text_, _ByteString_
++ Efficient String representations: _Text_, _ByteString_
 
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
 #### Homework 7: http://slides.com/fp-ctd/hw-7#/
