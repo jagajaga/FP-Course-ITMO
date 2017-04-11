@@ -91,7 +91,7 @@ Haskell ITMO course at CTD
 + **type**: type aliases
 + ADT's (algebraic data types):
   * sum types (aka enums)
-  * product types (aka **struct**'s in C++ or **class**'es in Java)j
+  * product types (aka **struct**'s in C++ or **class**'es in Java)
 + **data** and examples
 + Record syntax
 + Type classes: **class**
