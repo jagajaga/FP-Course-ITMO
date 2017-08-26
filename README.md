@@ -1,11 +1,17 @@
 Haskell ITMO course at CTD
 ==========================
 
-> Here you can find plan and presentations on the Haskell course authored by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub").
+> Here you can find plan and presentations on the Haskell course authored by
+> [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and
+> [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub").
+
+> This course is always under development and always improving constantly because there's
+> no limit for the best Haskell course.
 
 ## Course plan
 
-#### Lectures
+All slides: https://slides.com/fp-ctd
+
 + [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
 + [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
 + [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
@@ -23,43 +29,60 @@ Haskell ITMO course at CTD
 + [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
 + [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris-by-dmitry-kovanikov-)
 
-#### Homeworks
-[Homework 1](http://slides.com/fp-ctd/hw-1#/) | [Homework 2](http://slides.com/fp-ctd/hw-2#/) | [Homework 3](http://slides.com/fp-ctd/hw-3#/) | [Homework 4](http://slides.com/fp-ctd/hw-4#/) | [Homework 5](http://slides.com/fp-ctd/hw-5#/) | [Homework 6](http://slides.com/fp-ctd/hw-6#/) | [Homework 7](http://slides.com/fp-ctd/hw-7#/) | [Homework 8](http://slides.com/fp-ctd/hw-8#/) | [Homework 9](http://slides.com/fp-ctd/hw-9#/) | [Homework 10](http://slides.com/fp-ctd/hw-10#/) | [Homework 11](http://slides.com/fp-ctd/hw-11#/)
-
 ## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ About Haskell
++ Official resources
   * [Haskell Lang (official site)](https://haskell-lang.org/)
-  * [Haskell (wiki)](https://en.wikibooks.org/wiki/Haskell)
+  * [Haskell (official site)](https://www.haskell.org/)
+  * [Stackage: stable source of Haskell packages](https://www.stackage.org/)
+  * [Hackage: central package archive](http://hackage.haskell.org/)
++ Useful unofficial resources
+  * [State of the Haskell ecosystem](https://github.com/Gabriel439/post-rfc/blob/master/sotu.md)
++ About Haskell & some wikis
+  * [Haskell WikiBook](https://en.wikibooks.org/wiki/Haskell)
+  * [Haskell Wiki](https://wiki.haskell.org/Haskell)
   * [Comparison of functional programming languages](https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages)
-+ Reallife examples
-  * Facebook's [haxl](https://github.com/facebook/Haxl)
-  * [pandoc](https://github.com/jgm/pandoc)
-  * [hbro](https://github.com/k0ral/hbro)
-  * [xmonad](https://github.com/xmonad)
-  * [Leksah: Haskell IDE](http://leksah.org/)
-  * [darcs](http://darcs.net/)
-  * [git-annex](http://git-annex.branchable.com/)
-  * [RSCoin implementation](https://github.com/input-output-hk/rscoin-haskell)
-  * [Different tehcnologies](https://www.reddit.com/r/haskell/comments/4p82jy/what_haskell_technologies_should_i_probably_be/)
-+ FP and Haskell paradigms
-  * Immutability
-  * Purity
-  * Strong typing
-  * Lazy evaluation
-+ Instructions of how to intall ghc and stack; couple words about ghci
-+ Editors for Haskell
-  * [IDE's](https://wiki.haskell.org/IDEs)
-  * [Editor tooling](http://dev.stephendiehl.com/editor_talk.html)
-+ Suggested tutorials and other useful online courses
++ Try Haskell in web
   * [Try Haskell!](https://tryhaskell.org/)
-  * [OHaskell](http://ohaskell.dshevchenko.biz/)
-  * [bitemyapp: learnhaskell](https://github.com/bitemyapp/learnhaskell)
-  * [LearnYouAHaskell](http://learnyouahaskell.com/)
-  * [anton-k-github (ru)](http://anton-k.github.io/ru-haskell-book/book/home.html)
-  * [SchoolOfHaskell](https://www.schoolofhaskell.com/)
-  * [YAHT](https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial)
-  * [How I start Haskell](http://www.howistart.org/posts/haskell/1)
-  * [StackOverflow :: Getting Started with Haskell](http://stackoverflow.com/questions/1012573/getting-started-with-haskell?rq=1)
+  * [Repl.It](https://repl.it/languages/haskell)
+  * [Haskell.Godbolt](https://haskell.godbolt.org/ "Observe GHC assembly")
++ Editors (and IDE's for Haskell)
+  * [Haskell IDE chart (feature list of IDE's)](https://github.com/rainbyte/haskell-ide-chart)
+  * [Configure your `ghci`](http://dev.stephendiehl.com/editor_talk.html)
++ Suggested tutorials and other useful online courses
+  * In Russian
+    - [OHaskell](https://www.ohaskell.guide/): Для совсем новичков, очень доступно, но очень мало
+    - [anton-k-github](http://anton-k.github.io/ru-haskell-book/book/home.html): Покрываются более продвинутые вещи + теория
+    - [Stepic: Haskell (part 1)](https://stepik.org/course/75/): Лучший онлайн курс на русском; прекрасен для самостоятельно изучения
+    - [Stepic: Haskell (part 2)](https://stepik.org/course/693/): Продолжение лучшего курса
+      - Dmitry Kovanikov: Обе части курса на Stepic покрывают лишь две трети данного курса на КТ
+  * Books
+    - [Haskell Programming From First Principles](http://haskellbook.com/): Best book currently
+    - [LearnYouAHaskell](http://learnyouahaskell.com/): Free but won't help you much
+    - [Intermediate Haskell](https://intermediatehaskell.com/): Advanced topics (not yet published)
+  * Intensive & self-learning courses
+    - [bitemyapp: learnhaskell](https://github.com/bitemyapp/learnhaskell):
+      - Dmitry Kovanikov: personally I would recommend «Yorgey's cis194 course»
+    - [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
++ Reallife and relatively popular examples of Haskell applications
+  * Standalone
+    - [pandoc](https://pandoc.org/): Converter between different markup formats
+    - [xmonad](http://xmonad.org/): Tiling window manager
+    - [hledger](http://hledger.org/): Accounting program
+    - [ShellCheck](https://www.shellcheck.net/): Finds bugs in your shell scripts
+    - [Google's CodeWorld](https://github.com/google/codeworld): Educational computer programming environment using Haskell
+  * Cryptocurrencies
+    - [Cardano SL](https://cardanodocs.com): Cardano Settlement Layer
+    - [RSCoin](https://github.com/input-output-hk/rscoin-haskell): Implementation of the RSCoin protocol
+    - [Haskoin](https://github.com/haskoin/haskoin): Haskell implementation of the Bitcoin protocol
+  * [A List of companies that use Haskell](https://github.com/erkmos/haskell-companies): ~100 companies (on 26 Aug 2017)
+  * [What Haskell technologies should I probably be using on a daily basis (e.g. Xmonad)?](https://www.reddit.com/r/haskell/comments/4p82jy/what_haskell_technologies_should_i_probably_be/)
++ FP and Haskell paradigms (also extremely important language features)
+  * Static types
+  * Immutability by default
+  * Purity by default
+  * Non-null by default
+  * Sum types
+  * Lazy evaluation
 
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
 
