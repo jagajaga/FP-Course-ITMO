@@ -87,28 +87,29 @@ All slides: https://slides.com/fp-ctd
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
 
 ## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ Difference between statement and expression
-+ Functions
-  * ordinary
-  * generic
-+ Lists and functions on lists
-+ Lambdas (anonymous functions)
-+ **let** (variable declaration)
-+ **where** clause
-+ **if** expression
-+ **guards**
-+ **case** expression
-+ Higher order functions
-  * examples on other languages
-  * standard Haskell HOFs: map, filter, foldr, etc.
+- Introduction to Haskell
+  + Basic GHCi examples
+  + Function & operators definition
+  + Lists and functions on lists
+- Haskell syntax
+  + **let** (variable declaration)
+  + **where** clause
+  + **if** expression
+  + **guards**
+  + **case** expression
+  + Higher order functions
+  + Lambdas (anonymous functions)
+- Polymoprhism
+  + Parametric
+  + Ad-hoc
++ LANGUAGE pragmas
 + Currying (aka partial application)
 + Pattern matching
-+ Function composition and application: (.) ($)
-+ Ranges
 + List comprehension
++ Function application: ($)
++ Function composition: (.)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
-#### Homework 1: http://slides.com/fp-ctd/hw-1#/
 
 ## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + **type**: type aliases
@@ -128,7 +129,6 @@ All slides: https://slides.com/fp-ctd
 + Modules cheatsheet
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
-#### Homework 2: http://slides.com/fp-ctd/hw-2#/
 
 ## Lecture 4: Kinda Monoids (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + **newtype**
@@ -154,7 +154,6 @@ All slides: https://slides.com/fp-ctd
   * [RecordsWildCards](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#record-wildcards)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
-#### Homework 3: http://slides.com/fp-ctd/hw-3#/
 
 ## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Talk about boxes
@@ -169,7 +168,6 @@ All slides: https://slides.com/fp-ctd
 + useful Monad functions
 
 #### Presentation: http://slides.com/fp-ctd/lecture-5#/
-#### Homework 4: http://slides.com/fp-ctd/hw-4#/
 
 ## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + _Functor_
@@ -192,7 +190,6 @@ All slides: https://slides.com/fp-ctd
 + Type classes hierarchy
 
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
-#### Homework 5: http://slides.com/fp-ctd/hw-5#/
 
 ## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + _Writer_ monad
@@ -210,7 +207,6 @@ All slides: https://slides.com/fp-ctd
   * _MonadCont_ and _callCC_
 
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
-#### Homework 6: http://slides.com/fp-ctd/hw-6#/
 
 ## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Building _IO_ system from scratch
@@ -226,7 +222,6 @@ All slides: https://slides.com/fp-ctd
 + Efficient String representations: _Text_, _ByteString_
 
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
-#### Homework 7: http://slides.com/fp-ctd/hw-7#/
 
 ## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Composing monads
@@ -237,7 +232,6 @@ All slides: https://slides.com/fp-ctd
 + _mtl_ style of transformation
 
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
-#### Homework 8: http://slides.com/fp-ctd/hw-8#/
 
 ## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + List concatenation pitfalls and _Difference List_
@@ -254,7 +248,6 @@ All slides: https://slides.com/fp-ctd
 + Criterion
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
-#### Homework 9: http://slides.com/fp-ctd/hw-9#/
 
 ## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Template Haskell
@@ -267,7 +260,6 @@ All slides: https://slides.com/fp-ctd
 + Prism
 
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
-#### Homework 10: http://slides.com/fp-ctd/hw-10#/
 
 ## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Advantages of immutability and purity
@@ -281,7 +273,6 @@ All slides: https://slides.com/fp-ctd
 + Async
 
 #### Presentation: http://slides.com/fp-ctd/lecture-12#/
-#### Homework 11: http://slides.com/fp-ctd/hw-11#/
 
 ## Lecture 13: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Comonad type class & motivation
