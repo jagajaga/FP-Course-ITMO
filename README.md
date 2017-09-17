@@ -114,18 +114,24 @@ All slides: https://slides.com/fp-ctd
 ## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + **type**: type aliases
 + ADT's (algebraic data types):
-  * sum types (aka enums)
-  * product types (aka **struct**'s in C++ or **class**'es in Java)
+  * product types
+  * sum types
 + **data** and examples
++ Church-encoding ADT
 + Record syntax
++ -XDuplicateRecordFields
++ -XRecordWildCards
++ **newtype**
 + Type classes: **class**
 + **instance**
   * compare to Java interface
   * examples of standard classes: _Eq_, _Ord_
 + **deriving**
-+ Type constraints (or type bounds)
++ `-ddump-deriv`
++ -XGeneralizedNewtypeDeriving
++ -XMultiParamTypeClasses
++ __coerce__
 + Type classes as Dictionaries
-+ Deprecated _DataTypeContexts_
 + Modules cheatsheet
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
