@@ -29,6 +29,8 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
 + [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris-by-dmitry-kovanikov-)
 
+Templates for homework: https://github.com/ChShersh/fp-homework-templates
+
 ## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Official resources
   * [Haskell Lang (official site)](https://haskell-lang.org/)
