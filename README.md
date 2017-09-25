@@ -15,7 +15,7 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
 + [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
 + [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
-+ [Lecture 4: Kinda Monoids](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoids-by-dmitry-kovanikov-)
++ [Lecture 4: Kinda lazy monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-lazy-monoidal-types-by-dmitry-kovanikov-)
 + [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads-part-1-by-dmitry-kovanikov-)
 + [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-functors-applicative-functors-by-arseniy-seroka-)
 + [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-7-monads-part-2-by-dmitry-kovanikov-)
@@ -138,28 +138,25 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
-## Lecture 4: Kinda Monoids (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ **newtype**
+## Lecture 4: Kinda lazy monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
 + Phantom types
++ **forall** keyword
+  * _-XExplicitForall_
+  * _-XExistensialQuantification_
+  * _-XRank2Types_
+  * _-XRankNTypes_
 + _kinds_
   * Basic kinds
   * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
   * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
 + Higher kinded types
-+ _foldr_ and _foldl_
-+ Useful _Monoid_ class:
-  * examples and applications
-  * foldrs on monoids
++ Math in programming
+  * _Semigroup_ and _Monoid_
+  * A lot of examples
   * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
++ _foldr_ and _foldl_
 + _Foldable_ type class
-+ Language Extensions
-  * [TypeSynonyms](https://ghc.haskell.org/trac/haskell-prime/wiki/TypeSynonymInstances)
-  * [FlexibleInstances](https://ghc.haskell.org/trac/haskell-prime/wiki/FlexibleInstances)
-  * [GeneralizedNewtypeDeriving](https://ghc.haskell.org/trac/haskell-prime/wiki/NewtypeDeriving)
-  * [MultiParamTypeClasses](https://wiki.haskell.org/Multi-parameter_type_class)
-  * [DuplicateRecordFields](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#duplicate-record-fields)
-  * [MultiWayIf & ViewPatterns](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions)
-  * [RecordsWildCards](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#record-wildcards)
++ Lazy evaluation
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
@@ -317,11 +314,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 
 ## Lecture 15: Advanced type features (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
-+ **forall** keyword
-  * _-XExplicitForall_
-  * _-XExistensialQuantification_
-  * _-XRank2Types_
-  * _-XRankNTypes_
 + Examples for all
   * ShowBox
   * ST
