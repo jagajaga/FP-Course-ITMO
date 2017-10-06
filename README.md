@@ -31,7 +31,7 @@ All slides: https://slides.com/fp-ctd
 
 Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
-## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Official resources
   * [Haskell Lang (official site)](https://haskell-lang.org/)
   * [Haskell (official site)](https://www.haskell.org/)
@@ -88,7 +88,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
 
-## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 - Introduction to Haskell
   + Basic GHCi examples
   + Function & operators definition
@@ -113,7 +113,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
 
-## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 3: Datas, Classes, Instances (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + **type**: type aliases
 + ADT's (algebraic data types):
   * product types
@@ -138,7 +138,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
-## Lecture 4: Kinda lazy monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 4: Kinda lazy monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Phantom types
 + **forall** keyword
   * _-XExplicitForall_
@@ -160,21 +160,27 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
-## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Talk about boxes
 + What is Monad?
-+ Monad type class with some additions, monad laws
++ _Monad_ type class
++ Monad laws
 + _Maybe_ as example, philosophy about null-safety
++ Equational reasoning
++ Proving Monad laws for Maybe
 + _Identity_ monad instance
 + _Either_ monad instance
-+ _then_, monad composition
++ Monad composition
 + _List_ monad instance
++ _then_ : >>
++ List monad nondeterminism
 + _join_
-+ useful Monad functions
++ Weird custom monads
++ Useful Monad functions
 
 #### Presentation: http://slides.com/fp-ctd/lecture-5#/
 
-## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + _Functor_
 + _Bifunctor_
 + _Applicative_
@@ -196,7 +202,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
 
-## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + _Writer_ monad
 + _Reader_ monad
 + Typed holes
@@ -213,7 +219,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
 
-## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Building _IO_ system from scratch
 + Introduce _IO_ monad
 + __do__ notation
@@ -228,7 +234,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
 
-## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Composing monads
 + MaybeIO example
 + _MonadTrans_
@@ -238,7 +244,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 
-## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + List concatenation pitfalls and _Difference List_
 + _foldr_ vs. _foldl_ vs. _foldl'__
 + WHNF (weak head normal form)
@@ -254,7 +260,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
-## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Template Haskell
   * boilerplating tuple code
   * Generate Automatic Instances
@@ -266,7 +272,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
 
-## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Advantages of immutability and purity
 + Haskell parallelism with `rpar` and `rseq`
 + Threadscope
@@ -279,7 +285,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-12#/
 
-## Lecture 13: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 13: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Comonad type class & motivation
   * Identity comonad
 + Zippers
@@ -297,7 +303,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-13#/
 
-## Lecture 14: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 14: Enterprise Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Build tools
   * Cabal
   * Stack
@@ -313,7 +319,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 
-## Lecture 15: Advanced type features (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 15: Advanced type features (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Examples for all
   * ShowBox
   * ST
@@ -334,7 +340,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-15#/
 
-## Lecture 16: Idris (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#lectures)
+## Lecture 16: Idris (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 
 + [Idris tutorial](http://docs.idris-lang.org/en/latest/tutorial/)
 + [Idris course](http://www.idris-lang.org/dependently-typed-functional-programming-with-idris-course-videos-and-slides/)
