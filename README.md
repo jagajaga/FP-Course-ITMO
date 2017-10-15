@@ -208,10 +208,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Typed holes
 + Partial type signatures
 + _State_ monad
-  * example 1: stack as state
-  * example 2: depth first search
-  * where to find _State_ monad in std library, different useful functions
-+ _RWS_ monad
 + _Cont_ monad and Continuation Passing Style (CPS)
   * Continuations as callbacks
   * _Cont_ datatype and monadic exampe
