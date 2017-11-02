@@ -222,8 +222,9 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Syntax sugar
   * Applicative Do
   * RebindableSyntax
++ Lazy I/O
++ FFI
 + Mutable data: [_IORef_](https://hackage.haskell.org/package/base-4.8.1.0/docs/Data-IORef.html) and [_IOArray_](https://hackage.haskell.org/package/array-0.5.1.0)
-+ _sequence\__
 + Exceptions (_catch_, _throwIO_, custom exceptions, _bracket_, etc.)
 + _unsafePerformIO_ and _unsafeInterleaveIO_
 + Efficient String representations: _Text_, _ByteString_
