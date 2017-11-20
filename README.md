@@ -232,12 +232,21 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
 
 ## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ Monads as Effects
 + Composing monads
-+ MaybeIO example
-+ _MonadTrans_
-+ _MaybeT_ transformer
-+ _ReaderT_ transformer
++ `Compose` data type
++ ``MaybeIO`` example
++ _MonadTrans_ type class
++ `MaybeT` transformer
++ `ReaderT` transformer
++ Comparison of transformers and old types
++ `ListT` transformer
++ _MonadIO_ (why IO is so special?)
++ _MonadThrow_ type class
++ _MonadError_ type class
 + _mtl_ style of transformation
++ `CoroutineT` fun example
++ To Extensible effects and beyond
 
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 
