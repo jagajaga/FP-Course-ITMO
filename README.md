@@ -28,6 +28,7 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell-by-arseniy-seroka-)
 + [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
 + [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris-by-dmitry-kovanikov-)
++ [_Uncovered topics_](https://github.com/jagajaga/FP-Course-ITMO#uncovered-topics)
 
 Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
@@ -252,17 +253,23 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 ## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + List concatenation pitfalls and _Difference List_
-+ _foldr_ vs. _foldl_ vs. _foldl'__
-+ WHNF (weak head normal form)
++ Minor _Lambda calculus_ reminder (NF, HNF, WHNF)
++ Pattern matching as evaluation
 + _seq_, _deepseq_, _NFData_
++ `-XBangPatterns`
++ _foldr_ vs. _foldl_ vs. _foldl'__
 + Irrefutable patterns
-+ BangPatterns
 + Strict Haskell
 + Space leaks
 + Deforestation
 + Stream Fusion
++ Couple words about _Rewrite Rules_
++ `build/foldr` fusion system overview
 + _ST_ monad (_STRef_, _STArray_)
 + Criterion
++ `loop` package
++ `ilist` package
++ `vector` package
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
@@ -376,18 +383,17 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Simple examples of `Eff`
   * Tagging tree with labels (and counting leaves)
 
-Uncovered topics
+Uncovered topics [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ Pragmas: {-# UNPACK #-}, {-# INLINE #-}, {-# SPECIALIZE -#}, {-# RULE #-} etc.
-+ Compiler optimizations
-+ GHC internals & Core language
-+ Generics
 + Type Families
++ Generics
++ Pragmas: {-# UNPACK #-}, {-# INLINE #-}, {-# SPECIALIZE -#}, {-# RULES #-} etc.
++ GHC compilation process, GHC internals & Core language
++ LiquidHaskell
 + Arrows
 + PureScript
-+ LiquidHaskell
 + Agda
 + Even more advanced monads: Indexed, Effect & Super- monads
 + Zygohistomorphic prepromorphisms
