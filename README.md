@@ -28,7 +28,7 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell-by-arseniy-seroka-)
 + [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
 + [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris-by-dmitry-kovanikov-)
-+ [_Uncovered topics_](https://github.com/jagajaga/FP-Course-ITMO#uncovered-topics)
++ [_Uncovered topics_](https://github.com/jagajaga/FP-Course-ITMO#uncovered-topics-)
 
 Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
