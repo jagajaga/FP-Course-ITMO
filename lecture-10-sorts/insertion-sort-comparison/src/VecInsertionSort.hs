@@ -1,11 +1,12 @@
 {-# LANGUAGE FlexibleContexts #-}
 
-module VecInsertionSort where
+module VecInsertionSort (sort) where
 
-import           Control.Monad               (unless)
-import           Control.Monad.ST            (ST, runST)
-import           Data.Foldable               (forM_)
-import qualified Data.Vector.Unboxed         as V
+import Control.Monad (unless)
+import Control.Monad.ST (ST, runST)
+import Data.Foldable (forM_)
+
+import qualified Data.Vector.Unboxed as V
 import qualified Data.Vector.Unboxed.Mutable as M
 
 sort :: [Int] -> [Int]  -- sort on mutable arrays

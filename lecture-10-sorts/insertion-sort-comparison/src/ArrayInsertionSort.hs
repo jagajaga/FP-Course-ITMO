@@ -1,12 +1,9 @@
-module ArrayInsertionSort
-       ( sort
-       ) where
+module ArrayInsertionSort (sort) where
 
-import           Control.Monad    (unless)
-import           Control.Monad.ST (ST, runST)
-import           Data.Array.ST    (STUArray, getElems, newListArray, readArray,
-                                   writeArray)
-import           Data.Foldable    (forM_)
+import Control.Monad (unless)
+import Control.Monad.ST (ST, runST)
+import Data.Array.ST (STUArray, getElems, newListArray, readArray, writeArray)
+import Data.Foldable (forM_)
 
 type IntArray s = STUArray s Int Int
 
