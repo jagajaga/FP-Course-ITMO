@@ -274,14 +274,21 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
 ## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ _`-XCPP`_
 + Template Haskell
-  * boilerplating tuple code
-  * Generate Automatic Instances
+  * Boilerplating tuple code
+  * Haskell AST
+  * Splices
++ _`-XQuasiQuotes`_
++ Generate instances with TH
 + Lens
-  * Creating our simple lens
+  * Implementing naive data lenses
   * Introducing real Lens'
+  * 3-step lens guide
+  * `microlens`-family
   * Nice example with real lens (_view_, _traversed_, _filtered_, _zoom_)
-+ Prism
+  * Prism
+  * Affine traversals
 
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
 
