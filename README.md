@@ -310,10 +310,14 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Identity comonad
 + Zippers
   * List zipper
-  * Zipper via derivative
   * Game of Life
-  * Array Zipper (image processing)
-+ Comonads
++ _Indexed array_ comonad for image processing
++ Comonadic 2D-parser
++ Type algebra
+  * Types as functions (sum, product, type variables)
+  * Type isomorphisms
+  * Zippers as deriviation: List zipper, Tree zipper
++ Comonads as OOP patterns
   * Env
   * Traced
   * Stream (+ NonEmpty)
