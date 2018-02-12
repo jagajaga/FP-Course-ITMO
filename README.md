@@ -15,7 +15,7 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
 + [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
 + [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
-+ [Lecture 4: Kinda lazy monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-lazy-monoidal-types-by-dmitry-kovanikov-)
++ [Lecture 4: Kinda monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoidal-types-by-dmitry-kovanikov-)
 + [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads-part-1-by-dmitry-kovanikov-)
 + [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-functors-applicative-functors-by-arseniy-seroka-)
 + [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-7-monads-part-2-by-dmitry-kovanikov-)
@@ -111,6 +111,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + List comprehension
 + Function application: ($)
 + Function composition: (.)
++ Lazy evaluation (erathosphene sieve, fibonacci numbers, repmin)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
 
@@ -139,7 +140,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
-## Lecture 4: Kinda lazy monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
+## Lecture 4: Kinda monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Phantom types
 + **forall** keyword
   * _-XExplicitForall_
@@ -157,7 +158,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
 + _foldr_ and _foldl_
 + _Foldable_ type class
-+ Lazy evaluation
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
