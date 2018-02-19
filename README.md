@@ -121,7 +121,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * product types
   * sum types
 + **data** and examples
-+ Church-encoding ADT
 + Record syntax
 + -XDuplicateRecordFields
 + -XRecordWildCards
@@ -133,10 +132,10 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + **deriving**
 + `-ddump-deriv`
 + -XGeneralizedNewtypeDeriving
-+ -XMultiParamTypeClasses
-+ __coerce__
-+ Type classes as Dictionaries
 + Modules cheatsheet
++ Church-encoding ADT
++ Type classes as Dictionaries
++ __coerce__
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
