@@ -112,8 +112,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Currying (aka partial application)
 + Pattern matching
 + List comprehension
-+ Function application: ([_`$`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Prelude.html#v:-36-))
-+ Function composition: ([_`.`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Prelude.html#v:.))
++ Function application: ([_`$`_](https://hackage.haskell.org/package/base/docs/Prelude.html#v:-36-))
++ Function composition: ([_`.`_](https://hackage.haskell.org/package/base/docs/Prelude.html#v:.))
 + Lazy evaluation (erathosphene sieve, fibonacci numbers, repmin)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
@@ -268,7 +268,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Stream Fusion
 + Couple words about _Rewrite Rules_
 + [_`build`_](https://hackage.haskell.org/package/base/docs/GHC-Exts.html#v:build)/[_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) fusion system overview
-+ [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Data-STRef.html#t:STRef), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
++ [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base/docs/Data-STRef.html#t:STRef), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
 + [_`Criterion`_](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
 + [`loop`](https://hackage.haskell.org/package/loop) package
 + [`ilist`](https://hackage.haskell.org/package/ilist) package
@@ -402,11 +402,11 @@ Uncovered topics [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
 + [_-XTypeFamilies_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#type-families)
-+ [_`Generics`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/GHC-Generics.html)
++ [_`Generics`_](https://hackage.haskell.org/package/base/docs/GHC-Generics.html)
 + Pragmas: [_{-# UNPACK #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#unpack-pragma), [_{-# INLINE #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#inline-pragma), [_{-# SPECIALIZE -#}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#specialize-pragma), [_{-# RULES #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#rules-pragma) etc.
 + GHC compilation process, GHC internals & Core language
 + [`LiquidHaskell`](https://hackage.haskell.org/package/liquidhaskell)
-+ [_-XArrows_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arrow-notation) and [_`Arrow`_](http://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Arrow.html#t:Arrow)
++ [_-XArrows_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arrow-notation) and [_`Arrow`_](http://hackage.haskell.org/package/base/docs/Control-Arrow.html#t:Arrow)
 + [`PureScript`](http://www.purescript.org/)
 + [`Agda`](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 + Even more advanced monads: Indexed, Effect & Super- monads
