@@ -98,7 +98,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   + **let** (variable declaration)
   + **where** clause
   + **if** expression
-  + **guards**
+  + Guards
   + **case** expression
   + Higher order functions
   + Lambdas (anonymous functions)
@@ -122,73 +122,73 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * sum types
 + **data** and examples
 + Record syntax
-+ -XDuplicateRecordFields
-+ -XRecordWildCards
++ [_-XDuplicateRecordFields_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#duplicate-record-fields)
++ [_-XRecordWildCards_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#record-wildcards)
 + **newtype**
 + Type classes: **class**
 + **instance**
   * compare to Java interface
-  * examples of standard classes: _Eq_, _Ord_
+  * examples of standard classes: [_`Eq`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Eq), [_`Ord`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Ord)
 + **deriving**
-+ `-ddump-deriv`
-+ -XGeneralizedNewtypeDeriving
++ **`-ddump-deriv`**
++ [_-XGeneralizedNewtypeDeriving_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-derived-instances-for-newtypes)
 + Modules cheatsheet
 + Church-encoding ADT
 + Type classes as Dictionaries
-+ __coerce__
++ [_`coerce`_](https://hackage.haskell.org/package/base/docs/Data-Coerce.html#v:coerce)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
 ## Lecture 4: Kinda monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Phantom types
 + **forall** keyword
-  * _-XExplicitForall_
-  * _-XExistensialQuantification_
-  * _-XRank2Types_
-  * _-XRankNTypes_
+  * [_-XExplicitForall_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#explicit-universal-quantification-forall)
+  * [_-XExistentialQuantification_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
+  * [_-XRank2Types_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
+  * [_-XRankNTypes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
 + _kinds_
   * Basic kinds
   * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
   * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
 + Higher kinded types
 + Math in programming
-  * _Semigroup_ and _Monoid_
+  * [_`Semigroup`_](http://hackage.haskell.org/package/base/docs/Data-Semigroup.html#t:Semigroup) and [_`Monoid`_](http://hackage.haskell.org/package/base/docs/Data-Monoid.html#t:Monoid)
   * A lot of examples
   * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
-+ _foldr_ and _foldl_
-+ _Foldable_ type class
++ [_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) and [_`foldl`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldl)
++ [_`Foldable`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#t:Foldable) type class
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
 ## Lecture 5: Monads, part 1 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Talk about boxes
 + What is Monad?
-+ _Monad_ type class
++ [_`Monad`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Monad) type class
 + Monad laws
-+ _Maybe_ as example, philosophy about null-safety
++ [_`Maybe`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Maybe) as example, philosophy about null-safety
 + Equational reasoning
 + Proving Monad laws for Maybe
-+ _Identity_ monad instance
-+ _Either_ monad instance
++ [_`Identity`_](http://hackage.haskell.org/package/base/docs/Data-Functor-Identity.html#t:Identity) monad instance
++ [_`Either`_](http://hackage.haskell.org/package/base/docs/Data-Either.html#t:Either) monad instance
 + Monad composition
-+ _List_ monad instance
-+ _then_ : >>
++ [_`List`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT) monad instance
++ then : [_`>>`_](http://hackage.haskell.org/package/base/docs/Prelude.html#v:-62--62-)
 + List monad nondeterminism
-+ _join_
++ [_`join`_](http://hackage.haskell.org/package/base/docs/Control-Monad.html#v:join)
 + Weird custom monads
 + Useful Monad functions
 
 #### Presentation: http://slides.com/fp-ctd/lecture-5#/
 
 ## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ _Functor_
-+ _Bifunctor_
-+ _Applicative_
-  * ZipList
-+ _liftAN_ & Applicative style programming
-+ _Alternative_
++ [_`Functor`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Functor)
++ [_`Bifunctor`_](http://hackage.haskell.org/package/base/docs/Data-Bifunctor.html#t:Bifunctor)
++ [_`Applicative`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:Applicative)
+  * [_`ZipList`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:ZipList)
++ [_`liftAN`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#v:liftA) & Applicative style programming
++ [_`Alternative`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:Alternative)
 + List comprehension syntax sugar
-+ _Traversable_ type class (and instances for _Maybe_, _List_)
++ [_`Traversable`_](http://hackage.haskell.org/package/base/docs/Data-Traversable.html#t:Traversable) type class (and instances for [_`Maybe`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Maybe), [_`List`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT))
 + Automatic deriving
   * [DeriveFunctor](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
   * [DeriveFoldable](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
@@ -203,50 +203,51 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
 
 ## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ _Writer_ monad
-+ _Reader_ monad
++ [_`Writer`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Writer-Lazy.html#g:2) monad
++ [_`Reader`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Reader.html#g:2) monad
 + Typed holes
 + Partial type signatures
-+ _State_ monad
-+ _Cont_ monad and Continuation Passing Style (CPS)
++ [_`State`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-State-Lazy.html#t:State) monad
++ [_`Cont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:Cont) monad and Continuation Passing Style (CPS)
   * Continuations as callbacks
-  * _Cont_ datatype and monadic exampe
-  * _MonadCont_ and _callCC_
+  * [_`Cont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:Cont) datatype and monadic example
+  * [_`MonadCont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:MonadCont) and [_`callCC`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont-Class.html#v:callCC)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
 
 ## Lecture 8: RealWorld (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Building _IO_ system from scratch
-+ Introduce _IO_ monad
-+ __do__ notation
++ Introduce [_`IO`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:IO) monad
++ **do** notation
   * Syntax sugar
   * Applicative Do
   * RebindableSyntax
 + Lazy I/O
 + FFI
-+ Mutable data: [_IORef_](https://hackage.haskell.org/package/base-4.8.1.0/docs/Data-IORef.html) and [_IOArray_](https://hackage.haskell.org/package/array-0.5.1.0)
-+ Exceptions (_catch_, _throwIO_, custom exceptions, _bracket_, etc.)
-+ _unsafePerformIO_ and _unsafeInterleaveIO_
-+ Efficient String representations: _Text_, _ByteString_
++ Mutable data: [_`IORef`_](https://hackage.haskell.org/package/base/docs/Data-IORef.html#t:IORef) and [_`IOArray`_](http://hackage.haskell.org/package/array/docs/Data-Array-IO.html#t:IOArray)
++ Exceptions ([_`catch`_](http://hackage.haskell.org/package/base/docs/Control-Exception-Base.html#v:catch), [_`throwIO`_](http://hackage.haskell.org/package/base/docs/Control-Exception-Base.html#v:throwIO), custom exceptions, [_`bracket`_](http://hackage.haskell.org/package/base/docs/Control-Exception.html#v:bracket), etc.)
++ [_`unsafePerformIO`_](http://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html#v:unsafePerformIO) and [_`unsafeInterleaveIO`_](http://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html#v:unsafeInterleaveIO)
++ Efficient String representations: [_`Text`_](http://hackage.haskell.org/package/text/docs/Data-Text.html#t:Text), [_`ByteString`_](http://hackage.haskell.org/package/bytestring/docs/Data-ByteString.html#t:ByteString)
 
 #### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
 
 ## Lecture 9: Monad Transformers (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Monads as Effects
 + Composing monads
-+ `Compose` data type
-+ ``MaybeIO`` example
-+ _MonadTrans_ type class
-+ `MaybeT` transformer
-+ `ReaderT` transformer
++ [_`Compose`_](https://hackage.haskell.org/package/base/docs/Data-Functor-Compose.html#t:Compose) data type
++ _`MaybeIO`_ example
++ [_`MonadTrans`_](https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Class.html#t:MonadTrans) type class
++ [_`MaybeT`_](https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Maybe.html#t:MaybeT) transformer
++ [_`ReaderT`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-Reader.html#t:ReaderT) transformer
 + Comparison of transformers and old types
-+ `ListT` transformer
-+ _MonadIO_ (why IO is so special?)
-+ _MonadThrow_ type class
-+ _MonadError_ type class
-+ _mtl_ style of transformation
-+ `CoroutineT` fun example
++ [_`ListT`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT) transformer
++ [_`MonadIO`_](https://hackage.haskell.org/package/base/docs/Control-Monad-IO-Class.html#t:MonadIO) (why IO is so special?)
++ [_`MonadThrow`_](https://hackage.haskell.org/package/exceptions/docs/Control-Monad-Catch.html#t:MonadThrow) type class
++ [_`MonadError`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-Error.html#t:MonadError) type class
++ [`mtl`](https://hackage.haskell.org/package/mtl) style of transformation
++ _`CoroutineT`_ fun example
 + To Extensible effects and beyond
+[//]: # (Didn't find MaybeIO and CoroutineT)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 
@@ -254,59 +255,59 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + List concatenation pitfalls and _Difference List_
 + Minor _Lambda calculus_ reminder (NF, HNF, WHNF)
 + Pattern matching as evaluation
-+ _seq_, _deepseq_, _NFData_
-+ `-XBangPatterns`
-+ _foldr_ vs. _foldl_ vs. _foldl'__
++ [_`seq`_](https://hackage.haskell.org/package/base/docs/Prelude.html#v:seq), [_`deepseq`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#v:deepseq), [_`NFData`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#t:NFData)
++ [_-XBangPatterns_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#bang-patterns-informal)
++ [_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) vs. [_`foldl`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldl) vs. [_`foldl'`_](https://hackage.haskell.org/package/base/docs/Data-List.html#v:foldl-39-)
 + Irrefutable patterns
 + Strict Haskell
 + Space leaks
 + Deforestation
 + Stream Fusion
 + Couple words about _Rewrite Rules_
-+ `build/foldr` fusion system overview
-+ _ST_ monad (_STRef_, _STArray_)
-+ Criterion
-+ `loop` package
-+ `ilist` package
-+ `vector` package
++ [_`build`_](https://hackage.haskell.org/package/base/docs/GHC-Exts.html#v:build)/[_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) fusion system overview
++ [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base/docs/Data-STRef.html), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
++ [`Criterion`](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
++ [`loop`](https://hackage.haskell.org/package/loop) package
++ [`ilist`](https://hackage.haskell.org/package/ilist) package
++ [`vector`](https://hackage.haskell.org/package/vector) package
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
 ## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ _`-XCPP`_
++ **`-XCPP`**
 + Template Haskell
   * Boilerplating tuple code
   * Haskell AST
   * Splices
-+ _`-XQuasiQuotes`_
-+ Generate instances with TH
++ [_-XQuasiQuotes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#template-haskell-quasi-quotation)
++ Generate instances with [`TH`](https://hackage.haskell.org/package/template-haskell-2.12.0.0/docs/Language-Haskell-TH.html)
 + Lens
   * Implementing naive data lenses
   * Introducing real Lens'
   * 3-step lens guide
-  * `microlens`-family
-  * Nice example with real lens (_view_, _traversed_, _filtered_, _zoom_)
-  * Prism
+  * [`microlens`](http://hackage.haskell.org/package/microlens)-family
+  * Nice example with real lens ([_`view`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Getter.html#v:view), [_`traversed`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Traversal.html#v:traversed), [_`filtered`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Fold.html#v:filtered), [_`zoom`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Zoom.html#v:zoom))
+  * [_`Prism`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Prism.html#t:Prism)
   * Affine traversals
 
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
 
 ## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Advantages of immutability and purity
-+ Haskell parallelism with `rpar` and `rseq`
++ Haskell parallelism with [_`rpar`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rpar) and [_`rseq`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rseq)
 + Threadscope
 + Strategies
-+ _Par_ monad examples
++ [_`Par`_](https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par.html#t:Par) monad examples
 + Difference between _Parallelism_ and _Concurrency_
-+ _forkIO_ and _MVar_
-+ Transactions: STM, TVar
-+ Async
++ [_`forkIO`_](https://hackage.haskell.org/package/base/docs/Control-Concurrent.html#v:forkIO) and [_`MVar`_](https://hackage.haskell.org/package/base/docs/Control-Concurrent-MVar.html#t:MVar)
++ Transactions: [_`STM`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:STM), [_`TVar`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:TVar)
++ [`Async`](https://hackage.haskell.org/package/async)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-12#/
 
 ## Lecture 13: Comonads (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ Comonad type class & motivation
-  * Identity comonad
++ [_`Comonad`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad.html#t:Comonad) type class & motivation
+  * [_`Identity`_](https://hackage.haskell.org/package/base/docs/Data-Functor-Identity.html#t:Identity) comonad
 + Zippers
   * List zipper
   * Game of Life
@@ -317,12 +318,13 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Type isomorphisms
   * Zippers as deriviation: List zipper, Tree zipper
 + Comonads as OOP patterns
-  * Env
-  * Traced
-  * Stream (+ NonEmpty)
-  * Store
-+ *codo*-notation (aka *method*)
+  * [_`Env`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Trans-Env.html#t:Env)
+  * [_`Traced`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Traced.html#t:Traced)
+  * _`Stream`_ (+ NonEmpty)
+  * [_`Store`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Store.html#t:Store)
++ [**`codo`**`-notation`](https://hackage.haskell.org/package/codo-notation) (aka *method*)
 + Comonad transformers
+[//]: # (Didn't find Stream)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-13#/
 
@@ -333,12 +335,13 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Nix
 + Testing: HSpec, QuickCheck
 + FFI
-+ GUI: gtk (online demo)
++ GUI: [`gtk`](https://hackage.haskell.org/package/gtk) (online demo)
 + Databases
   * SQL
-  * acid-state
-+ Network.HTTP
-+ Web.Scotty
+  * [`acid-state`](https://hackage.haskell.org/package/acid-state)
++ [`Network.HTTP`](https://hackage.haskell.org/package/HTTP/docs/Network-HTTP.html)
++ [`Web.Scotty`](https://hackage.haskell.org/package/scotty/docs/Web-Scotty.html)
+[//]: # (Too much SQL packages)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 
@@ -348,17 +351,17 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * ST
   * Type constraints
   * Pattern matching on types
-+ GADTs
++ [_GADTs_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-algebraic-data-types-gadts)
   * Type safe arithmetic expressions
   * Parsing to GADT
-+ _-XDataKinds_
-  * Naturals
-  * HList
++ [_-XDataKinds_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#datatype-promotion)
+  * [_`Naturals`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Numeric-Natural.html#t:Natural)
+  * [`HList`](https://hackage.haskell.org/package/HList)
   * Type level Symbols
   * Vectors with length in type
 + Extensible records
-+ _-XTypeApplications_
-+ _-XTypeOperators_
++ [_-XTypeApplications_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#visible-type-application)
++ [_-XTypeOperators_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#type-operators)
 
 
 #### Presentation: http://slides.com/fp-ctd/lecture-15#/
