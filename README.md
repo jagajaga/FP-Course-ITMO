@@ -105,12 +105,15 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 - Polymoprhism
   + Parametric
   + Ad-hoc
-+ LANGUAGE pragmas
+- LANGUAGE pragmas
+  + [_-XTupleSections_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#tuple-sections)
+  + [_-XLambdaCase_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#lambda-case)
+  + [_-XViewPatterns_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#view-patterns)
 + Currying (aka partial application)
 + Pattern matching
 + List comprehension
-+ Function application: ($)
-+ Function composition: (.)
++ Function application: ([_`$`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Prelude.html#v:-36-))
++ Function composition: ([_`.`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Prelude.html#v:.))
 + Lazy evaluation (erathosphene sieve, fibonacci numbers, repmin)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-2#/
@@ -190,9 +193,9 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + List comprehension syntax sugar
 + [_`Traversable`_](http://hackage.haskell.org/package/base/docs/Data-Traversable.html#t:Traversable) type class (and instances for [_`Maybe`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Maybe), [_`List`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT))
 + Automatic deriving
-  * [DeriveFunctor](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
-  * [DeriveFoldable](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
-  * [DeriveTraversable](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances)
+  * [_-XDeriveFunctor_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
+  * [_-XDeriveFoldable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
+  * [_-XDeriveTraversable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances)
 + Type hierarchy proposals
   * [AMP](https://ghc.haskell.org/trac/ghc/ticket/8004) (Applicative/Monad proposal)
   * [FTP](https://ghc.haskell.org/trac/ghc/wiki/Prelude710/FTP) (Foldable/Traversable proposal)
@@ -220,8 +223,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Introduce [_`IO`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:IO) monad
 + **do** notation
   * Syntax sugar
-  * Applicative Do
-  * RebindableSyntax
+  * [_-XApplicativeDo_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#applicative-do-notation)
+  * [_-XRebindableSyntax_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#rebindable-syntax-and-the-implicit-prelude-import)
 + Lazy I/O
 + FFI
 + Mutable data: [_`IORef`_](https://hackage.haskell.org/package/base/docs/Data-IORef.html#t:IORef) and [_`IOArray`_](http://hackage.haskell.org/package/array/docs/Data-Array-IO.html#t:IOArray)
@@ -235,7 +238,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Monads as Effects
 + Composing monads
 + [_`Compose`_](https://hackage.haskell.org/package/base/docs/Data-Functor-Compose.html#t:Compose) data type
-+ _`MaybeIO`_ example
++ [_`MaybeIO`_](https://wiki.haskell.org/Monad_Transformers_Tutorial) example
 + [_`MonadTrans`_](https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Class.html#t:MonadTrans) type class
 + [_`MaybeT`_](https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Maybe.html#t:MaybeT) transformer
 + [_`ReaderT`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-Reader.html#t:ReaderT) transformer
@@ -245,7 +248,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + [_`MonadThrow`_](https://hackage.haskell.org/package/exceptions/docs/Control-Monad-Catch.html#t:MonadThrow) type class
 + [_`MonadError`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-Error.html#t:MonadError) type class
 + [`mtl`](https://hackage.haskell.org/package/mtl) style of transformation
-+ _`CoroutineT`_ fun example
++ [_`CoroutineT`_](https://en.wikibooks.org/wiki/Haskell/Continuation_passing_style#Example:_coroutines) fun example
 + To Extensible effects and beyond
 [//]: # (Didn't find MaybeIO and CoroutineT)
 
@@ -265,8 +268,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Stream Fusion
 + Couple words about _Rewrite Rules_
 + [_`build`_](https://hackage.haskell.org/package/base/docs/GHC-Exts.html#v:build)/[_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) fusion system overview
-+ [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base/docs/Data-STRef.html), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
-+ [`Criterion`](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
++ [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Data-STRef.html#t:STRef), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
++ [_`Criterion`_](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
 + [`loop`](https://hackage.haskell.org/package/loop) package
 + [`ilist`](https://hackage.haskell.org/package/ilist) package
 + [`vector`](https://hackage.haskell.org/package/vector) package
@@ -280,7 +283,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Haskell AST
   * Splices
 + [_-XQuasiQuotes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#template-haskell-quasi-quotation)
-+ Generate instances with [`TH`](https://hackage.haskell.org/package/template-haskell-2.12.0.0/docs/Language-Haskell-TH.html)
++ Generate instances with [`TH`](https://hackage.haskell.org/package/template-haskell)
 + Lens
   * Implementing naive data lenses
   * Introducing real Lens'
@@ -320,11 +323,10 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Comonads as OOP patterns
   * [_`Env`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Trans-Env.html#t:Env)
   * [_`Traced`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Traced.html#t:Traced)
-  * _`Stream`_ (+ NonEmpty)
+  * Stream (+ NonEmpty)
   * [_`Store`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Store.html#t:Store)
 + [**`codo`**`-notation`](https://hackage.haskell.org/package/codo-notation) (aka *method*)
 + Comonad transformers
-[//]: # (Didn't find Stream)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-13#/
 
@@ -339,9 +341,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Databases
   * SQL
   * [`acid-state`](https://hackage.haskell.org/package/acid-state)
-+ [`Network.HTTP`](https://hackage.haskell.org/package/HTTP/docs/Network-HTTP.html)
-+ [`Web.Scotty`](https://hackage.haskell.org/package/scotty/docs/Web-Scotty.html)
-[//]: # (Too much SQL packages)
++ [_`Network.HTTP`_](https://hackage.haskell.org/package/HTTP/docs/Network-HTTP.html)
++ [_`Web.Scotty`_](https://hackage.haskell.org/package/scotty/docs/Web-Scotty.html)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 
@@ -355,7 +356,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Type safe arithmetic expressions
   * Parsing to GADT
 + [_-XDataKinds_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#datatype-promotion)
-  * [_`Naturals`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/Numeric-Natural.html#t:Natural)
+  * [_`Naturals`_](https://hackage.haskell.org/package/base/docs/Numeric-Natural.html#t:Natural)
   * [`HList`](https://hackage.haskell.org/package/HList)
   * Type level Symbols
   * Vectors with length in type
@@ -400,13 +401,13 @@ Uncovered topics [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ Type Families
-+ Generics
-+ Pragmas: {-# UNPACK #-}, {-# INLINE #-}, {-# SPECIALIZE -#}, {-# RULES #-} etc.
++ [_-XTypeFamilies_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#type-families)
++ [_`Generics`_](https://hackage.haskell.org/package/base-4.10.1.0/docs/GHC-Generics.html)
++ Pragmas: [_{-# UNPACK #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#unpack-pragma), [_{-# INLINE #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#inline-pragma), [_{-# SPECIALIZE -#}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#specialize-pragma), [_{-# RULES #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#rules-pragma) etc.
 + GHC compilation process, GHC internals & Core language
-+ LiquidHaskell
-+ Arrows
-+ PureScript
-+ Agda
++ [`LiquidHaskell`](https://hackage.haskell.org/package/liquidhaskell)
++ [_-XArrows_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arrow-notation) and [_`Arrow`_](http://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Arrow.html#t:Arrow)
++ [`PureScript`](http://www.purescript.org/)
++ [`Agda`](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 + Even more advanced monads: Indexed, Effect & Super- monads
-+ Zygohistomorphic prepromorphisms
++ [Zygohistomorphic prepromorphisms](https://wiki.haskell.org/Zygohistomorphic_prepromorphisms)
