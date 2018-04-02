@@ -18,6 +18,7 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 4: Kinda monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoidal-types-by-dmitry-kovanikov-)
 + [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads-part-1-by-dmitry-kovanikov-)
 + [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-functors-applicative-functors-by-arseniy-seroka-)
++ [Lecture 6.5: Parser combinators and Property-based-testing](https://github.com/jagajaga/FP-Course-ITMO#lecture-65-parser-combinators-and-property-based-testing-by-dmitry-kovanikov-)
 + [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-7-monads-part-2-by-dmitry-kovanikov-)
 + [Lecture 8: RealWorld](https://github.com/jagajaga/FP-Course-ITMO#lecture-8-realworld-by-arseniy-seroka-)
 + [Lecture 9: Monad Transformers](https://github.com/jagajaga/FP-Course-ITMO#lecture-9-monad-transformers-by-arseniy-seroka-)
@@ -205,6 +206,19 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Type classes hierarchy
 
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
+
+## Lecture 6.5: Parser combinators and Property-based-testing (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ Idea of parsing and parser combinators
++ `Parser` type
+  * Basic parsers
+  * Instances: `Functor`, `Applicative`, `Monad`, `Alternative`
+  * Usage examples
++ Testing
+  * [`hspec`](http://hackage.haskell.org/package/hspec)
+  * [`hedgehog`](http://hackage.haskell.org/package/hedgehog)
+  * [`tasty`](http://hackage.haskell.org/package/tasty)
+
+#### Presentation: http://slides.com/fp-ctd/lecture-65#/
 
 ## Lecture 7: Monads, part 2 (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + [_`Writer`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Writer-Lazy.html#g:2) monad
