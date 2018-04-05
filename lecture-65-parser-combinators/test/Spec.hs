@@ -7,5 +7,5 @@ import Test.Unit (hspecTestTree)
 
 main :: IO ()
 main = hspecTestTree >>= \unitTests ->
-       let allTests = testGroup "Parser" [unitTests, okTestTree]
+       let allTests = testGroup "Parser" $ [unitTests] ++ okTestTree
        in defaultMain allTests
