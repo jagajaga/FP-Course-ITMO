@@ -271,7 +271,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 ## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + List concatenation pitfalls and _Difference List_
-+ Minor _Lambda calculus_ reminder (NF, HNF, WHNF)
++ Lazy evaluation order, WHNF, NF
 + Pattern matching as evaluation
 + [_`seq`_](https://hackage.haskell.org/package/base/docs/Prelude.html#v:seq), [_`deepseq`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#v:deepseq), [_`NFData`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#t:NFData)
 + [_-XBangPatterns_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#bang-patterns-informal)
@@ -282,7 +282,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Deforestation
 + Stream Fusion
 + Couple words about _Rewrite Rules_
-+ [_`build`_](https://hackage.haskell.org/package/base/docs/GHC-Exts.html#v:build)/[_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) fusion system overview
 + [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base/docs/Data-STRef.html#t:STRef), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
 + [_`Criterion`_](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
 + [`loop`](https://hackage.haskell.org/package/loop) package
@@ -292,6 +291,15 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
 ## Lecture 11: Template Haskell and Lens (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ Lens
+  * Implementing naive data lenses
+  * Introducing real Lens'
+  * lens, view, set, over definition and explanation
+  * 3-step lens guide
+  * [`microlens`](http://hackage.haskell.org/package/microlens)-family
+  * Nice example with real lens ([_`view`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Getter.html#v:view), [_`traversed`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Traversal.html#v:traversed), [_`filtered`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Fold.html#v:filtered), [_`zoom`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Zoom.html#v:zoom))
+  * [_`Prism`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Prism.html#t:Prism)
+  * Affine traversals
 + **`-XCPP`**
 + Template Haskell
   * Boilerplating tuple code
@@ -299,20 +307,13 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Splices
 + [_-XQuasiQuotes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#template-haskell-quasi-quotation)
 + Generate instances with [`TH`](https://hackage.haskell.org/package/template-haskell)
-+ Lens
-  * Implementing naive data lenses
-  * Introducing real Lens'
-  * 3-step lens guide
-  * [`microlens`](http://hackage.haskell.org/package/microlens)-family
-  * Nice example with real lens ([_`view`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Getter.html#v:view), [_`traversed`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Traversal.html#v:traversed), [_`filtered`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Fold.html#v:filtered), [_`zoom`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Zoom.html#v:zoom))
-  * [_`Prism`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Prism.html#t:Prism)
-  * Affine traversals
 
 #### Presentation: http://slides.com/fp-ctd/lecture-11#/
 
 ## Lecture 12: Parallel and Concurrent Haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Advantages of immutability and purity
 + Haskell parallelism with [_`rpar`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rpar) and [_`rseq`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rseq)
++ Spark pool, GC and sparks
 + Threadscope
 + Strategies
 + [_`Par`_](https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par.html#t:Par) monad examples
@@ -367,7 +368,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * ST
   * Type constraints
   * Pattern matching on types
-+ [_GADTs_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-algebraic-data-types-gadts)
++ [_GADTs_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-algebraic-data-types-gadts): type variables, pattern matching, type refinement
   * Type safe arithmetic expressions
   * Parsing to GADT
 + [_-XDataKinds_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#datatype-promotion)
