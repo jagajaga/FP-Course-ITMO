@@ -13,6 +13,7 @@ Haskell ITMO course at CTD
 All slides: https://slides.com/fp-ctd
 
 + [Lecture 0: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
++ [Lecture 1: Stack build tool](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-stack-how-to-buildruntest)
 + [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
 + [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
 + [Lecture 4: Kinda monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoidal-types-by-dmitry-kovanikov-)
@@ -97,6 +98,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 * How stack works. Snapshots
 * `.cabal` and `.yaml` files
 * Basic comands
+
+#### Presentation: https://slides.com/fp-ctd/stack-build#/
 
 ## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 - Introduction to Haskell
