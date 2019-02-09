@@ -146,11 +146,9 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * [_-XInstanceSigs_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#instance-signatures-type-signatures-in-instance-declarations)
   * examples of standard classes: [_`Eq`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Eq), [_`Ord`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Ord), [_`Num`_](https://hackage.haskell.org/package/base/docs/Prelude.html#t:Num), [_`Show`_](https://hackage.haskell.org/package/base/docs/Prelude.html#t:Show), [_`Read`_](https://hackage.haskell.org/package/base/docs/Prelude.html#t:Read)
 + **deriving**
-+ **`-ddump-deriv`**
 + [_-XGeneralizedNewtypeDeriving_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-derived-instances-for-newtypes)
 + [Modules cheatsheet](http://slides.com/fp-ctd/lecture-3#/39)
 + Church-encoding ADT
-+ Type classes as Dictionaries
 + [_`coerce`_](https://hackage.haskell.org/package/base/docs/Data-Coerce.html#v:coerce)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
