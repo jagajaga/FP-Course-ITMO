@@ -12,7 +12,7 @@ Haskell ITMO course at CTD
 
 All slides: https://slides.com/fp-ctd
 
-+ [Lecture 1: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
++ [Lecture 0: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
 + [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
 + [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
 + [Lecture 4: Kinda monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoidal-types-by-dmitry-kovanikov-)
@@ -33,7 +33,7 @@ All slides: https://slides.com/fp-ctd
 
 Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
-## Lecture 1: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
+## Lecture 0: Why FP and Haskell (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Official resources
   * [Haskell Lang (official site)](https://haskell-lang.org/)
   * [Haskell (official site)](https://www.haskell.org/)
@@ -89,6 +89,14 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Lazy evaluation
 
 #### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
+
+## Lecture 1. Stack. How to build/run/test
+* GHC, GHCi
+* Haskell project structure
+* Stack. Features
+* How stack works. Snapshots
+* `.cabal` and `.yaml` files
+* Basic comands
 
 ## Lecture 2: Basic Syntax (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 - Introduction to Haskell
