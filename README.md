@@ -89,7 +89,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Sum types
   * Lazy evaluation
 
-#### Presentation (ru): http://camlunity.ru/swap/haskell/whyhaskell.pdf
+#### Introductory presentation: [here](FP-Introduction.pdf)
 
 ## Lecture 1. Stack. How to build/run/test
 * GHC, GHCi
