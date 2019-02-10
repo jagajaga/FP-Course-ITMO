@@ -149,7 +149,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + [_-XGeneralizedNewtypeDeriving_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-derived-instances-for-newtypes)
 + [Modules cheatsheet](http://slides.com/fp-ctd/lecture-3#/39)
 + Church-encoding ADT
-+ [_`coerce`_](https://hackage.haskell.org/package/base/docs/Data-Coerce.html#v:coerce)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
