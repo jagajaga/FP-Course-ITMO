@@ -152,24 +152,23 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
-## Lecture 4: Kinda monoidal types (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
+## Lecture 4: Basic typeclasses: Monoid. Functor. Applicative (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Phantom types
-+ **forall** keyword
-  * [_-XExplicitForall_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#explicit-universal-quantification-forall)
-  * [_-XExistentialQuantification_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
-  * [_-XRank2Types_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
-  * [_-XRankNTypes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
-+ _kinds_
-  * Basic kinds
-  * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
-  * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
-+ Higher kinded types
 + Math in programming
   * [_`Semigroup`_](http://hackage.haskell.org/package/base/docs/Data-Semigroup.html#t:Semigroup) and [_`Monoid`_](http://hackage.haskell.org/package/base/docs/Data-Monoid.html#t:Monoid)
   * A lot of examples
-  * [Finger Tree](http://staff.city.ac.uk/~ross/papers/FingerTree.html)
 + [_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) and [_`foldl`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldl)
 + [_`Foldable`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#t:Foldable) type class
++ [_`Functor`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Functor)
++ [_`Applicative`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:Applicative)
++ [_`liftAN`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#v:liftA) & Applicative style programming
++ [_`Alternative`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:Alternative)
++ List comprehension syntax sugar
++ [_`Traversable`_](http://hackage.haskell.org/package/base/docs/Data-Traversable.html#t:Traversable) type class (and instances for [_`Maybe`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Maybe), [_`List`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT))
++ Automatic deriving
+  * [_-XDeriveFunctor_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
+  * [_-XDeriveFoldable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
+  * [_-XDeriveTraversable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
@@ -192,28 +191,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Useful Monad functions
 
 #### Presentation: http://slides.com/fp-ctd/lecture-5#/
-
-## Lecture 6: Functors, Applicative Functors (by [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ [_`Functor`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Functor)
-+ [_`Bifunctor`_](http://hackage.haskell.org/package/base/docs/Data-Bifunctor.html#t:Bifunctor)
-+ [_`Applicative`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:Applicative)
-  * [_`ZipList`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:ZipList)
-+ [_`liftAN`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#v:liftA) & Applicative style programming
-+ [_`Alternative`_](http://hackage.haskell.org/package/base/docs/Control-Applicative.html#t:Alternative)
-+ List comprehension syntax sugar
-+ [_`Traversable`_](http://hackage.haskell.org/package/base/docs/Data-Traversable.html#t:Traversable) type class (and instances for [_`Maybe`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Maybe), [_`List`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT))
-+ Automatic deriving
-  * [_-XDeriveFunctor_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
-  * [_-XDeriveFoldable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
-  * [_-XDeriveTraversable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances)
-+ Type hierarchy proposals
-  * [AMP](https://ghc.haskell.org/trac/ghc/ticket/8004) (Applicative/Monad proposal)
-  * [FTP](https://ghc.haskell.org/trac/ghc/wiki/Prelude710/FTP) (Foldable/Traversable proposal)
-  * [MRP](https://ghc.haskell.org/trac/ghc/wiki/Proposal/MonadOfNoReturn) (Monad of no return/>> proposal)
-  * [MFP](https://prime.haskell.org/wiki/Libraries/Proposals/MonadFail) (MonadFail proposal)
-+ Type classes hierarchy
-
-#### Presentation: http://slides.com/fp-ctd/lecture-6#/
 
 ## Lecture 6.5: Parser combinators and Property-based-testing (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Idea of parsing and parser combinators
@@ -278,6 +255,17 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 
 ## Lecture 10: Speeding up haskell (by [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub")) [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ **forall** keyword
+  * [_-XExplicitForall_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#explicit-universal-quantification-forall)
+  * [_-XExistentialQuantification_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
+  * [_-XRank2Types_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
+  * [_-XRankNTypes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
++ _kinds_
+  * Basic kinds
+  * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
+  * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
++ Higher kinded types
+
 + List concatenation pitfalls and _Difference List_
 + Lazy evaluation order, WHNF, NF
 + Pattern matching as evaluation
