@@ -153,7 +153,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-3#/
 
 ## Lecture 4: Basic typeclasses: Monoid. Functor. Applicative [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ Phantom types
 + Math in programming
   * [_`Semigroup`_](http://hackage.haskell.org/package/base/docs/Data-Semigroup.html#t:Semigroup) and [_`Monoid`_](http://hackage.haskell.org/package/base/docs/Data-Monoid.html#t:Monoid)
   * A lot of examples
@@ -169,6 +168,11 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * [_-XDeriveFunctor_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-functor-instances)
   * [_-XDeriveFoldable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-foldable-instances)
   * [_-XDeriveTraversable_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#deriving-traversable-instances)
++ Phantom types
++ Type extensions:
+  * [-XScopedTypeVariables](https://downloads.haskell.org/~ghc/5.00/docs/set/scoped-type-variables.html)
+  * [-XTypeApplications](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-TypeApplications)
+  * [-XAllowAmbiguousTypes](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html?highlight=ambiguous#extension-AllowAmbiguousTypes)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
