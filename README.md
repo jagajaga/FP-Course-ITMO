@@ -255,17 +255,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-9#/
 
 ## Lecture 10: Speeding up haskell [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ **forall** keyword
-  * [_-XExplicitForall_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#explicit-universal-quantification-forall)
-  * [_-XExistentialQuantification_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
-  * [_-XRank2Types_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
-  * [_-XRankNTypes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
-+ _kinds_
-  * Basic kinds
-  * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
-  * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
-+ Higher kinded types
-
 + List concatenation pitfalls and _Difference List_
 + Lazy evaluation order, WHNF, NF
 + Pattern matching as evaluation
@@ -359,6 +348,16 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-14#/
 
 ## Lecture 15: Advanced type features [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ **forall** keyword
+  * [_-XExplicitForall_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#explicit-universal-quantification-forall)
+  * [_-XExistentialQuantification_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
+  * [_-XRank2Types_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
+  * [_-XRankNTypes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
++ _kinds_
+  * Basic kinds
+  * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
+  * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
++ Higher kinded types
 + Examples for all
   * ShowBox
   * ST
