@@ -12,24 +12,22 @@ Haskell ITMO course at CTD
 
 All slides: https://slides.com/fp-ctd
 
-+ [Lecture 0: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell-by-arseniy-seroka-)
++ [Lecture 0: Why FP and Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-why-fp-and-haskell)
 + [Lecture 1: Stack build tool](https://github.com/jagajaga/FP-Course-ITMO#lecture-1-stack-how-to-buildruntest)
-+ [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax-by-dmitry-kovanikov-)
-+ [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes-instances-by-dmitry-kovanikov-)
-+ [Lecture 4: Kinda monoidal types](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-kinda-monoidal-types-by-dmitry-kovanikov-)
-+ [Lecture 5: Monads, part 1](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads-part-1-by-dmitry-kovanikov-)
-+ [Lecture 6: Functors, Applicative Functors](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-functors-applicative-functors-by-arseniy-seroka-)
-+ [Lecture 6.5: Parser combinators and Property-based-testing](https://github.com/jagajaga/FP-Course-ITMO#lecture-65-parser-combinators-and-property-based-testing-by-dmitry-kovanikov-)
-+ [Lecture 7: Monads, part 2](https://github.com/jagajaga/FP-Course-ITMO#lecture-7-monads-part-2-by-dmitry-kovanikov-)
-+ [Lecture 8: RealWorld](https://github.com/jagajaga/FP-Course-ITMO#lecture-8-realworld-by-arseniy-seroka-)
-+ [Lecture 9: Monad Transformers](https://github.com/jagajaga/FP-Course-ITMO#lecture-9-monad-transformers-by-arseniy-seroka-)
-+ [Lecture 10: Speeding up Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-10-speeding-up-haskell-by-dmitry-kovanikov-)
-+ [Lecture 11: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-ITMO#lecture-11-template-haskell-and-lens-by-arseniy-seroka-)
-+ [Lecture 12: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-12-parallel-and-concurrent-haskell-by-dmitry-kovanikov-)
-+ [Lecture 13: Comonads](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-comonads-by-arseniy-seroka-)
-+ [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell-by-arseniy-seroka-)
-+ [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features-by-dmitry-kovanikov-)
-+ [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris-by-dmitry-kovanikov-)
++ [Lecture 2: Basic Syntax](https://github.com/jagajaga/FP-Course-ITMO#lecture-2-basic-syntax)
++ [Lecture 3: Datas, Classes, Instances](https://github.com/jagajaga/FP-Course-ITMO#lecture-3-datas-classes)
++ [Lecture 4: Basic typeclasses: Monoid. Functor. Applicative](https://github.com/jagajaga/FP-Course-ITMO#lecture-4-basic-typeclasses-monoid-functor-applicative)
++ [Lecture 5: Monads](https://github.com/jagajaga/FP-Course-ITMO#lecture-5-monads)
++ [Lecture 5.5: Parser combinators and Property-based-testing](https://github.com/jagajaga/FP-Course-ITMO#lecture-65-parser-combinators-and-property-based-testing-by-dmitry-kovanikov-)
++ [Lecture 6: RealWorld](https://github.com/jagajaga/FP-Course-ITMO#lecture-6-realworld)
++ [Lecture 9: Monad Transformers](https://github.com/jagajaga/FP-Course-ITMO#lecture-9-monad-transformers)
++ [Lecture 10: Speeding up Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-10-speeding-up-haskell)
++ [Lecture 11: Template Haskell and Lens](https://github.com/jagajaga/FP-Course-ITMO#lecture-11-template-haskell-and-lens)
++ [Lecture 12: Parallel and Concurrent Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-12-parallel-and-concurrent-haskell)
++ [Lecture 13: Comonads](https://github.com/jagajaga/FP-Course-ITMO#lecture-13-comonads)
++ [Lecture 14: Enterprise Haskell](https://github.com/jagajaga/FP-Course-ITMO#lecture-14-enterprise-haskell)
++ [Lecture 15: Advanced type features](https://github.com/jagajaga/FP-Course-ITMO#lecture-15-advanced-type-features)
++ [Lecture 16: Idris](https://github.com/jagajaga/FP-Course-ITMO#lecture-16-idris)
 + [_Uncovered topics_](https://github.com/jagajaga/FP-Course-ITMO#uncovered-topics-)
 
 Templates for homework: https://github.com/ChShersh/fp-homework-templates
@@ -176,27 +174,20 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-4#/
 
-## Lecture 5: Monads, part 1 [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ Talk about boxes
+## Lecture 5: Monads [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
++ Typed holes
 + What is Monad?
 + [_`Monad`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Monad) type class
 + Monad laws
++ [_`State`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-State-Lazy.html#t:State) monad
++ [_`Reader`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Reader.html#g:2) monad
 + [_`Maybe`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:Maybe) as example, philosophy about null-safety
-+ Equational reasoning
-+ Proving Monad laws for Maybe
-+ [_`Identity`_](http://hackage.haskell.org/package/base/docs/Data-Functor-Identity.html#t:Identity) monad instance
 + [_`Either`_](http://hackage.haskell.org/package/base/docs/Data-Either.html#t:Either) monad instance
-+ Monad composition
-+ [_`List`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT) monad instance
-+ then : [_`>>`_](http://hackage.haskell.org/package/base/docs/Prelude.html#v:-62--62-)
-+ List monad nondeterminism
-+ [_`join`_](http://hackage.haskell.org/package/base/docs/Control-Monad.html#v:join)
-+ Weird custom monads
-+ Useful Monad functions
++ Monad laws
 
-#### Presentation: http://slides.com/fp-ctd/lecture-5#/
+#### Presentation: http://slides.com/fp-ctd/lecture-5-17#/
 
-## Lecture 6.5: Parser combinators and Property-based-testing [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
+## Lecture 5.5: Parser combinators and Property-based-testing [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Idea of parsing and parser combinators
 + `Parser` type
   * Basic parsers
@@ -206,23 +197,12 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * [`hspec`](http://hackage.haskell.org/package/hspec)
   * [`hedgehog`](http://hackage.haskell.org/package/hedgehog)
   * [`tasty`](http://hackage.haskell.org/package/tasty)
-
-#### Presentation: http://slides.com/fp-ctd/lecture-65#/
-
-## Lecture 7: Monads, part 2 [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
-+ [_`Writer`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Writer-Lazy.html#g:2) monad
-+ [_`Reader`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Reader.html#g:2) monad
-+ Typed holes
-+ Partial type signatures
-+ [_`State`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-State-Lazy.html#t:State) monad
-+ [_`Cont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:Cont) monad and Continuation Passing Style (CPS)
   * Continuations as callbacks
   * [_`Cont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:Cont) datatype and monadic example
-  * [_`MonadCont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:MonadCont) and [_`callCC`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont-Class.html#v:callCC)
 
-#### Presentation: http://slides.com/fp-ctd/lecture-7#/
+#### Presentation: http://slides.com/fp-ctd/lecture-55#/
 
-## Lecture 8: RealWorld [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
+## Lecture 6: RealWorld [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Building _IO_ system from scratch
 + Introduce [_`IO`_](http://hackage.haskell.org/package/base/docs/Prelude.html#t:IO) monad
 + **do** notation
@@ -233,10 +213,10 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + FFI
 + Mutable data: [_`IORef`_](https://hackage.haskell.org/package/base/docs/Data-IORef.html#t:IORef) and [_`IOArray`_](http://hackage.haskell.org/package/array/docs/Data-Array-IO.html#t:IOArray)
 + Exceptions ([_`catch`_](http://hackage.haskell.org/package/base/docs/Control-Exception-Base.html#v:catch), [_`throwIO`_](http://hackage.haskell.org/package/base/docs/Control-Exception-Base.html#v:throwIO), custom exceptions, [_`bracket`_](http://hackage.haskell.org/package/base/docs/Control-Exception.html#v:bracket), etc.)
-+ [_`unsafePerformIO`_](http://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html#v:unsafePerformIO) and [_`unsafeInterleaveIO`_](http://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html#v:unsafeInterleaveIO)
++ [_`unsafePerformIO`_](http://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html#v:unsafePerformIO) 
 + Efficient String representations: [_`Text`_](http://hackage.haskell.org/package/text/docs/Data-Text.html#t:Text), [_`ByteString`_](http://hackage.haskell.org/package/bytestring/docs/Data-ByteString.html#t:ByteString)
 
-#### Presentation 8: http://slides.com/fp-ctd/lecture-8#/
+#### Presentation 8: http://slides.com/fp-ctd/lecture-6#/
 
 ## Lecture 9: Monad Transformers [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Monads as Effects
