@@ -185,7 +185,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + [_`Either`_](http://hackage.haskell.org/package/base/docs/Data-Either.html#t:Either) monad instance
 + Monad laws
 
-#### Presentation: http://slides.com/fp-ctd/lecture-5-17#/
+#### Presentation: http://slides.com/fp-ctd/lecture-5-2019#/
 
 ## Lecture 5.5: Parser combinators and Property-based-testing [↑](https://github.com/jagajaga/FP-Course-ITMO#course-plan)
 + Idea of parsing and parser combinators
