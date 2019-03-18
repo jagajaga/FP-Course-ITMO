@@ -218,7 +218,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-6#/
 
-## <a name="lecture-9">Lecture 9: Monad Transformers</a> [↑](#course-plan)
+## <a name="lecture-7">Lecture 7: Monad Transformers</a> [↑](#course-plan)
 + Monads as Effects
 + Composing monads
 + [_`Compose`_](https://hackage.haskell.org/package/base/docs/Data-Functor-Compose.html#t:Compose) data type
@@ -236,16 +236,13 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + To Extensible effects and beyond
 [//]: # (Didn't find MaybeIO and CoroutineT)
 
-#### Presentation: http://slides.com/fp-ctd/lecture-9#/
+#### Presentation: http://slides.com/fp-ctd/lecture-8#/
 
-## <a name="lecture-10">Lecture 10: Speeding up haskell</a> [↑](#course-plan)
+## <a name="lecture-8">Lecture 8: Speeding up Haskell</a> [↑](#course-plan)
 + List concatenation pitfalls and _Difference List_
-+ Lazy evaluation order, WHNF, NF
-+ Pattern matching as evaluation
 + [_`seq`_](https://hackage.haskell.org/package/base/docs/Prelude.html#v:seq), [_`deepseq`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#v:deepseq), [_`NFData`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#t:NFData)
 + [_-XBangPatterns_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#bang-patterns-informal)
 + [_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) vs. [_`foldl`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldl) vs. [_`foldl'`_](https://hackage.haskell.org/package/base/docs/Data-List.html#v:foldl-39-)
-+ Irrefutable patterns
 + Strict Haskell
 + Space leaks
 + Deforestation
@@ -253,9 +250,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Couple words about _Rewrite Rules_
 + [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base/docs/Data-STRef.html#t:STRef), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
 + [_`Criterion`_](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
-+ [`loop`](https://hackage.haskell.org/package/loop) package
-+ [`ilist`](https://hackage.haskell.org/package/ilist) package
-+ [`vector`](https://hackage.haskell.org/package/vector) package
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
