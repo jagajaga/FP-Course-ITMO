@@ -249,7 +249,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Stream Fusion
 + Couple words about _Rewrite Rules_
 + [_`ST`_](https://hackage.haskell.org/package/base/docs/Control-Monad-ST.html#t:ST) monad ([_`STRef`_](https://hackage.haskell.org/package/base/docs/Data-STRef.html#t:STRef), [_`STArray`_](https://hackage.haskell.org/package/array/docs/Data-Array-ST.html#t:STArray))
-+ [_`Criterion`_](https://hackage.haskell.org/package/criterion/docs/Criterion.html)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
