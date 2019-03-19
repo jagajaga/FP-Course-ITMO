@@ -243,6 +243,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + [_`seq`_](https://hackage.haskell.org/package/base/docs/Prelude.html#v:seq), [_`deepseq`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#v:deepseq), [_`NFData`_](https://hackage.haskell.org/package/deepseq/docs/Control-DeepSeq.html#t:NFData)
 + [_-XBangPatterns_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#bang-patterns-informal)
 + [_`foldr`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldr) vs. [_`foldl`_](http://hackage.haskell.org/package/base/docs/Data-Foldable.html#v:foldl) vs. [_`foldl'`_](https://hackage.haskell.org/package/base/docs/Data-List.html#v:foldl-39-)
++ Irrefutable patterns
 + Strict Haskell
 + Space leaks
 + Deforestation
