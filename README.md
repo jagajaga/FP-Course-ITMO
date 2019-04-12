@@ -22,8 +22,8 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 6: RealWorld](#lecture-6)
 + [Lecture 7: Monad Transformers](#lecture-7)
 + [Lecture 8: Speeding up Haskell](#lecture-8)
-+ [Lecture 11: Template Haskell and Lens](#lecture-11)
-+ [Lecture 12: Parallel and Concurrent Haskell](#lecture-12)
++ [Lecture 9: Parallel and Concurrent Haskell](#lecture-9)
++ [Lecture 10: Template Haskell and Lens](#lecture-10)
 + [Lecture 13: Comonads](#lecture-13)
 + [Lecture 14: Enterprise Haskell](#lecture-14)
 + [Lecture 15: Advanced type features](#lecture-15)
@@ -236,7 +236,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + To Extensible effects and beyond
 [//]: # (Didn't find MaybeIO and CoroutineT)
 
-#### Presentation: http://slides.com/fp-ctd/lecture-8#/
+#### Presentation: http://slides.com/fp-ctd/lecture-7#/
 
 ## <a name="lecture-8">Lecture 8: Speeding up Haskell</a> [↑](#course-plan)
 + List concatenation pitfalls and _Difference List_
@@ -253,27 +253,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
-## <a name="lecture-11">Lecture 11: Template Haskell and Lens</a> [↑](#course-plan)
-+ Lens
-  * Implementing naive data lenses
-  * Introducing real Lens'
-  * lens, view, set, over definition and explanation
-  * 3-step lens guide
-  * [`microlens`](http://hackage.haskell.org/package/microlens)-family
-  * Nice example with real lens ([_`view`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Getter.html#v:view), [_`traversed`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Traversal.html#v:traversed), [_`filtered`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Fold.html#v:filtered), [_`zoom`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Zoom.html#v:zoom))
-  * [_`Prism`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Prism.html#t:Prism)
-  * Affine traversals
-+ **`-XCPP`**
-+ Template Haskell
-  * Boilerplating tuple code
-  * Haskell AST
-  * Splices
-+ [_-XQuasiQuotes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#template-haskell-quasi-quotation)
-+ Generate instances with [`TH`](https://hackage.haskell.org/package/template-haskell)
-
-#### Presentation: http://slides.com/fp-ctd/lecture-11#/
-
-## <a name="lecture-12">Lecture 12: Parallel and Concurrent Haskell</a> [↑](#course-plan)
+## <a name="lecture-9">Lecture 9: Parallel and Concurrent Haskell</a> [↑](#course-plan)
 + Advantages of immutability and purity
 + Haskell parallelism with [_`rpar`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rpar) and [_`rseq`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rseq)
 + Spark pool, GC and sparks
@@ -285,7 +265,22 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Transactions: [_`STM`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:STM), [_`TVar`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:TVar)
 + [`Async`](https://hackage.haskell.org/package/async)
 
-#### Presentation: http://slides.com/fp-ctd/lecture-12#/
+#### Presentation: https://slides.com/fp-ctd/lecture-09#/
+
+## <a name="lecture-10">Lecture 10: Template Haskell and Lens</a> [↑](#course-plan)
++ Lens
+  * Implementing naive data lenses
+  * Introducing real Lens'
+  * lens, view, set, over definition and explanation
+  * 3-step lens guide
+  * [`microlens`](http://hackage.haskell.org/package/microlens)-family
+  * Nice example with real lens ([_`view`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Getter.html#v:view), [_`traversed`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Traversal.html#v:traversed), [_`filtered`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Fold.html#v:filtered), [_`zoom`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Zoom.html#v:zoom))
+  * [_`Prism`_](https://hackage.haskell.org/package/lens/docs/Control-Lens-Prism.html#t:Prism)
+  * Affine traversals
++ **`-XCPP`**
++ Template Haskell
+
+#### Presentation: https://slides.com/fp-ctd/lecture-10-17#/
 
 ## <a name="lecture-13">Lecture 13: Comonads</a> [↑](#course-plan)
 + [_`Comonad`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad.html#t:Comonad) type class & motivation
