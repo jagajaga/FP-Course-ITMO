@@ -24,10 +24,9 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 8: Speeding up Haskell](#lecture-8)
 + [Lecture 9: Parallel and Concurrent Haskell](#lecture-9)
 + [Lecture 10: Template Haskell and Lens](#lecture-10)
++ [Lecture 11: Brand new DSL world](#lecture-11)
++ [Lecture 12: Some fun with kinds](#lecture-12)
 + [Lecture 13: Comonads](#lecture-13)
-+ [Lecture 14: Enterprise Haskell](#lecture-14)
-+ [Lecture 15: Advanced type features](#lecture-15)
-+ [Lecture 16: Idris](#lecture-16)
 + [_Uncovered topics_](#uncovered-topics-)
 
 Templates for homework: https://github.com/ChShersh/fp-homework-templates
@@ -254,16 +253,13 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 #### Presentation: http://slides.com/fp-ctd/lecture-10#/
 
 ## <a name="lecture-9">Lecture 9: Parallel and Concurrent Haskell</a> [↑](#course-plan)
-+ Advantages of immutability and purity
-+ Haskell parallelism with [_`rpar`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rpar) and [_`rseq`_](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rseq)
-+ Spark pool, GC and sparks
-+ Threadscope
-+ Strategies
-+ [_`Par`_](https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par.html#t:Par) monad examples
-+ Difference between _Parallelism_ and _Concurrency_
-+ [_`forkIO`_](https://hackage.haskell.org/package/base/docs/Control-Concurrent.html#v:forkIO) and [_`MVar`_](https://hackage.haskell.org/package/base/docs/Control-Concurrent-MVar.html#t:MVar)
-+ Transactions: [_`STM`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:STM), [_`TVar`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:TVar)
++ Concurrency with Haskell lightweight threads. [_`forkIO`_](https://hackage.haskell.org/package/base/docs/Control-Concurrent.html#v:forkIO) and [_`MVar`_](https://hackage.haskell.org/package/base/docs/Control-Concurrent-MVar.html#t:MVar).
++ Synchronization between threads
++ Exceptions revisited
 + [`Async`](https://hackage.haskell.org/package/async)
++ STM (Software Transaction Memory). [_`STM`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:STM), [_`TVar`_](https://hackage.haskell.org/package/base/docs/GHC-Conc.html#t:TVar).
++ Parallelism with Sparks. [Eval monad](https://hackage.haskell.org/package/parallel/docs/Control-Parallel-Strategies.html#v:rpar)
++ Inspecting your concurrency (ThreadScope)
 
 #### Presentation: https://slides.com/fp-ctd/lecture-09#/
 
@@ -280,7 +276,26 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + **`-XCPP`**
 + Template Haskell
 
-#### Presentation: https://slides.com/fp-ctd/lecture-10-17#/
+## <a name="lecture-11">Lecture 11: Brand new DSL world</a> [↑](#course-plan)
+
++ GADTs
++ Existential type
++ Rank N types
++ DSL
+
+#### Presentation: https://slides.com/fp-ctd/lecture-11#/
+
+## <a name="lecture-12">Lecture 12: Some fun with kinds </a> [↑](#course-plan)
+
++ Kinds
++ -XTypeOperators
++ -XDataKinds. Data promotion
++ Heterogeneous lists
++ Type symbols
++ Data and type families
++ Free monads
+
+#### Presentation: https://slides.com/fp-ctd/lecture-12#/
 
 ## <a name="lecture-13">Lecture 13: Comonads</a> [↑](#course-plan)
 + [_`Comonad`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad.html#t:Comonad) type class & motivation
@@ -288,8 +303,6 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Zippers
   * List zipper
   * Game of Life
-+ _Indexed array_ comonad for image processing
-+ Comonadic 2D-parser
 + Type algebra
   * Types as functions (sum, product, type variables)
   * Type isomorphisms
@@ -298,58 +311,11 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * [_`Env`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Trans-Env.html#t:Env)
   * [_`Traced`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Traced.html#t:Traced)
   * Stream (+ NonEmpty)
-  * [_`Store`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Store.html#t:Store)
 + [**`codo`**`-notation`](https://hackage.haskell.org/package/codo-notation) (aka *method*)
-+ Comonad transformers
 
 #### Presentation: http://slides.com/fp-ctd/lecture-13#/
 
-## <a name="lecture-14">Lecture 14: Enterprise Haskell</a> [↑](#course-plan)
-+ Build tools
-  * Cabal
-  * Stack
-  * Nix
-+ Testing: HSpec, QuickCheck
-+ FFI
-+ GUI: [`gtk`](https://hackage.haskell.org/package/gtk) (online demo)
-+ Databases
-  * SQL
-  * [`acid-state`](https://hackage.haskell.org/package/acid-state)
-+ [_`Network.HTTP`_](https://hackage.haskell.org/package/HTTP/docs/Network-HTTP.html)
-+ [_`Web.Scotty`_](https://hackage.haskell.org/package/scotty/docs/Web-Scotty.html)
-
-#### Presentation: http://slides.com/fp-ctd/lecture-14#/
-
-## <a name="lecture-15">Lecture 15: Advanced type features</a> [↑](#course-plan)
-+ **forall** keyword
-  * [_-XExplicitForall_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#explicit-universal-quantification-forall)
-  * [_-XExistentialQuantification_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
-  * [_-XRank2Types_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
-  * [_-XRankNTypes_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#arbitrary-rank-polymorphism)
-+ _kinds_
-  * Basic kinds
-  * Kind polymorphism ([TypeInType](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type))
-  * [Constraint kind](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#the-constraint-kind)
-+ Higher kinded types
-+ Examples for all
-  * ShowBox
-  * ST
-  * Type constraints
-  * Pattern matching on types
-+ [_GADTs_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#generalised-algebraic-data-types-gadts): type variables, pattern matching, type refinement
-  * Type safe arithmetic expressions
-  * Parsing to GADT
-+ [_-XDataKinds_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#datatype-promotion)
-  * [_`Naturals`_](https://hackage.haskell.org/package/base/docs/Numeric-Natural.html#t:Natural)
-  * [`HList`](https://hackage.haskell.org/package/HList)
-  * Type level Symbols
-  * Vectors with length in type
-+ Extensible records
-+ [_-XTypeApplications_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#visible-type-application)
-+ [_-XTypeOperators_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#type-operators)
-
-
-#### Presentation: http://slides.com/fp-ctd/lecture-15#/
+<!---
 
 ## <a name="lecture-16">Lecture 16: Idris</a> [↑](#course-plan)
 
@@ -380,12 +346,12 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * [Type safe `printf` implementation](https://www.youtube.com/watch?v=fVBck2Zngjo)
 + Simple examples of `Eff`
   * Tagging tree with labels (and counting leaves)
+-->
 
 Uncovered topics [↑](#course-plan)
 ----------------
 > Unfortunately there're some topics which are great but there is no time for them in this course :(
 
-+ [_-XTypeFamilies_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#type-families)
 + [_`Generics`_](https://hackage.haskell.org/package/base/docs/GHC-Generics.html)
 + Pragmas: [_{-# UNPACK #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#unpack-pragma), [_{-# INLINE #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#inline-pragma), [_{-# SPECIALIZE -#}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#specialize-pragma), [_{-# RULES #-}_](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#rules-pragma) etc.
 + GHC compilation process, GHC internals & Core language
