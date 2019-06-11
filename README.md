@@ -18,7 +18,7 @@ All slides: https://slides.com/fp-ctd
 + [Lecture 3: Datas, Classes, Instances](#lecture-3)
 + [Lecture 4: Basic typeclasses: Monoid. Functor. Applicative](#lecture-4)
 + [Lecture 5: Monads](#lecture-5)
-+ [Lecture 5.5: Parser combinators and Property-based-testing](#lecture-5-continue)
++ [Slides: Parser combinators and Property-based-testing](#lecture-5-continue)
 + [Lecture 6: RealWorld](#lecture-6)
 + [Lecture 7: Monad Transformers](#lecture-7)
 + [Lecture 8: Speeding up Haskell](#lecture-8)
@@ -186,7 +186,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 
 #### Presentation: http://slides.com/fp-ctd/lecture-5-2019#/
 
-## <a name="lecture-5-continue">Lecture 5.5: Parser combinators and Property-based-testing</a> [↑](#course-plan)
+## <a name="lecture-5-continue">Slides: Parser combinators and Property-based-testing</a> [↑](#course-plan)
 + Idea of parsing and parser combinators
 + `Parser` type
   * Basic parsers
