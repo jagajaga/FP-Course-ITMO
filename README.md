@@ -276,6 +276,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + **`-XCPP`**
 + Template Haskell
 
+#### Presentation: https://slides.com/fp-ctd/lecture-10-17#/
+
 ## <a name="lecture-11">Lecture 11: Brand new DSL world</a> [↑](#course-plan)
 
 + GADTs
