@@ -220,19 +220,15 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 ## <a name="lecture-7">Lecture 7: Monad Transformers</a> [↑](#course-plan)
 + Monads as Effects
 + Composing monads
-+ [_`Compose`_](https://hackage.haskell.org/package/base/docs/Data-Functor-Compose.html#t:Compose) data type
 + [_`MaybeIO`_](https://wiki.haskell.org/Monad_Transformers_Tutorial) example
 + [_`MonadTrans`_](https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Class.html#t:MonadTrans) type class
 + [_`MaybeT`_](https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Maybe.html#t:MaybeT) transformer
 + [_`ReaderT`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-Reader.html#t:ReaderT) transformer
 + Comparison of transformers and old types
-+ [_`ListT`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-List.html#t:ListT) transformer
 + [_`MonadIO`_](https://hackage.haskell.org/package/base/docs/Control-Monad-IO-Class.html#t:MonadIO) (why IO is so special?)
 + [_`MonadThrow`_](https://hackage.haskell.org/package/exceptions/docs/Control-Monad-Catch.html#t:MonadThrow) type class
 + [_`MonadError`_](https://hackage.haskell.org/package/mtl/docs/Control-Monad-Error.html#t:MonadError) type class
 + [`mtl`](https://hackage.haskell.org/package/mtl) style of transformation
-+ [_`CoroutineT`_](https://en.wikibooks.org/wiki/Haskell/Continuation_passing_style#Example:_coroutines) fun example
-+ To Extensible effects and beyond
 [//]: # (Didn't find MaybeIO and CoroutineT)
 
 #### Presentation: http://slides.com/fp-ctd/lecture-7#/
