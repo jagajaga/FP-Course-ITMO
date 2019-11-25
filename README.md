@@ -98,7 +98,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 * `.cabal` and `.yaml` files
 * Basic comands
 
-#### Presentation: https://slides.com/fp-ctd/stack-build#/
+#### Presentation: https://slides.com/fp-ctd/lecture-1#/
 
 ## <a name="lecture-2">Lecture 2: Basic Syntax</a> [↑](#course-plan)
 - Introduction to Haskell
