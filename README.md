@@ -1,12 +1,14 @@
 Haskell ITMO course at CTD
 ==========================
 
-> Here you can find plan and presentations on the Haskell course authored by
-> [Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and
-> [Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub").
+Here you can find plan and presentations on the Haskell course authored by
+[Dmitry Kovanikov](https://github.com/ChShersh "ChShersh's GitHub") and
+[Arseniy Seroka](https://github.com/jagajaga "jagajaga's GitHub").
 
-> This course is always under development and always improving constantly because there's
-> no limit for the best Haskell course.
+This course is always under development and always improving constantly because there's
+no limit for the best Haskell course.
+
+You can always contact via fp.ctd.itmo [at] serokell.io
 
 ## Course plan
 
