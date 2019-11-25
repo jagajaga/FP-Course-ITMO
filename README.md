@@ -8,7 +8,7 @@ Here you can find plan and presentations on the Haskell course authored by
 This course is always under development and always improving constantly because there's
 no limit for the best Haskell course.
 
-You can always contact via fp.ctd.itmo [at] serokell.io
+You can always contact us via fp.ctd.itmo [at] serokell.io
 
 ## Course plan
 
