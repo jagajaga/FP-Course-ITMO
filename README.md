@@ -88,7 +88,7 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Sum types
   * Lazy evaluation
 
-#### Introductory presentation: [here](FP-Introduction.pdf)
+#### Introductory presentation: [here](FP-Intro.pdf)
 
 ## <a name="lecture-1">Lecture 1. Stack. How to build/run/test</a> [↑](#course-plan)
 * GHC, GHCi
