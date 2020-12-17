@@ -302,17 +302,12 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
 + Zippers
   * List zipper
   * Game of Life
-+ Type algebra
-  * Types as functions (sum, product, type variables)
-  * Type isomorphisms
-  * Zippers as deriviation: List zipper, Tree zipper
 + Comonads as OOP patterns
   * [_`Env`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Trans-Env.html#t:Env)
   * [_`Traced`_](https://hackage.haskell.org/package/comonad/docs/Control-Comonad-Traced.html#t:Traced)
-  * Stream (+ NonEmpty)
 + [**`codo`**`-notation`](https://hackage.haskell.org/package/codo-notation) (aka *method*)
 
-#### Presentation: http://slides.com/fp-ctd/lecture-13#/
+#### Presentation:  https://slides.com/artemyurchenko/lecture-13-comonads#/
 
 <!---
 
