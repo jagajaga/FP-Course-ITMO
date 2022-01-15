@@ -201,7 +201,8 @@ Templates for homework: https://github.com/ChShersh/fp-homework-templates
   * Continuations as callbacks
   * [_`Cont`_](http://hackage.haskell.org/package/mtl/docs/Control-Monad-Cont.html#t:Cont) datatype and monadic example
 
-#### Presentation: http://slides.com/fp-ctd/lecture-55#/
+#### Presentation (part 1): https://slides.com/fp-ctd/lecture-5-part1#/
+#### Presentation (part 2): https://slides.com/fp-ctd/lecture-5-part2#/
 
 ## <a name="lecture-6">Lecture 6: RealWorld</a> [↑](#course-plan)
 + Building _IO_ system from scratch
